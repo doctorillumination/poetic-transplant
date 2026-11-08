@@ -43,8 +43,8 @@ def main():
         html=html.replace(key,value)
     assert '\u2014' not in html
     output=ROOT/'index.html';output.write_text(html)
-    manifest={'edition':'Transplant, complete book study v1.0','pages':records,
-              'page_count':len(records),'page_turn':'Developable cylindrical WebGL surface, two-sided material, pointer-driven curl.',
+    manifest={'edition':'Transplant, open book v1.1','pages':records,
+              'page_count':len(records),'page_turn':'Two-page book, persistent mirrored verso on the left, cylindrical WebGL turn across the spine.',
               'reader_sha256':sha(ROOT/'src/book.js'),'profiles_sha256':sha(ROOT/'src/profiles.json'),
               'renderer_sha256':sha(ROOT/'src/edition-renderer.js'),'output_sha256':sha(output),
               'output_bytes':output.stat().st_size,'runtime_dependencies':[]}

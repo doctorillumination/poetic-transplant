@@ -1,7 +1,7 @@
 {
   "original_png_hashes_unchanged": 18,
+  "all_prints_reverses_plates_unchanged_from_v1_0": true,
   "unique_prints": 15,
-  "unique_seeds": 15,
   "front_dimensions": [
     1700,
     2200
@@ -12,12 +12,11 @@
   ],
   "normalized_plates": 15,
   "original_aspect_ratios_preserved": true,
-  "first_page_data_unchanged": true,
   "embedded_script_syntax": "passed",
   "deterministic_rebuild": true,
   "runtime_dependencies": [],
   "remote_asset_requests": false,
   "font_license_embedded": true,
-  "html_sha256": "3a11bd86edb92188dc8e9a28d339b424ef1fb624282b7b3c4bc9cf41f5d7022a",
-  "output_bytes": 26860838
+  "html_sha256": "1759db744e3733184689de26f989b731089b8e6f5d90229d8c583ee3ce31d822",
+  "output_bytes": 26866316
 }

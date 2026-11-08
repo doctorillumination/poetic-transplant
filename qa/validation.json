@@ -1,77 +1,141 @@
 {
   "date": "2026-11-08",
-  "edition": "Transplant, complete book study v1.0",
-  "html_sha256": "3a11bd86edb92188dc8e9a28d339b424ef1fb624282b7b3c4bc9cf41f5d7022a",
-  "output_bytes": 26860838,
+  "edition": "Transplant, open book v1.1",
+  "html_sha256": "1759db744e3733184689de26f989b731089b8e6f5d90229d8c583ee3ce31d822",
+  "output_bytes": 26866316,
   "page_count": 15,
   "content": {
-    "original_pngs": "All 15 text PNGs and 3 reference PNGs match the established source hashes.",
-    "first_sheet": "The approved first-sheet typography and material treatment are retained. Its 37-fragment canonical data is byte-identical to the approved archive.",
-    "later_sheets": "The original source glyph silhouettes are used directly, preserving indents, columns, ASCII marks, source cross-outs, existing overlaps, and source cropping. No OCR typesetting or reflow.",
-    "normalization": "All source images fit within 1700 by 2200 without stretching. The wide fourteenth source occupies 1700 by 1114 at the top of its leaf.",
-    "unique_surfaces": "15 distinct deterministic seeds, palettes, stain fields, marker compositions, and material profiles; 15 distinct front image hashes."
-  },
-  "surface": {
-    "ink": "Varied ribbon density, capillary bleed, wet marker cancellations, colour overlap, and pooled pigment.",
-    "paper": "Shared ink and paper abrasion, irregular chipping, exposed pulp, handled-edge soil, and page-specific stains.",
-    "sequence": "Quiet sheets alternate with heavier occlusion and cancellation. Original structure remains available through Source page."
+    "original_pngs": "All 18 original PNG hashes are unchanged.",
+    "printed_art": "All fifteen fronts, reverses, normalized source plates, titles, seeds, and source placements match the v1.0 manifest.",
+    "reading": "The first sheet is on the right with empty space to the left. Every later opening pairs the preceding leaf's mirrored reverse on the left with the current poem on the right.",
+    "source_fidelity": "Original glyph silhouettes and indents remain unchanged in the print assets. The wide fourteenth source keeps its original proportions."
   },
   "page_turn": {
-    "geometry": "Developable cylindrical WebGL surface, two-sided material, pointer-driven curl.",
-    "material": "Printed front, faint transferred reverse, directional lighting, perspective, and moving shadow.",
-    "runtime": "Native WebGL; rendering stops when the sheet settles; no external runtime libraries.",
-    "implemented_fallbacks": "Reduced-motion preferences and unavailable WebGL skip the automatic curl. These branches were reviewed in code, not separately forced in the browser."
+    "geometry": "Two-page book, persistent mirrored verso on the left, cylindrical WebGL turn across the spine.",
+    "gesture": "Horizontal movement spans both pages, with pointer capture and frame-coalesced drawing; vertical movement adjusts the fold. Short pulls cancel, larger pulls or directional flicks complete, and corner clicks turn automatically.",
+    "preparation": "Nearby image decoding and GPU uploads occur ahead of gestures. Cached textures persist between turns, with a bounded five-leaf working set.",
+    "animation": "The right leaf bends across the spine and settles as the persistent left reverse. Automatic turns take about 960 ms. Enlarged reading changes spreads directly.",
+    "fallbacks": "Reduced-motion and unavailable-WebGL paths are reviewed in code, not separately forced in browser."
   },
   "browser": {
     "engine": "Codex in-app browser",
     "transport": "http://127.0.0.1:8767/",
-    "impressions_loaded": 15,
+    "observations": "qa/open-book-checks.json",
+    "spreads_loaded": 15,
     "source_comparisons_loaded": 15,
-    "image_dimensions": [
-      1700,
-      2200
-    ],
-    "next_previous_buttons": "Passed.",
-    "page_boundaries": "First Previous and last Next disabled.",
-    "keyboard": "ArrowRight, Home, and End passed.",
-    "pointer": "Forward drag, backward drag, and short cancelled drag passed.",
-    "curl": "Curved, two-sided WebGL surface visually inspected during a turn.",
-    "bookmark_reload": {
-      "ready": "true",
-      "sheet": "14",
-      "width": 1700
-    },
-    "narrow_fit": {
-      "outerWidth": 390,
-      "sheetWidth": 358,
-      "viewport": 390
+    "correct_facing_reverses": 14,
+    "first_right_hand_leaf": "Passed.",
+    "navigation": "Next, Previous, corner click, forward drag, backward drag, cancelled drag, ArrowRight, Home, End, numbered picker, and bookmark reload passed.",
+    "closer": "Both-page enlargement and navigation passed; fitting restores the spread.",
+    "narrow_layout": {
+      "book": {
+        "bottom": 352.1549377441406,
+        "height": 189.58984375,
+        "left": 15.99609375,
+        "right": 309.00390625,
+        "top": 162.56509399414062,
+        "width": 293.0078125,
+        "x": 15.99609375,
+        "y": 162.56509399414062
+      },
+      "left": {
+        "bottom": 352.1549377441406,
+        "height": 189.58984375,
+        "left": 15.99609375,
+        "right": 162.5,
+        "top": 162.56509399414062,
+        "width": 146.50390625,
+        "x": 15.99609375,
+        "y": 162.56509399414062
+      },
+      "outerWidth": 325,
+      "right": {
+        "bottom": 352.1549377441406,
+        "height": 189.58984375,
+        "left": 162.5,
+        "right": 309.00390625,
+        "top": 162.56509399414062,
+        "width": 146.50390625,
+        "x": 162.5,
+        "y": 162.56509399414062
+      },
+      "touchAction": "none",
+      "viewport": 325
     },
     "narrow_turn": {
+      "backwardReady": "true",
+      "emptyLeft": "false",
+      "forwardReady": "true",
+      "frameCount": "57",
+      "frameP95Ms": "18.3",
       "lastTurn": "forward",
+      "leftSheet": "2",
+      "longFrames": "0",
       "renderer": "webgl",
-      "sheet": "2"
+      "rightSheet": "3",
+      "sheet": "3",
+      "startWaitMs": "0.1",
+      "turnDurationMs": "969.9",
+      "turnPhase": "idle",
+      "turnProgress": "0",
+      "turning": "false",
+      "uploadsDuringTurn": "0"
     },
-    "narrow_closer": {
-      "outerWidth": 390,
-      "scrollWidth": 1032,
-      "sheetWidth": 1000,
-      "touchAction": "manipulation",
-      "viewport": 390
-    },
-    "warnings_or_errors": [],
+    "console": [],
     "final_state": {
-      "outerWidth": 788,
-      "ready": "true",
-      "renderer": "webgl",
-      "sheet": "1",
-      "viewport": 788
-    },
-    "observations": "qa/reader-checks.json"
+      "book": {
+        "backwardReady": "true",
+        "emptyLeft": "false",
+        "forwardReady": "true",
+        "leftSheet": "1",
+        "renderer": "webgl",
+        "rightSheet": "2",
+        "sheet": "2",
+        "turnPhase": "idle",
+        "turning": "false"
+      },
+      "leftComplete": true,
+      "outerWidth": 860,
+      "rightComplete": true,
+      "viewport": 860
+    }
+  },
+  "performance": {
+    "scope": "Observed in the current preview browser; not a cross-device performance claim.",
+    "warm_automatic_turns": 5,
+    "p95_frame_interval_ms": [
+      17.4,
+      16.8,
+      17.5,
+      17.1,
+      16.9
+    ],
+    "start_wait_ms": [
+      0.2,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "frames_over_34_ms": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture_uploads_during_turn": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   "static": {
     "original_png_hashes_unchanged": 18,
+    "all_prints_reverses_plates_unchanged_from_v1_0": true,
     "unique_prints": 15,
-    "unique_seeds": 15,
     "front_dimensions": [
       1700,
       2200
@@ -82,32 +146,26 @@
     ],
     "normalized_plates": 15,
     "original_aspect_ratios_preserved": true,
-    "first_page_data_unchanged": true,
     "embedded_script_syntax": "passed",
     "deterministic_rebuild": true,
     "runtime_dependencies": [],
     "remote_asset_requests": false,
     "font_license_embedded": true,
-    "html_sha256": "3a11bd86edb92188dc8e9a28d339b424ef1fb624282b7b3c4bc9cf41f5d7022a",
-    "output_bytes": 26860838
+    "html_sha256": "1759db744e3733184689de26f989b731089b8e6f5d90229d8c583ee3ce31d822",
+    "output_bytes": 26866316
   },
   "limits": [
-    "Direct file navigation remains unverified because the preview browser permits only HTTP and HTTPS URLs.",
-    "No physical phone or Safari-specific test was performed.",
-    "Only sheet 01 has a verified full reading transcript. Sheets 02 to 15 have descriptive image alternatives; working OCR is unverified and excluded from the book."
+    "No physical phone, Safari-specific, or direct-file-navigation verification was performed.",
+    "The narrow viewport override produced 325 CSS pixels; validation records the actual CSS viewport rather than the requested outer dimensions.",
+    "Sheets 02 to 15 retain descriptive image alternatives. Their working OCR is unverified and is excluded from the reader."
   ],
   "previews": {
-    "all_sheets": "qa/book-contact.jpg",
-    "reader": "qa/book-reader.jpg",
-    "curl": "qa/book-curl.jpg",
-    "quiet_sheet": "qa/book-reader-page04.jpg",
-    "heavy_sheet": "qa/book-reader-page11.jpg",
-    "narrow_layout": "qa/book-mobile.jpg"
+    "first_leaf": "qa/open-book-first.jpg",
+    "spread": "qa/open-book-spread.jpg",
+    "curl": "qa/open-book-curl.jpg",
+    "narrow": "qa/open-book-narrow.jpg",
+    "handoff": "qa/open-book-opened.jpg",
+    "all_prints": "qa/book-contact.jpg"
   },
-  "prior_editions": [
-    "archive/v0.1-first-impression/index.html",
-    "archive/v0.2-second-impression/index.html",
-    "archive/v0.3-third-impression/index.html",
-    "archive/v0.4-approved-first-sheet/index.html"
-  ]
+  "prior_reader_commit": "5d332ba6442c2ac753d9aa4fce75863b88d18d32"
 }

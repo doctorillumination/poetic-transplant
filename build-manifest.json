@@ -1,5 +1,5 @@
 {
-  "edition": "Transplant, complete book study v1.0",
+  "edition": "Transplant, open book v1.1",
   "pages": [
     {
       "number": 1,
@@ -303,11 +303,11 @@
     }
   ],
   "page_count": 15,
-  "page_turn": "Developable cylindrical WebGL surface, two-sided material, pointer-driven curl.",
-  "reader_sha256": "03b8ad40497c45284304758ee49d673c9071c926f7c3a7f2231d9ea120f80474",
+  "page_turn": "Two-page book, persistent mirrored verso on the left, cylindrical WebGL turn across the spine.",
+  "reader_sha256": "f83b80cec3734803905daa33b0446ec3dd556863b076d1c28b9ee22e031e2c29",
   "profiles_sha256": "0ed3604a0b2c29a25bbd8f61dd7ba0fe5d70a1131e225568df217d9e5840535f",
   "renderer_sha256": "50d02112c2e9c26623c19c2782b957e3069caf063657836ed457768e1d05ae92",
-  "output_sha256": "3a11bd86edb92188dc8e9a28d339b424ef1fb624282b7b3c4bc9cf41f5d7022a",
-  "output_bytes": 26860838,
+  "output_sha256": "1759db744e3733184689de26f989b731089b8e6f5d90229d8c583ee3ce31d822",
+  "output_bytes": 26866316,
   "runtime_dependencies": []
 }
