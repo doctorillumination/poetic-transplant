@@ -1,0 +1,637 @@
+{
+  "pdf": "text/full-manual/pre-liver poetic manual.pdf",
+  "sha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+  "page_count": 33,
+  "pages": [
+    {
+      "page": 1,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 1553
+    },
+    {
+      "page": 2,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 3198
+    },
+    {
+      "page": 3,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 1807
+    },
+    {
+      "page": 4,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2613
+    },
+    {
+      "page": 5,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 1068
+    },
+    {
+      "page": 6,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2505
+    },
+    {
+      "page": 7,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2182
+    },
+    {
+      "page": 8,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 3544
+    },
+    {
+      "page": 9,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 1756
+    },
+    {
+      "page": 10,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2733
+    },
+    {
+      "page": 11,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 1552
+    },
+    {
+      "page": 12,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2617
+    },
+    {
+      "page": 13,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2806
+    },
+    {
+      "page": 14,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2636
+    },
+    {
+      "page": 15,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2316
+    },
+    {
+      "page": 16,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 3555
+    },
+    {
+      "page": 17,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 3169
+    },
+    {
+      "page": 18,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2903
+    },
+    {
+      "page": 19,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2429
+    },
+    {
+      "page": 20,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2434
+    },
+    {
+      "page": 21,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2117
+    },
+    {
+      "page": 22,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2863
+    },
+    {
+      "page": 23,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 3145
+    },
+    {
+      "page": 24,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2449
+    },
+    {
+      "page": 25,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 1782
+    },
+    {
+      "page": 26,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 1509
+    },
+    {
+      "page": 27,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 3891
+    },
+    {
+      "page": 28,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2942
+    },
+    {
+      "page": 29,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2124
+    },
+    {
+      "page": 30,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 1697
+    },
+    {
+      "page": 31,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2184
+    },
+    {
+      "page": 32,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 2059
+    },
+    {
+      "page": 33,
+      "box": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "text_characters": 80
+    }
+  ],
+  "raster_dpi": 300,
+  "rasters": [
+    {
+      "page": 1,
+      "file": "text/full-manual/page-01.png",
+      "sha256": "f2ac1c20bf1f81f9286efaa782be3d6c7265482f0f4109209be5b6561bfacceb",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 2,
+      "file": "text/full-manual/page-02.png",
+      "sha256": "e736cb5dbbf741e136ddffa6d9fd01063f17e271a02580a9a59e51c4dca5d066",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 3,
+      "file": "text/full-manual/page-03.png",
+      "sha256": "1f3ae05d5ff7d6cb9cadd94043d3799df1688eefb4a3f726e5d118e2c4375c48",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 4,
+      "file": "text/full-manual/page-04.png",
+      "sha256": "7d9f5a2defda57cf6c0144e2475988b543e28b68960313a6965b9b9e6fee7a2f",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 5,
+      "file": "text/full-manual/page-05.png",
+      "sha256": "925786ab732299173a8855203e45355b13417c61abad66276151f2358609093e",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 6,
+      "file": "text/full-manual/page-06.png",
+      "sha256": "f8bdd266c6a81c8b3bb8e940bc8905c24319d7e0c3c541352aa9908e61fb208e",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 7,
+      "file": "text/full-manual/page-07.png",
+      "sha256": "48af407938e07bfb2014bc9c2953128edea6d0d4c518d0f549813422248f1b52",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 8,
+      "file": "text/full-manual/page-08.png",
+      "sha256": "6d9d435591ee55fbc13b6693926c968925d76dcff496e95d26a9b23df143e697",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 9,
+      "file": "text/full-manual/page-09.png",
+      "sha256": "10f853df70dce2484302c741cca4324c7193b953dffdb145043d2e08e520dc53",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 10,
+      "file": "text/full-manual/page-10.png",
+      "sha256": "5debbd348f388f9eac5446806557092534779ea17c7f651a0c0e8f12832d132d",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 11,
+      "file": "text/full-manual/page-11.png",
+      "sha256": "7c19b3854bc84fe762e8e0e7a2324d01d78aaaa67c92ad949833d81cea1648a8",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 12,
+      "file": "text/full-manual/page-12.png",
+      "sha256": "5ac819dfe3497f2467a5470ab6b513a3f99a57b7912c3f8255b2fcf03205a9f4",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 13,
+      "file": "text/full-manual/page-13.png",
+      "sha256": "4d4eee007ad4624ea320a4a714780b40cf96e58243b812f8e23d9661310fe8ff",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 14,
+      "file": "text/full-manual/page-14.png",
+      "sha256": "e7801e12f2652ca8d0578268513e187d7942c3f622834a3ce97ce29b2010192e",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 15,
+      "file": "text/full-manual/page-15.png",
+      "sha256": "37e698c12091feb10afa82a6079a9bf0808cf933772a6bfabc355cbbf9428f11",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 16,
+      "file": "text/full-manual/page-16.png",
+      "sha256": "e4fc7b2c4ac0c1c102c98deb426ec879db66e927b18816f4323d72c647191861",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 17,
+      "file": "text/full-manual/page-17.png",
+      "sha256": "b33b36112c2b9bae0e6fd4f70ba0f6e1dac5b14a18a229015ac6aa7b66790bbe",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 18,
+      "file": "text/full-manual/page-18.png",
+      "sha256": "c4e100b05388976aac44eeaa991e777d68e6216fe1df02f94619db38fc5078e6",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 19,
+      "file": "text/full-manual/page-19.png",
+      "sha256": "03f91d710551d1aac891d3d98ea0fd1dfb2d341b6357ba04ec4ab96f878bd51d",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 20,
+      "file": "text/full-manual/page-20.png",
+      "sha256": "a65f6191059fa2c0beb56e83b9da13566d12c9ff8a692df5c049cf576e67b1a8",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 21,
+      "file": "text/full-manual/page-21.png",
+      "sha256": "ef25c068461ba4cbcdedb4dda79ec36889edd4232e2a0b77b138ead66d304a0d",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 22,
+      "file": "text/full-manual/page-22.png",
+      "sha256": "dfa79ccdc4063a2b118ba83ffbac2e7e583303f3abd790e372f2c2d9a86fd669",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 23,
+      "file": "text/full-manual/page-23.png",
+      "sha256": "143dfecf1d474286bc1dc22fbb10e4ef7a1f7b7fd50edc6c83d030e1474a7308",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 24,
+      "file": "text/full-manual/page-24.png",
+      "sha256": "402806cb5c370f0c009df27674a7232f88a61537d1cc76c6d413998a2b0cc28f",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 25,
+      "file": "text/full-manual/page-25.png",
+      "sha256": "d8a63a845c2d761c4fa5fe2977499dc299e914f2d41b138f8681360dd733df43",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 26,
+      "file": "text/full-manual/page-26.png",
+      "sha256": "5c27ee2f5c92963678da00fee15ca3b1638731d3b1f1aecbfc94221ec9f90065",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 27,
+      "file": "text/full-manual/page-27.png",
+      "sha256": "9ebf33f99e1a6e383e7fc329f6f8366aab4430d49dfc7b0f840fbf1badd7aa9c",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 28,
+      "file": "text/full-manual/page-28.png",
+      "sha256": "2aea67906b60ddd254916d02c994929cc88e710e3178a03d3628b59c24be1315",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 29,
+      "file": "text/full-manual/page-29.png",
+      "sha256": "587fc50ee999b0e0c1adc6f0b488cc78f01d0f5b3c0f8b4b8e434e6204fdeb08",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 30,
+      "file": "text/full-manual/page-30.png",
+      "sha256": "d44ac4ac641df6daa4ae8a29b43eacbde5ed8a450c86bb2235c0430b9b58944c",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 31,
+      "file": "text/full-manual/page-31.png",
+      "sha256": "9b93ca002205506590a8515eca94b083344995e82bccafa9b8a4313a32db9cf6",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 32,
+      "file": "text/full-manual/page-32.png",
+      "sha256": "3f598ea84154901db99366d55a5079c9d1efa7aea851575958e79f006c1f4846",
+      "size": [
+        2550,
+        3300
+      ]
+    },
+    {
+      "page": 33,
+      "file": "text/full-manual/page-33.png",
+      "sha256": "bbb055b78d7d4dedda78a263198d21ecab6f8e8df4d0efce2e5ce03ddc0d14de",
+      "size": [
+        2550,
+        3300
+      ]
+    }
+  ]
+}

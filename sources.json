@@ -4,6 +4,7 @@
     "title": "Dedication and consent",
     "seed": 241108,
     "description": "The approved first sheet: dedication, warning, gift, and consent.",
+    "treatment": "retained-v1.1",
     "original": "text/pre-liver poetic manual-2_Page_01.png",
     "originalSize": [
       1700,
@@ -16,7 +17,13 @@
       0,
       1700,
       2200
-    ]
+    ],
+    "pdfPage": 1,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-01.png",
+    "pdfRasterSha256": "f2ac1c20bf1f81f9286efaa782be3d6c7265482f0f4109209be5b6561bfacceb",
+    "comparisonPlate": "assets/pdf-plates/01.png",
+    "comparisonSha256": "931cf0c88d60907143932e42425a7f2f4dcf56ccbb08ede7eaeb30d990e159a6"
   },
   {
     "number": 2,
@@ -285,6 +292,7 @@
         0.034
       ]
     ],
+    "treatment": "retained-v1.1",
     "original": "text/pre-liver poetic manual-2_Page_02.png",
     "originalSize": [
       1700,
@@ -297,7 +305,13 @@
       0,
       1700,
       2200
-    ]
+    ],
+    "pdfPage": 2,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-02.png",
+    "pdfRasterSha256": "e736cb5dbbf741e136ddffa6d9fd01063f17e271a02580a9a59e51c4dca5d066",
+    "comparisonPlate": "assets/pdf-plates/02.png",
+    "comparisonSha256": "34eda685d5be63b99cb764e6b5e13821e9f9ac0325be30bcfaacd81b297034da"
   },
   {
     "number": 3,
@@ -582,6 +596,7 @@
         0.026
       ]
     ],
+    "treatment": "retained-v1.1",
     "original": "text/pre-liver poetic manual-2_Page_03.png",
     "originalSize": [
       1700,
@@ -594,7 +609,13 @@
       0,
       1700,
       2200
-    ]
+    ],
+    "pdfPage": 3,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-03.png",
+    "pdfRasterSha256": "1f3ae05d5ff7d6cb9cadd94043d3799df1688eefb4a3f726e5d118e2c4375c48",
+    "comparisonPlate": "assets/pdf-plates/03.png",
+    "comparisonSha256": "d8df323aaa1612abf6f93285d942878daf43a3eb6e9f3f17c98cc07219ccbd7f"
   },
   {
     "number": 4,
@@ -784,6 +805,7 @@
         0.013
       ]
     ],
+    "treatment": "retained-v1.1",
     "original": "text/pre-liver poetic manual-2_Page_04.png",
     "originalSize": [
       1700,
@@ -796,7 +818,13 @@
       0,
       1700,
       2200
-    ]
+    ],
+    "pdfPage": 4,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-04.png",
+    "pdfRasterSha256": "7d9f5a2defda57cf6c0144e2475988b543e28b68960313a6965b9b9e6fee7a2f",
+    "comparisonPlate": "assets/pdf-plates/04.png",
+    "comparisonSha256": "db7a5432c6f3a546ea88dd5f78ac963a9de023e4fd330f91fd96b517834516d2"
   },
   {
     "number": 5,
@@ -1048,6 +1076,7 @@
         0.039
       ]
     ],
+    "treatment": "retained-v1.1",
     "original": "text/pre-liver poetic manual-2_Page_05.png",
     "originalSize": [
       2941,
@@ -1060,7 +1089,13 @@
       0,
       1700,
       2194
-    ]
+    ],
+    "pdfPage": 5,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-05.png",
+    "pdfRasterSha256": "925786ab732299173a8855203e45355b13417c61abad66276151f2358609093e",
+    "comparisonPlate": "assets/pdf-plates/05.png",
+    "comparisonSha256": "3ca96b4b9a1825d950c4a3b96b4c5d39448cd7bc18065c4f79e764800bb5c640"
   },
   {
     "number": 6,
@@ -1335,6 +1370,7 @@
         0.027
       ]
     ],
+    "treatment": "retained-v1.1",
     "original": "text/pre-liver poetic manual-2_Page_06.png",
     "originalSize": [
       1700,
@@ -1347,7 +1383,13 @@
       0,
       1700,
       2200
-    ]
+    ],
+    "pdfPage": 6,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-06.png",
+    "pdfRasterSha256": "f8bdd266c6a81c8b3bb8e940bc8905c24319d7e0c3c541352aa9908e61fb208e",
+    "comparisonPlate": "assets/pdf-plates/06.png",
+    "comparisonSha256": "63870ec2031a24ce87b67ed4c6e711ff3fe78d1c69eea59adb2905df5dd021a1"
   },
   {
     "number": 7,
@@ -1631,6 +1673,7 @@
         0.043
       ]
     ],
+    "treatment": "retained-v1.1",
     "original": "text/pre-liver poetic manual-2_Page_07.png",
     "originalSize": [
       1700,
@@ -1643,7 +1686,13 @@
       0,
       1700,
       2200
-    ]
+    ],
+    "pdfPage": 7,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-07.png",
+    "pdfRasterSha256": "48af407938e07bfb2014bc9c2953128edea6d0d4c518d0f549813422248f1b52",
+    "comparisonPlate": "assets/pdf-plates/07.png",
+    "comparisonSha256": "c8aafeece6b0814974ff64f2f3019309e5572f5c27b4fbcd9c69f35eb48cb32e"
   },
   {
     "number": 8,
@@ -1911,6 +1960,7 @@
         0.046
       ]
     ],
+    "treatment": "retained-v1.1",
     "original": "text/pre-liver poetic manual-2_Page_08.png",
     "originalSize": [
       1700,
@@ -1923,7 +1973,13 @@
       0,
       1700,
       2200
-    ]
+    ],
+    "pdfPage": 8,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-08.png",
+    "pdfRasterSha256": "6d9d435591ee55fbc13b6693926c968925d76dcff496e95d26a9b23df143e697",
+    "comparisonPlate": "assets/pdf-plates/08.png",
+    "comparisonSha256": "21ee6e2c7d2c2a3c5e7b450727130f16cc5870b7a4d29eadeea39f16869c9822"
   },
   {
     "number": 9,
@@ -2092,6 +2148,7 @@
         0.019
       ]
     ],
+    "treatment": "retained-v1.1",
     "original": "text/pre-liver poetic manual-2_Page_09.png",
     "originalSize": [
       1700,
@@ -2104,7 +2161,13 @@
       0,
       1700,
       2200
-    ]
+    ],
+    "pdfPage": 9,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-09.png",
+    "pdfRasterSha256": "10f853df70dce2484302c741cca4324c7193b953dffdb145043d2e08e520dc53",
+    "comparisonPlate": "assets/pdf-plates/09.png",
+    "comparisonSha256": "f61530597d2e5db6eadfc523100ce596cde7312fc55cc3aa39b81eb8a3a681f0"
   },
   {
     "number": 10,
@@ -2306,6 +2369,7 @@
         0.03
       ]
     ],
+    "treatment": "retained-v1.1",
     "original": "text/pre-liver poetic manual-2_Page_10.png",
     "originalSize": [
       1700,
@@ -2318,7 +2382,13 @@
       0,
       1700,
       2200
-    ]
+    ],
+    "pdfPage": 10,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-10.png",
+    "pdfRasterSha256": "5debbd348f388f9eac5446806557092534779ea17c7f651a0c0e8f12832d132d",
+    "comparisonPlate": "assets/pdf-plates/10.png",
+    "comparisonSha256": "afb88b8fb54eb7ce2497850544789f3f53be9f40061ed2834f1e5b8bd421f192"
   },
   {
     "number": 11,
@@ -2603,6 +2673,7 @@
         0.046
       ]
     ],
+    "treatment": "retained-v1.1",
     "original": "text/pre-liver poetic manual-2_Page_11.png",
     "originalSize": [
       1700,
@@ -2615,7 +2686,13 @@
       0,
       1700,
       2200
-    ]
+    ],
+    "pdfPage": 11,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-11.png",
+    "pdfRasterSha256": "7c19b3854bc84fe762e8e0e7a2324d01d78aaaa67c92ad949833d81cea1648a8",
+    "comparisonPlate": "assets/pdf-plates/11.png",
+    "comparisonSha256": "399ea7bc149de974a6fe6144f57fab4c0a3111a230bcf168fc59b0fffca34c95"
   },
   {
     "number": 12,
@@ -2874,6 +2951,7 @@
         0.02
       ]
     ],
+    "treatment": "retained-v1.1",
     "original": "text/pre-liver poetic manual-2_Page_12.png",
     "originalSize": [
       1700,
@@ -2886,7 +2964,13 @@
       0,
       1700,
       2200
-    ]
+    ],
+    "pdfPage": 12,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-12.png",
+    "pdfRasterSha256": "5ac819dfe3497f2467a5470ab6b513a3f99a57b7912c3f8255b2fcf03205a9f4",
+    "comparisonPlate": "assets/pdf-plates/12.png",
+    "comparisonSha256": "d332db84cd3da5db6c59d14d6bf4975991a5602476674c85665172b81553ae6b"
   },
   {
     "number": 13,
@@ -3149,6 +3233,7 @@
         0.041
       ]
     ],
+    "treatment": "retained-v1.1",
     "original": "text/pre-liver poetic manual-2_Page_13.png",
     "originalSize": [
       1973,
@@ -3161,40 +3246,53 @@
       0,
       1700,
       2180
-    ]
+    ],
+    "pdfPage": 13,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-13.png",
+    "pdfRasterSha256": "4d4eee007ad4624ea320a4a714780b40cf96e58243b812f8e23d9661310fe8ff",
+    "comparisonPlate": "assets/pdf-plates/13.png",
+    "comparisonSha256": "b7991d5e1af13b4707f454c459505a0e8ccedc502882e65a778742104061407e"
   },
   {
     "number": 14,
-    "title": "A message from the poet",
-    "seed": 141225,
+    "title": "Hepatocellular carcinoma",
+    "description": "The complete, uncompressed hepatoma sheet, including the poet's marginal message and the lower treatment passage.",
+    "seed": 351974,
     "paper": [
-      238,
-      232,
-      215
+      235,
+      230,
+      210
     ],
-    "wear": 0.64,
-    "soil": 0.9,
-    "description": "The wide source sheet, with the poet's slanted message, kept at its original proportions.",
+    "wear": 0.63,
+    "soil": 0.8,
     "regions": [
       [
-        180,
-        100,
-        1440,
-        330,
+        185,
+        190,
+        1530,
+        290,
         "blue"
       ],
       [
-        180,
-        352,
-        1490,
-        591,
+        1160,
+        285,
+        1550,
+        760,
         "green"
       ],
       [
-        180,
-        692,
-        1440,
-        971,
+        190,
+        850,
+        1100,
+        1490,
+        "green"
+      ],
+      [
+        1160,
+        1480,
+        1570,
+        1950,
         "red"
       ]
     ],
@@ -3202,198 +3300,218 @@
       [
         [
           [
-            176,
-            362
+            200,
+            877
           ],
           [
-            681,
-            368
+            628,
+            881
           ],
           [
-            1518,
-            360
-          ]
-        ],
-        4,
-        "blue",
-        0.65
-      ],
-      [
-        [
-          [
-            173,
-            766
-          ],
-          [
-            732,
-            772
-          ],
-          [
-            1496,
-            765
+            1098,
+            875
           ]
         ],
         5,
-        "red",
-        0.63
+        "blue",
+        0.6
       ],
       [
         [
           [
-            311,
-            830
+            204,
+            1482
           ],
           [
-            912,
-            838
+            530,
+            1477
           ],
           [
-            1540,
-            829
+            831,
+            1481
           ]
         ],
-        4,
+        9,
+        "red",
+        0.68
+      ],
+      [
+        [
+          [
+            1182,
+            1490
+          ],
+          [
+            1400,
+            1494
+          ],
+          [
+            1520,
+            1490
+          ]
+        ],
+        3,
         "green",
-        0.65
+        0.45
       ]
     ],
     "spills": [
       [
-        1491,
-        20,
-        109,
-        61,
+        1510,
+        80,
+        64,
+        28,
         "blue",
-        0.62
+        0.52
       ]
     ],
     "drips": [
       [
-        1449,
-        49,
-        1392,
+        1517,
+        94,
+        385,
         "blue",
-        0.35,
-        4,
-        8
-      ],
-      [
-        1515,
-        48,
-        1657,
-        "red",
-        0.28,
+        0.29,
         3,
-        7
+        5
       ],
       [
-        1571,
-        48,
-        1003,
-        "green",
-        0.25,
-        2,
-        6
+        1481,
+        90,
+        207,
+        "blue",
+        0.22,
+        1.5,
+        3
       ]
     ],
     "rubbed": [
       [
-        1028,
-        179,
-        239,
-        43,
-        0.91
+        610,
+        418,
+        170,
+        26,
+        0.55
       ],
       [
-        497,
-        512,
-        211,
-        49,
-        0.83
+        574,
+        1008,
+        200,
+        28,
+        0.7
       ],
       [
-        1083,
-        832,
-        226,
-        72,
-        0.9
+        1373,
+        1720,
+        120,
+        85,
+        0.75
+      ],
+      [
+        42,
+        1530,
+        80,
+        360,
+        0.7
       ]
     ],
     "soak": [
       [
-        1497,
-        45,
-        152,
-        126,
+        1510,
+        90,
+        160,
+        110,
         0.9
-      ]
-    ],
-    "grime": [
-      [
-        1596,
-        1781,
-        134,
-        285,
-        0.85
       ],
       [
-        124,
-        1925,
-        139,
-        244,
-        0.7
+        550,
+        1485,
+        190,
+        48,
+        0.85
       ]
     ],
     "stains": [
       [
-        115,
-        2016,
-        89,
-        288,
-        0.014
+        100,
+        1330,
+        160,
+        390,
+        0.027
       ],
       [
-        577,
-        989,
-        124,
-        383,
-        0.016
-      ],
-      [
-        1644,
-        660,
-        253,
-        200,
-        0.025
-      ],
-      [
-        98,
-        439,
-        200,
-        127,
-        0.015
-      ],
-      [
-        1673,
-        1208,
-        132,
-        230,
-        0.032
+        1530,
+        1830,
+        180,
+        300,
+        0.024
       ]
     ],
-    "original": "text/pre-liver poetic manual-2_Page_14.png",
-    "originalSize": [
-      1930,
-      1265
+    "guides": [
+      [
+        [
+          [
+            1170,
+            335
+          ],
+          [
+            1585,
+            335
+          ],
+          [
+            1585,
+            735
+          ]
+        ],
+        "red",
+        0.8,
+        0.25
+      ]
     ],
-    "sourceSha256": "de18f1baffd24ba8b7ea2304f08ad6029dda42339e574e1080a3d62933c0560d",
-    "plateSha256": "b84b370a1f23aa3bdf0d78029ee39cbed6ea46b3271804bf72b21bc7fefc0508",
+    "grime": [
+      [
+        35,
+        834,
+        85,
+        310,
+        0.4
+      ],
+      [
+        1660,
+        838,
+        100,
+        290,
+        0.44000000000000006
+      ],
+      [
+        776,
+        2150,
+        310,
+        65,
+        0.36800000000000005
+      ]
+    ],
+    "input": "text/full-manual/page-14.png",
+    "treatment": "repaired-from-full-pdf",
+    "original": "text/full-manual/page-14.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "e7801e12f2652ca8d0578268513e187d7942c3f622834a3ce97ce29b2010192e",
+    "plateSha256": "2a1121da4fb8603cd225e9607e2b24ec37bbfb648fe1853d31b274f184c90954",
     "placement": [
       0,
       0,
       1700,
-      1114
-    ]
+      2200
+    ],
+    "pdfPage": 14,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-14.png",
+    "pdfRasterSha256": "e7801e12f2652ca8d0578268513e187d7942c3f622834a3ce97ce29b2010192e",
+    "comparisonPlate": "assets/pdf-plates/14.png",
+    "comparisonSha256": "2a1121da4fb8603cd225e9607e2b24ec37bbfb648fe1853d31b274f184c90954"
   },
   {
     "number": 15,
@@ -3652,6 +3770,7 @@
         0.026
       ]
     ],
+    "treatment": "retained-v1.1",
     "original": "text/pre-liver poetic manual-2_Page_15.png",
     "originalSize": [
       1964,
@@ -3664,6 +3783,4562 @@
       0,
       1700,
       2199
-    ]
+    ],
+    "pdfPage": 15,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-15.png",
+    "pdfRasterSha256": "37e698c12091feb10afa82a6079a9bf0808cf933772a6bfabc355cbbf9428f11",
+    "comparisonPlate": "assets/pdf-plates/15.png",
+    "comparisonSha256": "8faf018d35ef1eccedff4dc5f6d5458212d6955172308873b1281c8a62f5cd74"
+  },
+  {
+    "number": 16,
+    "title": "The assessment",
+    "description": "An assessment itinerary, with tests branching down the right and the original stacked specialist names.",
+    "seed": 367812,
+    "paper": [
+      232,
+      227,
+      207
+    ],
+    "wear": 0.78,
+    "soil": 1.1,
+    "regions": [
+      [
+        180,
+        190,
+        1510,
+        340,
+        "blue"
+      ],
+      [
+        900,
+        330,
+        1530,
+        800,
+        "green"
+      ],
+      [
+        170,
+        1000,
+        850,
+        1460,
+        "red"
+      ],
+      [
+        860,
+        1010,
+        1540,
+        1950,
+        "blue"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            180,
+            898
+          ],
+          [
+            700,
+            901
+          ],
+          [
+            1450,
+            894
+          ]
+        ],
+        7,
+        "green",
+        0.7
+      ],
+      [
+        [
+          [
+            1035,
+            1258
+          ],
+          [
+            1260,
+            1261
+          ],
+          [
+            1510,
+            1256
+          ]
+        ],
+        10,
+        "red",
+        0.82
+      ],
+      [
+        [
+          [
+            1100,
+            1266
+          ],
+          [
+            1400,
+            1263
+          ]
+        ],
+        5,
+        "blue",
+        0.6
+      ],
+      [
+        [
+          [
+            184,
+            1874
+          ],
+          [
+            750,
+            1879
+          ],
+          [
+            1110,
+            1873
+          ]
+        ],
+        6,
+        "blue",
+        0.57
+      ]
+    ],
+    "spills": [
+      [
+        1280,
+        1262,
+        100,
+        27,
+        "red",
+        0.66
+      ],
+      [
+        1478,
+        40,
+        130,
+        42,
+        "black",
+        0.61
+      ]
+    ],
+    "drips": [
+      [
+        1450,
+        63,
+        398,
+        "black",
+        0.3,
+        3,
+        6
+      ],
+      [
+        1515,
+        68,
+        650,
+        "black",
+        0.24,
+        2,
+        7
+      ],
+      [
+        1292,
+        1281,
+        240,
+        "red",
+        0.31,
+        2,
+        5
+      ]
+    ],
+    "rubbed": [
+      [
+        750,
+        239,
+        240,
+        25,
+        0.7
+      ],
+      [
+        618,
+        1108,
+        180,
+        35,
+        0.8
+      ],
+      [
+        1205,
+        1660,
+        200,
+        52,
+        1.05
+      ],
+      [
+        50,
+        1440,
+        100,
+        400,
+        0.8
+      ]
+    ],
+    "soak": [
+      [
+        1450,
+        80,
+        180,
+        140,
+        0.85
+      ],
+      [
+        1250,
+        1260,
+        160,
+        60,
+        0.95
+      ],
+      [
+        520,
+        1875,
+        270,
+        50,
+        0.6
+      ]
+    ],
+    "stains": [
+      [
+        80,
+        1630,
+        210,
+        380,
+        0.033
+      ],
+      [
+        1560,
+        1080,
+        200,
+        370,
+        0.029
+      ],
+      [
+        1200,
+        2130,
+        360,
+        90,
+        0.025
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            1580,
+            290
+          ],
+          [
+            1578,
+            820
+          ],
+          [
+            1120,
+            823
+          ]
+        ],
+        "blue",
+        0.8,
+        0.3
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        896,
+        85,
+        310,
+        0.55
+      ],
+      [
+        1660,
+        932,
+        100,
+        290,
+        0.6050000000000001
+      ],
+      [
+        814,
+        2150,
+        310,
+        65,
+        0.5060000000000001
+      ]
+    ],
+    "input": "text/full-manual/page-16.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-16.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "e4fc7b2c4ac0c1c102c98deb426ec879db66e927b18816f4323d72c647191861",
+    "plateSha256": "248806b977fca788bb5f9f6561971725c96f009c487ae3adec86972b801b15fc",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 16,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-16.png",
+    "pdfRasterSha256": "e4fc7b2c4ac0c1c102c98deb426ec879db66e927b18816f4323d72c647191861",
+    "comparisonPlate": "assets/pdf-plates/16.png",
+    "comparisonSha256": "248806b977fca788bb5f9f6561971725c96f009c487ae3adec86972b801b15fc"
+  },
+  {
+    "number": 17,
+    "title": "Living donors",
+    "description": "Living donation, benefits and disadvantages, with a short poem suspended above the assessment passage.",
+    "seed": 375731,
+    "paper": [
+      234,
+      233,
+      215
+    ],
+    "wear": 0.67,
+    "soil": 0.85,
+    "regions": [
+      [
+        170,
+        200,
+        1510,
+        310,
+        "green"
+      ],
+      [
+        890,
+        300,
+        1520,
+        760,
+        "red"
+      ],
+      [
+        240,
+        1170,
+        1510,
+        1560,
+        "blue"
+      ],
+      [
+        180,
+        1680,
+        1420,
+        2010,
+        "green"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            210,
+            771
+          ],
+          [
+            625,
+            775
+          ],
+          [
+            1070,
+            769
+          ]
+        ],
+        4,
+        "blue",
+        0.5
+      ],
+      [
+        [
+          [
+            200,
+            1640
+          ],
+          [
+            550,
+            1637
+          ],
+          [
+            1020,
+            1643
+          ]
+        ],
+        11,
+        "green",
+        0.8
+      ],
+      [
+        [
+          [
+            465,
+            1647
+          ],
+          [
+            710,
+            1645
+          ],
+          [
+            1080,
+            1648
+          ]
+        ],
+        4,
+        "red",
+        0.6
+      ]
+    ],
+    "spills": [
+      [
+        1225,
+        1648,
+        105,
+        38,
+        "green",
+        0.67
+      ],
+      [
+        1332,
+        1653,
+        54,
+        20,
+        "black",
+        0.53
+      ]
+    ],
+    "drips": [
+      [
+        1255,
+        1675,
+        300,
+        "green",
+        0.32,
+        2.8,
+        6
+      ],
+      [
+        1320,
+        1667,
+        170,
+        "black",
+        0.29,
+        1.7,
+        4
+      ]
+    ],
+    "rubbed": [
+      [
+        960,
+        424,
+        220,
+        31,
+        0.8
+      ],
+      [
+        1230,
+        1384,
+        200,
+        34,
+        0.9
+      ],
+      [
+        397,
+        1814,
+        160,
+        55,
+        0.75
+      ]
+    ],
+    "soak": [
+      [
+        1260,
+        1650,
+        240,
+        95,
+        0.9
+      ],
+      [
+        880,
+        790,
+        150,
+        60,
+        0.6
+      ]
+    ],
+    "stains": [
+      [
+        1600,
+        490,
+        160,
+        320,
+        0.028
+      ],
+      [
+        83,
+        1940,
+        210,
+        260,
+        0.032
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            150,
+            1190
+          ],
+          [
+            150,
+            1490
+          ],
+          [
+            1080,
+            1492
+          ]
+        ],
+        "red",
+        0.7,
+        0.27
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        927,
+        85,
+        310,
+        0.425
+      ],
+      [
+        1660,
+        979,
+        100,
+        290,
+        0.4675
+      ],
+      [
+        833,
+        2150,
+        310,
+        65,
+        0.391
+      ]
+    ],
+    "input": "text/full-manual/page-17.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-17.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "b33b36112c2b9bae0e6fd4f70ba0f6e1dac5b14a18a229015ac6aa7b66790bbe",
+    "plateSha256": "6995069efa6ff36cad5244f0d5cf75234b85d21819782f9ed18c8f5f9f629d42",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 17,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-17.png",
+    "pdfRasterSha256": "b33b36112c2b9bae0e6fd4f70ba0f6e1dac5b14a18a229015ac6aa7b66790bbe",
+    "comparisonPlate": "assets/pdf-plates/17.png",
+    "comparisonSha256": "6995069efa6ff36cad5244f0d5cf75234b85d21819782f9ed18c8f5f9f629d42"
+  },
+  {
+    "number": 18,
+    "title": "Principles of the living gift",
+    "description": "Principles, the donor matching table, considerations, and risks, kept in their original ruled blocks.",
+    "seed": 383650,
+    "paper": [
+      237,
+      233,
+      214
+    ],
+    "wear": 0.48,
+    "soil": 0.55,
+    "regions": [
+      [
+        180,
+        200,
+        1420,
+        315,
+        "red"
+      ],
+      [
+        220,
+        315,
+        1500,
+        660,
+        "green"
+      ],
+      [
+        180,
+        920,
+        1500,
+        1210,
+        "blue"
+      ],
+      [
+        180,
+        1500,
+        1500,
+        1930,
+        "green"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            190,
+            1328
+          ],
+          [
+            750,
+            1331
+          ],
+          [
+            1460,
+            1325
+          ]
+        ],
+        3,
+        "red",
+        0.48
+      ],
+      [
+        [
+          [
+            350,
+            1019
+          ],
+          [
+            760,
+            1022
+          ]
+        ],
+        4,
+        "blue",
+        0.48
+      ]
+    ],
+    "spills": [
+      [
+        1570,
+        2100,
+        33,
+        56,
+        "green",
+        0.3
+      ]
+    ],
+    "drips": [
+      [
+        1570,
+        2070,
+        75,
+        "green",
+        0.2,
+        1.2,
+        3
+      ]
+    ],
+    "rubbed": [
+      [
+        1340,
+        570,
+        150,
+        40,
+        0.52
+      ],
+      [
+        610,
+        1132,
+        250,
+        28,
+        0.6
+      ],
+      [
+        420,
+        1740,
+        180,
+        25,
+        0.58
+      ]
+    ],
+    "soak": [
+      [
+        615,
+        1120,
+        220,
+        45,
+        0.4
+      ],
+      [
+        1580,
+        2100,
+        90,
+        90,
+        0.5
+      ]
+    ],
+    "stains": [
+      [
+        1650,
+        1640,
+        160,
+        370,
+        0.022
+      ],
+      [
+        220,
+        2110,
+        360,
+        90,
+        0.022
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            195,
+            884
+          ],
+          [
+            1480,
+            884
+          ]
+        ],
+        "blue",
+        0.7,
+        0.3
+      ],
+      [
+        [
+          [
+            197,
+            1195
+          ],
+          [
+            1483,
+            1195
+          ]
+        ],
+        "red",
+        0.7,
+        0.25
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        958,
+        85,
+        310,
+        0.275
+      ],
+      [
+        1660,
+        1026,
+        100,
+        290,
+        0.30250000000000005
+      ],
+      [
+        852,
+        2150,
+        310,
+        65,
+        0.25300000000000006
+      ]
+    ],
+    "input": "text/full-manual/page-18.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-18.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "c4e100b05388976aac44eeaa991e777d68e6216fe1df02f94619db38fc5078e6",
+    "plateSha256": "c92782e66c6f3d7ed4c86a727bbac9c3c209b321147fc5307ef74634bb0dcebc",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 18,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-18.png",
+    "pdfRasterSha256": "c4e100b05388976aac44eeaa991e777d68e6216fe1df02f94619db38fc5078e6",
+    "comparisonPlate": "assets/pdf-plates/18.png",
+    "comparisonSha256": "c92782e66c6f3d7ed4c86a727bbac9c3c209b321147fc5307ef74634bb0dcebc"
+  },
+  {
+    "number": 19,
+    "title": "The cost of medicines",
+    "description": "Medication costs, insurance questions, and original open parentheses around the cost of the gift.",
+    "seed": 391569,
+    "paper": [
+      228,
+      224,
+      206
+    ],
+    "wear": 0.91,
+    "soil": 1.4,
+    "regions": [
+      [
+        170,
+        185,
+        1480,
+        280,
+        "blue"
+      ],
+      [
+        180,
+        300,
+        1490,
+        730,
+        "red"
+      ],
+      [
+        185,
+        850,
+        1510,
+        1390,
+        "green"
+      ],
+      [
+        920,
+        1400,
+        1490,
+        1940,
+        "blue"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            230,
+            391
+          ],
+          [
+            730,
+            395
+          ],
+          [
+            1280,
+            390
+          ]
+        ],
+        8,
+        "red",
+        0.72
+      ],
+      [
+        [
+          [
+            186,
+            649
+          ],
+          [
+            520,
+            652
+          ],
+          [
+            1020,
+            646
+          ]
+        ],
+        11,
+        "black",
+        0.8
+      ],
+      [
+        [
+          [
+            700,
+            655
+          ],
+          [
+            1100,
+            651
+          ]
+        ],
+        6,
+        "green",
+        0.67
+      ],
+      [
+        [
+          [
+            190,
+            1632
+          ],
+          [
+            750,
+            1636
+          ],
+          [
+            1480,
+            1627
+          ]
+        ],
+        5,
+        "blue",
+        0.6
+      ]
+    ],
+    "spills": [
+      [
+        960,
+        653,
+        180,
+        49,
+        "green",
+        0.72
+      ],
+      [
+        1082,
+        663,
+        135,
+        31,
+        "black",
+        0.76
+      ],
+      [
+        800,
+        1116,
+        172,
+        88,
+        "green",
+        0.68
+      ],
+      [
+        946,
+        1143,
+        206,
+        67,
+        "black",
+        0.82
+      ]
+    ],
+    "drips": [
+      [
+        1035,
+        680,
+        558,
+        "green",
+        0.27,
+        3.8,
+        8
+      ],
+      [
+        1155,
+        682,
+        790,
+        "black",
+        0.24,
+        2.8,
+        8
+      ],
+      [
+        990,
+        1180,
+        543,
+        "black",
+        0.28,
+        3.6,
+        8
+      ],
+      [
+        764,
+        1170,
+        275,
+        "green",
+        0.24,
+        2,
+        5
+      ]
+    ],
+    "rubbed": [
+      [
+        760,
+        389,
+        270,
+        40,
+        1.1
+      ],
+      [
+        1220,
+        1200,
+        200,
+        70,
+        1.15
+      ],
+      [
+        615,
+        1870,
+        230,
+        55,
+        0.85
+      ],
+      [
+        900,
+        1140,
+        250,
+        65,
+        0.85
+      ]
+    ],
+    "soak": [
+      [
+        1030,
+        660,
+        300,
+        120,
+        0.95
+      ],
+      [
+        600,
+        390,
+        250,
+        60,
+        0.8
+      ],
+      [
+        900,
+        1140,
+        320,
+        150,
+        0.95
+      ]
+    ],
+    "stains": [
+      [
+        50,
+        1280,
+        260,
+        510,
+        0.047
+      ],
+      [
+        1560,
+        600,
+        270,
+        520,
+        0.04
+      ],
+      [
+        1150,
+        2160,
+        450,
+        100,
+        0.04
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            1570,
+            980
+          ],
+          [
+            1570,
+            2000
+          ],
+          [
+            1130,
+            2001
+          ]
+        ],
+        "red",
+        0.8,
+        0.33
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        989,
+        85,
+        310,
+        0.7
+      ],
+      [
+        1660,
+        1073,
+        100,
+        290,
+        0.77
+      ],
+      [
+        871,
+        2150,
+        310,
+        65,
+        0.644
+      ]
+    ],
+    "input": "text/full-manual/page-19.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-19.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "03f91d710551d1aac891d3d98ea0fd1dfb2d341b6357ba04ec4ab96f878bd51d",
+    "plateSha256": "18ec9c2a5de1fe9a87269b0bf43e1fa59b3e8d6e8c7ad948c79d1114c09905d6",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 19,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-19.png",
+    "pdfRasterSha256": "03f91d710551d1aac891d3d98ea0fd1dfb2d341b6357ba04ec4ab96f878bd51d",
+    "comparisonPlate": "assets/pdf-plates/19.png",
+    "comparisonSha256": "18ec9c2a5de1fe9a87269b0bf43e1fa59b3e8d6e8c7ad948c79d1114c09905d6"
+  },
+  {
+    "number": 20,
+    "title": "Trillium",
+    "description": "The drug plan, questions and answers, and the struck-out contacts at the foot of the page.",
+    "seed": 399488,
+    "paper": [
+      234,
+      229,
+      209
+    ],
+    "wear": 0.72,
+    "soil": 1.05,
+    "regions": [
+      [
+        180,
+        190,
+        1480,
+        275,
+        "green"
+      ],
+      [
+        1030,
+        270,
+        1510,
+        760,
+        "blue"
+      ],
+      [
+        170,
+        960,
+        1520,
+        1650,
+        "green"
+      ],
+      [
+        180,
+        1750,
+        1520,
+        2020,
+        "red"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            190,
+            740
+          ],
+          [
+            670,
+            745
+          ],
+          [
+            1020,
+            738
+          ]
+        ],
+        6,
+        "blue",
+        0.66
+      ],
+      [
+        [
+          [
+            200,
+            1946
+          ],
+          [
+            730,
+            1941
+          ],
+          [
+            1495,
+            1948
+          ]
+        ],
+        7,
+        "red",
+        0.7
+      ],
+      [
+        [
+          [
+            230,
+            1953
+          ],
+          [
+            540,
+            1957
+          ],
+          [
+            1010,
+            1950
+          ]
+        ],
+        4,
+        "green",
+        0.62
+      ]
+    ],
+    "spills": [
+      [
+        1450,
+        1952,
+        95,
+        22,
+        "red",
+        0.57
+      ]
+    ],
+    "drips": [
+      [
+        1460,
+        1960,
+        160,
+        "red",
+        0.3,
+        2,
+        5
+      ],
+      [
+        1370,
+        1955,
+        215,
+        "green",
+        0.24,
+        1.4,
+        4
+      ]
+    ],
+    "rubbed": [
+      [
+        1105,
+        370,
+        180,
+        58,
+        0.8
+      ],
+      [
+        810,
+        1122,
+        220,
+        34,
+        0.8
+      ],
+      [
+        446,
+        1835,
+        180,
+        28,
+        0.9
+      ]
+    ],
+    "soak": [
+      [
+        1420,
+        1950,
+        180,
+        70,
+        0.95
+      ],
+      [
+        540,
+        740,
+        210,
+        65,
+        0.7
+      ]
+    ],
+    "stains": [
+      [
+        1590,
+        510,
+        170,
+        470,
+        0.03
+      ],
+      [
+        100,
+        1750,
+        160,
+        330,
+        0.03
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            180,
+            272
+          ],
+          [
+            180,
+            905
+          ],
+          [
+            1430,
+            905
+          ]
+        ],
+        "red",
+        0.8,
+        0.22
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        1020,
+        85,
+        310,
+        0.525
+      ],
+      [
+        1660,
+        1120,
+        100,
+        290,
+        0.5775000000000001
+      ],
+      [
+        890,
+        2150,
+        310,
+        65,
+        0.48300000000000004
+      ]
+    ],
+    "input": "text/full-manual/page-20.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-20.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "a65f6191059fa2c0beb56e83b9da13566d12c9ff8a692df5c049cf576e67b1a8",
+    "plateSha256": "90536a1507e91d885eb3b5a272574641143988ab7d502e27e5d5bdc5f9c53ad4",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 20,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-20.png",
+    "pdfRasterSha256": "a65f6191059fa2c0beb56e83b9da13566d12c9ff8a692df5c049cf576e67b1a8",
+    "comparisonPlate": "assets/pdf-plates/20.png",
+    "comparisonSha256": "90536a1507e91d885eb3b5a272574641143988ab7d502e27e5d5bdc5f9c53ad4"
+  },
+  {
+    "number": 21,
+    "title": "Financial information",
+    "description": "Employment, insurance, pensions, and support programs in the source's dense left and right arrangements.",
+    "seed": 407407,
+    "paper": [
+      232,
+      229,
+      211
+    ],
+    "wear": 0.8,
+    "soil": 1.2,
+    "regions": [
+      [
+        180,
+        190,
+        1510,
+        275,
+        "red"
+      ],
+      [
+        180,
+        570,
+        810,
+        1180,
+        "blue"
+      ],
+      [
+        850,
+        570,
+        1540,
+        1190,
+        "green"
+      ],
+      [
+        180,
+        1250,
+        1510,
+        2010,
+        "blue"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            180,
+            1139
+          ],
+          [
+            680,
+            1143
+          ],
+          [
+            1450,
+            1137
+          ]
+        ],
+        6,
+        "green",
+        0.65
+      ],
+      [
+        [
+          [
+            195,
+            1540
+          ],
+          [
+            650,
+            1536
+          ],
+          [
+            1050,
+            1543
+          ]
+        ],
+        8,
+        "blue",
+        0.72
+      ],
+      [
+        [
+          [
+            202,
+            1881
+          ],
+          [
+            502,
+            1885
+          ],
+          [
+            900,
+            1879
+          ]
+        ],
+        4,
+        "red",
+        0.58
+      ]
+    ],
+    "spills": [
+      [
+        980,
+        1541,
+        112,
+        32,
+        "blue",
+        0.72
+      ],
+      [
+        1020,
+        1537,
+        80,
+        22,
+        "green",
+        0.6
+      ]
+    ],
+    "drips": [
+      [
+        1002,
+        1560,
+        293,
+        "blue",
+        0.31,
+        2.2,
+        6
+      ]
+    ],
+    "rubbed": [
+      [
+        635,
+        845,
+        200,
+        35,
+        0.9
+      ],
+      [
+        1100,
+        1363,
+        250,
+        46,
+        0.83
+      ],
+      [
+        605,
+        1925,
+        180,
+        40,
+        0.9
+      ]
+    ],
+    "soak": [
+      [
+        980,
+        1540,
+        190,
+        90,
+        0.9
+      ],
+      [
+        470,
+        1140,
+        180,
+        50,
+        0.6
+      ]
+    ],
+    "stains": [
+      [
+        70,
+        670,
+        220,
+        380,
+        0.04
+      ],
+      [
+        1620,
+        1550,
+        160,
+        430,
+        0.033
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            1470,
+            600
+          ],
+          [
+            1550,
+            600
+          ],
+          [
+            1550,
+            1180
+          ],
+          [
+            1470,
+            1180
+          ]
+        ],
+        "red",
+        0.7,
+        0.25
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        1051,
+        85,
+        310,
+        0.6
+      ],
+      [
+        1660,
+        1167,
+        100,
+        290,
+        0.66
+      ],
+      [
+        909,
+        2150,
+        310,
+        65,
+        0.552
+      ]
+    ],
+    "input": "text/full-manual/page-21.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-21.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "ef25c068461ba4cbcdedb4dda79ec36889edd4232e2a0b77b138ead66d304a0d",
+    "plateSha256": "3cf2c6d30a9b013095d2b454fad92694571344c8e7a00779be3ea60d47d2bb8d",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 21,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-21.png",
+    "pdfRasterSha256": "ef25c068461ba4cbcdedb4dda79ec36889edd4232e2a0b77b138ead66d304a0d",
+    "comparisonPlate": "assets/pdf-plates/21.png",
+    "comparisonSha256": "3cf2c6d30a9b013095d2b454fad92694571344c8e7a00779be3ea60d47d2bb8d"
+  },
+  {
+    "number": 22,
+    "title": "Other expenses",
+    "description": "Parking, travel, housing and tax tips, with the source's labels held apart from its costs.",
+    "seed": 415326,
+    "paper": [
+      229,
+      224,
+      203
+    ],
+    "wear": 1.08,
+    "soil": 1.45,
+    "regions": [
+      [
+        180,
+        180,
+        1480,
+        300,
+        "blue"
+      ],
+      [
+        180,
+        520,
+        460,
+        1850,
+        "red"
+      ],
+      [
+        480,
+        500,
+        1510,
+        1190,
+        "green"
+      ],
+      [
+        480,
+        1250,
+        1520,
+        2020,
+        "blue"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            470,
+            919
+          ],
+          [
+            900,
+            923
+          ],
+          [
+            1510,
+            916
+          ]
+        ],
+        10,
+        "green",
+        0.77
+      ],
+      [
+        [
+          [
+            1090,
+            924
+          ],
+          [
+            1410,
+            929
+          ]
+        ],
+        6,
+        "blue",
+        0.65
+      ],
+      [
+        [
+          [
+            470,
+            1755
+          ],
+          [
+            900,
+            1762
+          ],
+          [
+            1500,
+            1754
+          ]
+        ],
+        7,
+        "red",
+        0.67
+      ]
+    ],
+    "spills": [
+      [
+        1440,
+        926,
+        155,
+        68,
+        "green",
+        0.82
+      ],
+      [
+        1570,
+        953,
+        75,
+        36,
+        "black",
+        0.6
+      ]
+    ],
+    "drips": [
+      [
+        1450,
+        972,
+        680,
+        "green",
+        0.32,
+        4,
+        9
+      ],
+      [
+        1577,
+        980,
+        445,
+        "black",
+        0.25,
+        2,
+        6
+      ],
+      [
+        1100,
+        1762,
+        256,
+        "red",
+        0.27,
+        1.6,
+        4
+      ]
+    ],
+    "rubbed": [
+      [
+        660,
+        588,
+        210,
+        40,
+        0.9
+      ],
+      [
+        1180,
+        1180,
+        250,
+        45,
+        1.1
+      ],
+      [
+        780,
+        1900,
+        230,
+        47,
+        1.1
+      ]
+    ],
+    "soak": [
+      [
+        1430,
+        940,
+        280,
+        180,
+        0.95
+      ],
+      [
+        1000,
+        1755,
+        260,
+        65,
+        0.85
+      ]
+    ],
+    "stains": [
+      [
+        70,
+        1580,
+        240,
+        490,
+        0.05
+      ],
+      [
+        1550,
+        330,
+        220,
+        280,
+        0.045
+      ],
+      [
+        1230,
+        2190,
+        360,
+        90,
+        0.04
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            148,
+            465
+          ],
+          [
+            432,
+            465
+          ],
+          [
+            432,
+            1920
+          ]
+        ],
+        "blue",
+        0.8,
+        0.28
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        1082,
+        85,
+        310,
+        0.725
+      ],
+      [
+        1660,
+        1214,
+        100,
+        290,
+        0.7975
+      ],
+      [
+        928,
+        2150,
+        310,
+        65,
+        0.667
+      ]
+    ],
+    "input": "text/full-manual/page-22.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-22.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "dfa79ccdc4063a2b118ba83ffbac2e7e583303f3abd790e372f2c2d9a86fd669",
+    "plateSha256": "62c7aeb0352fc83eebefa971450e9675055604caeb86656df9d845aa4f8ab467",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 22,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-22.png",
+    "pdfRasterSha256": "dfa79ccdc4063a2b118ba83ffbac2e7e583303f3abd790e372f2c2d9a86fd669",
+    "comparisonPlate": "assets/pdf-plates/22.png",
+    "comparisonSha256": "62c7aeb0352fc83eebefa971450e9675055604caeb86656df9d845aa4f8ab467"
+  },
+  {
+    "number": 23,
+    "title": "Power of attorney",
+    "description": "Legal care and financial decisions, with the source's long brackets, spacing and substitute-decision passages.",
+    "seed": 423245,
+    "paper": [
+      231,
+      226,
+      209
+    ],
+    "wear": 0.88,
+    "soil": 1.15,
+    "regions": [
+      [
+        180,
+        180,
+        1490,
+        300,
+        "red"
+      ],
+      [
+        185,
+        390,
+        1510,
+        770,
+        "blue"
+      ],
+      [
+        180,
+        890,
+        1510,
+        1350,
+        "green"
+      ],
+      [
+        180,
+        1410,
+        1520,
+        2100,
+        "blue"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            200,
+            610
+          ],
+          [
+            590,
+            614
+          ],
+          [
+            1110,
+            607
+          ]
+        ],
+        6,
+        "red",
+        0.62
+      ],
+      [
+        [
+          [
+            180,
+            1392
+          ],
+          [
+            760,
+            1397
+          ],
+          [
+            1500,
+            1389
+          ]
+        ],
+        9,
+        "blue",
+        0.76
+      ],
+      [
+        [
+          [
+            720,
+            1400
+          ],
+          [
+            1110,
+            1396
+          ],
+          [
+            1460,
+            1402
+          ]
+        ],
+        4,
+        "green",
+        0.64
+      ]
+    ],
+    "spills": [
+      [
+        210,
+        1390,
+        108,
+        45,
+        "blue",
+        0.69
+      ],
+      [
+        190,
+        1410,
+        67,
+        22,
+        "red",
+        0.55
+      ]
+    ],
+    "drips": [
+      [
+        203,
+        1420,
+        480,
+        "blue",
+        0.33,
+        3.2,
+        7
+      ],
+      [
+        245,
+        1418,
+        291,
+        "red",
+        0.24,
+        1.8,
+        5
+      ]
+    ],
+    "rubbed": [
+      [
+        960,
+        720,
+        290,
+        46,
+        0.93
+      ],
+      [
+        800,
+        1138,
+        280,
+        48,
+        1.15
+      ],
+      [
+        1220,
+        1850,
+        200,
+        58,
+        1.0
+      ]
+    ],
+    "soak": [
+      [
+        200,
+        1410,
+        220,
+        140,
+        0.9
+      ],
+      [
+        940,
+        1140,
+        260,
+        70,
+        0.7
+      ]
+    ],
+    "stains": [
+      [
+        45,
+        580,
+        160,
+        420,
+        0.033
+      ],
+      [
+        1645,
+        1190,
+        190,
+        420,
+        0.042
+      ],
+      [
+        600,
+        2190,
+        450,
+        100,
+        0.035
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            1480,
+            580
+          ],
+          [
+            1570,
+            580
+          ],
+          [
+            1570,
+            1360
+          ],
+          [
+            1480,
+            1360
+          ]
+        ],
+        "red",
+        0.8,
+        0.3
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        1113,
+        85,
+        310,
+        0.575
+      ],
+      [
+        1660,
+        1261,
+        100,
+        290,
+        0.6325
+      ],
+      [
+        947,
+        2150,
+        310,
+        65,
+        0.529
+      ]
+    ],
+    "input": "text/full-manual/page-23.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-23.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "143dfecf1d474286bc1dc22fbb10e4ef7a1f7b7fd50edc6c83d030e1474a7308",
+    "plateSha256": "336936a52769d7c637cfcf36e9cf6421ef345f7ab87e2a69ae4ed78ea33dcc81",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 23,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-23.png",
+    "pdfRasterSha256": "143dfecf1d474286bc1dc22fbb10e4ef7a1f7b7fd50edc6c83d030e1474a7308",
+    "comparisonPlate": "assets/pdf-plates/23.png",
+    "comparisonSha256": "336936a52769d7c637cfcf36e9cf6421ef345f7ab87e2a69ae4ed78ea33dcc81"
+  },
+  {
+    "number": 24,
+    "title": "After assessment",
+    "description": "The decision after assessment, the pager and the waiting list, ending in the source's spaced living-donor letters.",
+    "seed": 431164,
+    "paper": [
+      238,
+      233,
+      214
+    ],
+    "wear": 0.45,
+    "soil": 0.55,
+    "regions": [
+      [
+        180,
+        190,
+        1500,
+        310,
+        "green"
+      ],
+      [
+        1120,
+        310,
+        1520,
+        810,
+        "red"
+      ],
+      [
+        180,
+        900,
+        1510,
+        1610,
+        "blue"
+      ],
+      [
+        180,
+        1650,
+        1520,
+        2030,
+        "green"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            185,
+            1790
+          ],
+          [
+            700,
+            1794
+          ],
+          [
+            1310,
+            1787
+          ]
+        ],
+        3,
+        "red",
+        0.45
+      ]
+    ],
+    "spills": [
+      [
+        1540,
+        1920,
+        18,
+        45,
+        "blue",
+        0.29
+      ]
+    ],
+    "drips": [
+      [
+        1540,
+        1940,
+        127,
+        "blue",
+        0.2,
+        1,
+        3
+      ]
+    ],
+    "rubbed": [
+      [
+        1200,
+        610,
+        170,
+        43,
+        0.55
+      ],
+      [
+        610,
+        1300,
+        220,
+        30,
+        0.63
+      ],
+      [
+        470,
+        1840,
+        130,
+        60,
+        0.6
+      ]
+    ],
+    "soak": [
+      [
+        1540,
+        1930,
+        80,
+        120,
+        0.7
+      ]
+    ],
+    "stains": [
+      [
+        1580,
+        570,
+        140,
+        330,
+        0.02
+      ],
+      [
+        70,
+        2100,
+        220,
+        140,
+        0.026
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            195,
+            825
+          ],
+          [
+            1515,
+            825
+          ]
+        ],
+        "red",
+        0.7,
+        0.25
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        1144,
+        85,
+        310,
+        0.275
+      ],
+      [
+        1660,
+        1308,
+        100,
+        290,
+        0.30250000000000005
+      ],
+      [
+        966,
+        2150,
+        310,
+        65,
+        0.25300000000000006
+      ]
+    ],
+    "input": "text/full-manual/page-24.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-24.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "402806cb5c370f0c009df27674a7232f88a61537d1cc76c6d413998a2b0cc28f",
+    "plateSha256": "83d92acd94d3549b9ca4d7ef14e5e484748a34154a6787c591608d76c1c8e24d",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 24,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-24.png",
+    "pdfRasterSha256": "402806cb5c370f0c009df27674a7232f88a61537d1cc76c6d413998a2b0cc28f",
+    "comparisonPlate": "assets/pdf-plates/24.png",
+    "comparisonSha256": "83d92acd94d3549b9ca4d7ef14e5e484748a34154a6787c591608d76c1c8e24d"
+  },
+  {
+    "number": 25,
+    "title": "While you wait",
+    "description": "Three goals, regular assessment, blood work, and the nearest laboratory.",
+    "seed": 439083,
+    "paper": [
+      233,
+      231,
+      210
+    ],
+    "wear": 0.71,
+    "soil": 1.05,
+    "regions": [
+      [
+        180,
+        190,
+        1490,
+        290,
+        "blue"
+      ],
+      [
+        180,
+        300,
+        1490,
+        690,
+        "green"
+      ],
+      [
+        180,
+        800,
+        1530,
+        1460,
+        "red"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            200,
+            764
+          ],
+          [
+            690,
+            770
+          ],
+          [
+            1440,
+            760
+          ]
+        ],
+        5,
+        "blue",
+        0.63
+      ],
+      [
+        [
+          [
+            200,
+            1518
+          ],
+          [
+            680,
+            1522
+          ],
+          [
+            1340,
+            1515
+          ]
+        ],
+        8,
+        "green",
+        0.74
+      ]
+    ],
+    "spills": [
+      [
+        1340,
+        1520,
+        125,
+        34,
+        "green",
+        0.71
+      ]
+    ],
+    "drips": [
+      [
+        1347,
+        1538,
+        460,
+        "green",
+        0.29,
+        2.5,
+        7
+      ],
+      [
+        1410,
+        1532,
+        280,
+        "blue",
+        0.22,
+        1.6,
+        4
+      ]
+    ],
+    "rubbed": [
+      [
+        750,
+        440,
+        230,
+        30,
+        0.83
+      ],
+      [
+        1140,
+        1090,
+        220,
+        50,
+        0.93
+      ],
+      [
+        620,
+        1530,
+        220,
+        32,
+        0.8
+      ]
+    ],
+    "soak": [
+      [
+        1330,
+        1520,
+        200,
+        100,
+        0.93
+      ]
+    ],
+    "stains": [
+      [
+        35,
+        810,
+        210,
+        380,
+        0.031
+      ],
+      [
+        1610,
+        1700,
+        190,
+        430,
+        0.035
+      ],
+      [
+        710,
+        2170,
+        430,
+        100,
+        0.027
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            150,
+            330
+          ],
+          [
+            150,
+            640
+          ],
+          [
+            230,
+            640
+          ]
+        ],
+        "red",
+        0.8,
+        0.3
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        1175,
+        85,
+        310,
+        0.525
+      ],
+      [
+        1660,
+        1355,
+        100,
+        290,
+        0.5775000000000001
+      ],
+      [
+        985,
+        2150,
+        310,
+        65,
+        0.48300000000000004
+      ]
+    ],
+    "input": "text/full-manual/page-25.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-25.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "d8a63a845c2d761c4fa5fe2977499dc299e914f2d41b138f8681360dd733df43",
+    "plateSha256": "0a744caa2f4abfbd91ea88fb0d0b7bab2d51b567eefe5f8fbf186855376737c9",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 25,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-25.png",
+    "pdfRasterSha256": "d8a63a845c2d761c4fa5fe2977499dc299e914f2d41b138f8681360dd733df43",
+    "comparisonPlate": "assets/pdf-plates/25.png",
+    "comparisonSha256": "0a744caa2f4abfbd91ea88fb0d0b7bab2d51b567eefe5f8fbf186855376737c9"
+  },
+  {
+    "number": 26,
+    "title": "Your place on the list",
+    "description": "Waiting-list status, donor matching and Ontario liver allocation, with long original rules.",
+    "seed": 447002,
+    "paper": [
+      230,
+      228,
+      211
+    ],
+    "wear": 0.92,
+    "soil": 1.25,
+    "regions": [
+      [
+        180,
+        190,
+        1500,
+        300,
+        "red"
+      ],
+      [
+        180,
+        450,
+        1520,
+        690,
+        "green"
+      ],
+      [
+        180,
+        810,
+        1510,
+        1300,
+        "blue"
+      ],
+      [
+        180,
+        1410,
+        1500,
+        1810,
+        "green"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            185,
+            803
+          ],
+          [
+            700,
+            807
+          ],
+          [
+            1495,
+            801
+          ]
+        ],
+        8,
+        "blue",
+        0.75
+      ],
+      [
+        [
+          [
+            190,
+            1302
+          ],
+          [
+            700,
+            1298
+          ],
+          [
+            1500,
+            1305
+          ]
+        ],
+        5,
+        "red",
+        0.67
+      ]
+    ],
+    "spills": [
+      [
+        1260,
+        805,
+        175,
+        49,
+        "blue",
+        0.77
+      ],
+      [
+        1380,
+        813,
+        92,
+        28,
+        "green",
+        0.68
+      ]
+    ],
+    "drips": [
+      [
+        1310,
+        836,
+        665,
+        "blue",
+        0.31,
+        3.2,
+        8
+      ],
+      [
+        1391,
+        832,
+        410,
+        "green",
+        0.28,
+        2.2,
+        6
+      ]
+    ],
+    "rubbed": [
+      [
+        620,
+        479,
+        220,
+        33,
+        0.85
+      ],
+      [
+        1090,
+        1015,
+        250,
+        50,
+        1.07
+      ],
+      [
+        465,
+        1585,
+        180,
+        32,
+        0.78
+      ]
+    ],
+    "soak": [
+      [
+        1280,
+        810,
+        290,
+        130,
+        0.95
+      ],
+      [
+        670,
+        1300,
+        210,
+        58,
+        0.7
+      ]
+    ],
+    "stains": [
+      [
+        60,
+        1360,
+        230,
+        410,
+        0.041
+      ],
+      [
+        1600,
+        590,
+        190,
+        350,
+        0.035
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            190,
+            1395
+          ],
+          [
+            190,
+            1830
+          ],
+          [
+            1500,
+            1830
+          ]
+        ],
+        "blue",
+        0.7,
+        0.28
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        1206,
+        85,
+        310,
+        0.625
+      ],
+      [
+        1660,
+        1402,
+        100,
+        290,
+        0.6875
+      ],
+      [
+        1004,
+        2150,
+        310,
+        65,
+        0.5750000000000001
+      ]
+    ],
+    "input": "text/full-manual/page-26.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-26.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "5c27ee2f5c92963678da00fee15ca3b1638731d3b1f1aecbfc94221ec9f90065",
+    "plateSha256": "1ce36c7d78c3b471f57fb5dbd2f13d6de99466168da031d97c4119eaa8f95831",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 26,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-26.png",
+    "pdfRasterSha256": "5c27ee2f5c92963678da00fee15ca3b1638731d3b1f1aecbfc94221ec9f90065",
+    "comparisonPlate": "assets/pdf-plates/26.png",
+    "comparisonSha256": "1ce36c7d78c3b471f57fb5dbd2f13d6de99466168da031d97c4119eaa8f95831"
+  },
+  {
+    "number": 27,
+    "title": "Maintaining contact",
+    "description": "Contact details, absences, pager instructions, and the dense original ASCII field at the foot of the sheet.",
+    "seed": 454921,
+    "paper": [
+      232,
+      226,
+      206
+    ],
+    "wear": 1.0,
+    "soil": 1.4,
+    "regions": [
+      [
+        180,
+        190,
+        1500,
+        300,
+        "blue"
+      ],
+      [
+        180,
+        340,
+        1510,
+        730,
+        "red"
+      ],
+      [
+        980,
+        790,
+        1530,
+        1110,
+        "green"
+      ],
+      [
+        180,
+        1710,
+        1510,
+        2090,
+        "blue"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            190,
+            1088
+          ],
+          [
+            780,
+            1095
+          ],
+          [
+            1495,
+            1085
+          ]
+        ],
+        10,
+        "red",
+        0.78
+      ],
+      [
+        [
+          [
+            650,
+            1097
+          ],
+          [
+            1070,
+            1092
+          ],
+          [
+            1460,
+            1101
+          ]
+        ],
+        5,
+        "blue",
+        0.67
+      ],
+      [
+        [
+          [
+            185,
+            1850
+          ],
+          [
+            720,
+            1854
+          ],
+          [
+            1490,
+            1848
+          ]
+        ],
+        8,
+        "green",
+        0.7
+      ],
+      [
+        [
+          [
+            190,
+            1915
+          ],
+          [
+            800,
+            1910
+          ],
+          [
+            1490,
+            1919
+          ]
+        ],
+        6,
+        "blue",
+        0.64
+      ]
+    ],
+    "spills": [
+      [
+        1020,
+        1097,
+        142,
+        43,
+        "red",
+        0.73
+      ],
+      [
+        1170,
+        1100,
+        112,
+        34,
+        "blue",
+        0.65
+      ],
+      [
+        683,
+        1888,
+        186,
+        62,
+        "blue",
+        0.77
+      ],
+      [
+        865,
+        1904,
+        125,
+        32,
+        "red",
+        0.61
+      ]
+    ],
+    "drips": [
+      [
+        1065,
+        1124,
+        682,
+        "red",
+        0.32,
+        3.3,
+        8
+      ],
+      [
+        1185,
+        1126,
+        390,
+        "blue",
+        0.27,
+        2.4,
+        6
+      ],
+      [
+        702,
+        1930,
+        232,
+        "blue",
+        0.28,
+        2.5,
+        6
+      ]
+    ],
+    "rubbed": [
+      [
+        1080,
+        535,
+        230,
+        43,
+        0.95
+      ],
+      [
+        610,
+        1315,
+        200,
+        35,
+        1.04
+      ],
+      [
+        1020,
+        1940,
+        300,
+        52,
+        1.2
+      ],
+      [
+        765,
+        1900,
+        240,
+        50,
+        0.95
+      ]
+    ],
+    "soak": [
+      [
+        1080,
+        1110,
+        260,
+        150,
+        0.95
+      ],
+      [
+        850,
+        1900,
+        360,
+        100,
+        0.9
+      ],
+      [
+        720,
+        1890,
+        310,
+        125,
+        0.95
+      ]
+    ],
+    "stains": [
+      [
+        120,
+        370,
+        230,
+        250,
+        0.035
+      ],
+      [
+        1570,
+        1670,
+        260,
+        480,
+        0.05
+      ],
+      [
+        510,
+        2170,
+        430,
+        100,
+        0.036
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            155,
+            330
+          ],
+          [
+            155,
+            780
+          ],
+          [
+            470,
+            780
+          ]
+        ],
+        "green",
+        0.8,
+        0.33
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        1237,
+        85,
+        310,
+        0.7
+      ],
+      [
+        1660,
+        1449,
+        100,
+        290,
+        0.77
+      ],
+      [
+        1023,
+        2150,
+        310,
+        65,
+        0.644
+      ]
+    ],
+    "input": "text/full-manual/page-27.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-27.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "9ebf33f99e1a6e383e7fc329f6f8366aab4430d49dfc7b0f840fbf1badd7aa9c",
+    "plateSha256": "235a4405f3a78178b02d06c28d3df99c58e1270875b414883a01a04cad814dc7",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 27,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-27.png",
+    "pdfRasterSha256": "9ebf33f99e1a6e383e7fc329f6f8366aab4430d49dfc7b0f840fbf1badd7aa9c",
+    "comparisonPlate": "assets/pdf-plates/27.png",
+    "comparisonSha256": "235a4405f3a78178b02d06c28d3df99c58e1270875b414883a01a04cad814dc7"
+  },
+  {
+    "number": 28,
+    "title": "The deceased donor",
+    "description": "The kindness of a donor's family and the carrying of organs, with the original long falling column.",
+    "seed": 462840,
+    "paper": [
+      237,
+      232,
+      212
+    ],
+    "wear": 0.54,
+    "soil": 0.7,
+    "regions": [
+      [
+        180,
+        190,
+        1490,
+        310,
+        "green"
+      ],
+      [
+        850,
+        320,
+        1530,
+        1130,
+        "red"
+      ],
+      [
+        180,
+        1220,
+        1500,
+        1770,
+        "blue"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            190,
+            955
+          ],
+          [
+            720,
+            960
+          ],
+          [
+            1140,
+            951
+          ]
+        ],
+        5,
+        "green",
+        0.56
+      ],
+      [
+        [
+          [
+            190,
+            1909
+          ],
+          [
+            760,
+            1913
+          ],
+          [
+            1380,
+            1906
+          ]
+        ],
+        3,
+        "red",
+        0.4
+      ]
+    ],
+    "spills": [
+      [
+        1515,
+        68,
+        76,
+        29,
+        "red",
+        0.43
+      ]
+    ],
+    "drips": [
+      [
+        1522,
+        83,
+        350,
+        "red",
+        0.24,
+        2,
+        5
+      ],
+      [
+        1490,
+        85,
+        200,
+        "red",
+        0.18,
+        1.2,
+        3
+      ]
+    ],
+    "rubbed": [
+      [
+        1260,
+        700,
+        155,
+        95,
+        0.78
+      ],
+      [
+        650,
+        1430,
+        230,
+        32,
+        0.62
+      ],
+      [
+        1180,
+        1850,
+        200,
+        55,
+        0.75
+      ]
+    ],
+    "soak": [
+      [
+        1500,
+        75,
+        150,
+        120,
+        0.9
+      ],
+      [
+        630,
+        955,
+        220,
+        50,
+        0.5
+      ]
+    ],
+    "stains": [
+      [
+        120,
+        2040,
+        300,
+        220,
+        0.029
+      ],
+      [
+        1610,
+        1160,
+        190,
+        370,
+        0.025
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            160,
+            1200
+          ],
+          [
+            1550,
+            1200
+          ]
+        ],
+        "blue",
+        0.7,
+        0.25
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        1268,
+        85,
+        310,
+        0.35
+      ],
+      [
+        1660,
+        1496,
+        100,
+        290,
+        0.385
+      ],
+      [
+        1042,
+        2150,
+        310,
+        65,
+        0.322
+      ]
+    ],
+    "input": "text/full-manual/page-28.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-28.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "2aea67906b60ddd254916d02c994929cc88e710e3178a03d3628b59c24be1315",
+    "plateSha256": "68157ab4a85403beb6d9e44975effac45709f3a6822fd7f0ecb0a75ca0f40d73",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 28,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-28.png",
+    "pdfRasterSha256": "2aea67906b60ddd254916d02c994929cc88e710e3178a03d3628b59c24be1315",
+    "comparisonPlate": "assets/pdf-plates/28.png",
+    "comparisonSha256": "68157ab4a85403beb6d9e44975effac45709f3a6822fd7f0ecb0a75ca0f40d73"
+  },
+  {
+    "number": 29,
+    "title": "Carrying stress",
+    "description": "Stress, support and the poem of morning fears, with the original team names crossed through.",
+    "seed": 470759,
+    "paper": [
+      230,
+      225,
+      209
+    ],
+    "wear": 0.96,
+    "soil": 1.3,
+    "regions": [
+      [
+        180,
+        190,
+        1510,
+        310,
+        "blue"
+      ],
+      [
+        180,
+        320,
+        1510,
+        790,
+        "red"
+      ],
+      [
+        180,
+        850,
+        1510,
+        1430,
+        "green"
+      ],
+      [
+        180,
+        1510,
+        1510,
+        2000,
+        "blue"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            190,
+            872
+          ],
+          [
+            650,
+            878
+          ],
+          [
+            1300,
+            870
+          ]
+        ],
+        8,
+        "blue",
+        0.76
+      ],
+      [
+        [
+          [
+            280,
+            880
+          ],
+          [
+            710,
+            883
+          ],
+          [
+            1090,
+            875
+          ]
+        ],
+        5,
+        "red",
+        0.69
+      ],
+      [
+        [
+          [
+            190,
+            1430
+          ],
+          [
+            650,
+            1436
+          ],
+          [
+            1490,
+            1427
+          ]
+        ],
+        6,
+        "green",
+        0.62
+      ]
+    ],
+    "spills": [
+      [
+        1180,
+        878,
+        130,
+        51,
+        "blue",
+        0.7
+      ],
+      [
+        1280,
+        883,
+        75,
+        28,
+        "red",
+        0.61
+      ]
+    ],
+    "drips": [
+      [
+        1200,
+        911,
+        790,
+        "blue",
+        0.3,
+        3.3,
+        8
+      ],
+      [
+        1295,
+        905,
+        490,
+        "red",
+        0.27,
+        2.4,
+        6
+      ]
+    ],
+    "rubbed": [
+      [
+        710,
+        550,
+        250,
+        48,
+        0.9
+      ],
+      [
+        650,
+        1205,
+        220,
+        44,
+        1.1
+      ],
+      [
+        1200,
+        1805,
+        230,
+        50,
+        1.03
+      ]
+    ],
+    "soak": [
+      [
+        1190,
+        880,
+        250,
+        145,
+        0.95
+      ],
+      [
+        650,
+        1430,
+        230,
+        55,
+        0.8
+      ]
+    ],
+    "stains": [
+      [
+        60,
+        1520,
+        220,
+        440,
+        0.045
+      ],
+      [
+        1600,
+        650,
+        210,
+        420,
+        0.037
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            1540,
+            1550
+          ],
+          [
+            1540,
+            2040
+          ],
+          [
+            650,
+            2040
+          ]
+        ],
+        "red",
+        0.7,
+        0.29
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        1299,
+        85,
+        310,
+        0.65
+      ],
+      [
+        1660,
+        1543,
+        100,
+        290,
+        0.7150000000000001
+      ],
+      [
+        1061,
+        2150,
+        310,
+        65,
+        0.5980000000000001
+      ]
+    ],
+    "input": "text/full-manual/page-29.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-29.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "587fc50ee999b0e0c1adc6f0b488cc78f01d0f5b3c0f8b4b8e434e6204fdeb08",
+    "plateSha256": "3e86188bb1c6058d5ba49d6e49f65ac6eeeb681e954cb78c5762a190547a9720",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 29,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-29.png",
+    "pdfRasterSha256": "587fc50ee999b0e0c1adc6f0b488cc78f01d0f5b3c0f8b4b8e434e6204fdeb08",
+    "comparisonPlate": "assets/pdf-plates/29.png",
+    "comparisonSha256": "3e86188bb1c6058d5ba49d6e49f65ac6eeeb681e954cb78c5762a190547a9720"
+  },
+  {
+    "number": 30,
+    "title": "Reminders",
+    "description": "Driving, vaccination, dental care, alcohol, and smoking in their original staggered blocks.",
+    "seed": 478678,
+    "paper": [
+      235,
+      232,
+      213
+    ],
+    "wear": 0.64,
+    "soil": 0.9,
+    "regions": [
+      [
+        180,
+        190,
+        1510,
+        300,
+        "red"
+      ],
+      [
+        180,
+        330,
+        1510,
+        690,
+        "green"
+      ],
+      [
+        180,
+        850,
+        1510,
+        1430,
+        "blue"
+      ],
+      [
+        180,
+        1510,
+        1510,
+        1990,
+        "green"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            190,
+            1235
+          ],
+          [
+            680,
+            1241
+          ],
+          [
+            1420,
+            1233
+          ]
+        ],
+        7,
+        "blue",
+        0.68
+      ],
+      [
+        [
+          [
+            190,
+            1760
+          ],
+          [
+            780,
+            1765
+          ],
+          [
+            1500,
+            1758
+          ]
+        ],
+        9,
+        "red",
+        0.74
+      ],
+      [
+        [
+          [
+            780,
+            1768
+          ],
+          [
+            1100,
+            1762
+          ],
+          [
+            1440,
+            1770
+          ]
+        ],
+        4,
+        "blue",
+        0.58
+      ]
+    ],
+    "spills": [
+      [
+        1410,
+        1766,
+        88,
+        27,
+        "red",
+        0.57
+      ]
+    ],
+    "drips": [
+      [
+        1430,
+        1782,
+        280,
+        "red",
+        0.27,
+        2,
+        5
+      ]
+    ],
+    "rubbed": [
+      [
+        720,
+        600,
+        200,
+        32,
+        0.8
+      ],
+      [
+        530,
+        1090,
+        170,
+        31,
+        0.83
+      ],
+      [
+        1120,
+        1860,
+        240,
+        45,
+        0.87
+      ]
+    ],
+    "soak": [
+      [
+        1420,
+        1770,
+        170,
+        90,
+        0.9
+      ],
+      [
+        640,
+        1240,
+        180,
+        50,
+        0.65
+      ]
+    ],
+    "stains": [
+      [
+        1615,
+        400,
+        180,
+        290,
+        0.025
+      ],
+      [
+        55,
+        1660,
+        160,
+        380,
+        0.034
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            180,
+            750
+          ],
+          [
+            1510,
+            750
+          ]
+        ],
+        "red",
+        0.7,
+        0.24
+      ],
+      [
+        [
+          [
+            1570,
+            1500
+          ],
+          [
+            1570,
+            1990
+          ]
+        ],
+        "blue",
+        0.8,
+        0.3
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        1330,
+        85,
+        310,
+        0.45
+      ],
+      [
+        1660,
+        1590,
+        100,
+        290,
+        0.49500000000000005
+      ],
+      [
+        1080,
+        2150,
+        310,
+        65,
+        0.41400000000000003
+      ]
+    ],
+    "input": "text/full-manual/page-30.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-30.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "d44ac4ac641df6daa4ae8a29b43eacbde5ed8a450c86bb2235c0430b9b58944c",
+    "plateSha256": "f094fcdc43f8d1c184091b9bfea54978cee5e4fb43c8df2dffa2279a414cc9a3",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 30,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-30.png",
+    "pdfRasterSha256": "d44ac4ac641df6daa4ae8a29b43eacbde5ed8a450c86bb2235c0430b9b58944c",
+    "comparisonPlate": "assets/pdf-plates/30.png",
+    "comparisonSha256": "f094fcdc43f8d1c184091b9bfea54978cee5e4fb43c8df2dffa2279a414cc9a3"
+  },
+  {
+    "number": 31,
+    "title": "Breathing easier",
+    "description": "The quitting-smoking timeline, travel, and medications, with short centred lines and original crossed-out brands.",
+    "seed": 486597,
+    "paper": [
+      235,
+      232,
+      215
+    ],
+    "wear": 0.6,
+    "soil": 0.8,
+    "regions": [
+      [
+        180,
+        190,
+        1530,
+        330,
+        "blue"
+      ],
+      [
+        240,
+        330,
+        1490,
+        1050,
+        "green"
+      ],
+      [
+        180,
+        1180,
+        1510,
+        1610,
+        "red"
+      ],
+      [
+        180,
+        1710,
+        1510,
+        2060,
+        "blue"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            190,
+            1085
+          ],
+          [
+            700,
+            1089
+          ],
+          [
+            1440,
+            1083
+          ]
+        ],
+        4,
+        "green",
+        0.5
+      ],
+      [
+        [
+          [
+            190,
+            1960
+          ],
+          [
+            750,
+            1964
+          ],
+          [
+            1490,
+            1956
+          ]
+        ],
+        7,
+        "blue",
+        0.67
+      ]
+    ],
+    "spills": [
+      [
+        1465,
+        1965,
+        75,
+        27,
+        "green",
+        0.53
+      ]
+    ],
+    "drips": [
+      [
+        1467,
+        1975,
+        173,
+        "green",
+        0.23,
+        1.7,
+        4
+      ]
+    ],
+    "rubbed": [
+      [
+        1080,
+        500,
+        170,
+        42,
+        0.7
+      ],
+      [
+        630,
+        935,
+        210,
+        42,
+        0.88
+      ],
+      [
+        680,
+        1810,
+        220,
+        37,
+        0.8
+      ]
+    ],
+    "soak": [
+      [
+        1460,
+        1960,
+        170,
+        80,
+        0.85
+      ]
+    ],
+    "stains": [
+      [
+        65,
+        480,
+        160,
+        300,
+        0.023
+      ],
+      [
+        1580,
+        1400,
+        210,
+        420,
+        0.027
+      ],
+      [
+        510,
+        2160,
+        350,
+        100,
+        0.027
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            194,
+            1195
+          ],
+          [
+            1570,
+            1195
+          ],
+          [
+            1570,
+            1615
+          ]
+        ],
+        "blue",
+        0.7,
+        0.25
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        1361,
+        85,
+        310,
+        0.4
+      ],
+      [
+        1660,
+        1637,
+        100,
+        290,
+        0.44000000000000006
+      ],
+      [
+        1099,
+        2150,
+        310,
+        65,
+        0.36800000000000005
+      ]
+    ],
+    "input": "text/full-manual/page-31.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-31.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "9b93ca002205506590a8515eca94b083344995e82bccafa9b8a4313a32db9cf6",
+    "plateSha256": "e31e700f0d37175f803f32dc2252838b2cf62db0b34d3203f00c39959eac4f57",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 31,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-31.png",
+    "pdfRasterSha256": "9b93ca002205506590a8515eca94b083344995e82bccafa9b8a4313a32db9cf6",
+    "comparisonPlate": "assets/pdf-plates/31.png",
+    "comparisonSha256": "e31e700f0d37175f803f32dc2252838b2cf62db0b34d3203f00c39959eac4f57"
+  },
+  {
+    "number": 32,
+    "title": "Preparing for the journey",
+    "description": "Emergency situations and transplant education, including the source's nested story and family-history list.",
+    "seed": 494516,
+    "paper": [
+      235,
+      229,
+      209
+    ],
+    "wear": 0.73,
+    "soil": 1.0,
+    "regions": [
+      [
+        180,
+        190,
+        1520,
+        300,
+        "red"
+      ],
+      [
+        180,
+        340,
+        1520,
+        800,
+        "blue"
+      ],
+      [
+        180,
+        900,
+        1520,
+        1450,
+        "green"
+      ],
+      [
+        720,
+        1460,
+        1540,
+        1950,
+        "blue"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            190,
+            903
+          ],
+          [
+            800,
+            908
+          ],
+          [
+            1470,
+            901
+          ]
+        ],
+        5,
+        "blue",
+        0.63
+      ],
+      [
+        [
+          [
+            750,
+            1921
+          ],
+          [
+            1090,
+            1926
+          ],
+          [
+            1510,
+            1918
+          ]
+        ],
+        7,
+        "green",
+        0.7
+      ]
+    ],
+    "spills": [
+      [
+        1490,
+        1924,
+        60,
+        27,
+        "green",
+        0.55
+      ],
+      [
+        1540,
+        1934,
+        35,
+        17,
+        "blue",
+        0.4
+      ]
+    ],
+    "drips": [
+      [
+        1502,
+        1940,
+        180,
+        "green",
+        0.27,
+        2,
+        5
+      ]
+    ],
+    "rubbed": [
+      [
+        1200,
+        650,
+        230,
+        36,
+        0.78
+      ],
+      [
+        520,
+        1300,
+        210,
+        30,
+        0.87
+      ],
+      [
+        1140,
+        1760,
+        220,
+        42,
+        0.91
+      ]
+    ],
+    "soak": [
+      [
+        1500,
+        1930,
+        150,
+        90,
+        0.9
+      ],
+      [
+        720,
+        905,
+        250,
+        45,
+        0.55
+      ]
+    ],
+    "stains": [
+      [
+        60,
+        1800,
+        210,
+        350,
+        0.035
+      ],
+      [
+        1610,
+        600,
+        180,
+        330,
+        0.027
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            680,
+            1420
+          ],
+          [
+            680,
+            1975
+          ],
+          [
+            1550,
+            1975
+          ]
+        ],
+        "red",
+        0.7,
+        0.25
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        1392,
+        85,
+        310,
+        0.5
+      ],
+      [
+        1660,
+        184,
+        100,
+        290,
+        0.55
+      ],
+      [
+        1118,
+        2150,
+        310,
+        65,
+        0.46
+      ]
+    ],
+    "input": "text/full-manual/page-32.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-32.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "3f598ea84154901db99366d55a5079c9d1efa7aea851575958e79f006c1f4846",
+    "plateSha256": "9730b3e5c8f00060225600548106c09c37a83b5c76a9a396e963f449a671ba60",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 32,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-32.png",
+    "pdfRasterSha256": "3f598ea84154901db99366d55a5079c9d1efa7aea851575958e79f006c1f4846",
+    "comparisonPlate": "assets/pdf-plates/32.png",
+    "comparisonSha256": "9730b3e5c8f00060225600548106c09c37a83b5c76a9a396e963f449a671ba60"
+  },
+  {
+    "number": 33,
+    "title": "An unfinished heading",
+    "description": "The final PDF leaf contains only its vaccine heading. Its surrounding space is preserved as the closing sheet.",
+    "seed": 502435,
+    "paper": [
+      237,
+      231,
+      212
+    ],
+    "wear": 0.83,
+    "soil": 1.05,
+    "regions": [
+      [
+        180,
+        185,
+        1530,
+        300,
+        "blue"
+      ]
+    ],
+    "strokes": [
+      [
+        [
+          [
+            202,
+            239
+          ],
+          [
+            670,
+            242
+          ],
+          [
+            1145,
+            237
+          ]
+        ],
+        2.4,
+        "red",
+        0.42
+      ]
+    ],
+    "spills": [
+      [
+        1440,
+        240,
+        28,
+        12,
+        "blue",
+        0.48
+      ]
+    ],
+    "drips": [
+      [
+        1447,
+        252,
+        1080,
+        "blue",
+        0.25,
+        1.8,
+        5
+      ],
+      [
+        1422,
+        249,
+        640,
+        "red",
+        0.19,
+        1,
+        3
+      ]
+    ],
+    "rubbed": [
+      [
+        730,
+        242,
+        170,
+        21,
+        0.63
+      ],
+      [
+        55,
+        1100,
+        100,
+        610,
+        0.86
+      ],
+      [
+        1100,
+        2150,
+        500,
+        120,
+        1.0
+      ]
+    ],
+    "soak": [
+      [
+        1440,
+        250,
+        100,
+        100,
+        0.85
+      ],
+      [
+        1440,
+        1320,
+        90,
+        120,
+        0.75
+      ]
+    ],
+    "stains": [
+      [
+        145,
+        1740,
+        300,
+        420,
+        0.033
+      ],
+      [
+        1590,
+        930,
+        220,
+        480,
+        0.027
+      ],
+      [
+        880,
+        2160,
+        520,
+        90,
+        0.025
+      ]
+    ],
+    "guides": [
+      [
+        [
+          [
+            190,
+            272
+          ],
+          [
+            190,
+            760
+          ]
+        ],
+        "red",
+        0.6,
+        0.22
+      ]
+    ],
+    "grime": [
+      [
+        35,
+        1423,
+        85,
+        310,
+        0.525
+      ],
+      [
+        1660,
+        231,
+        100,
+        290,
+        0.5775000000000001
+      ],
+      [
+        1137,
+        2150,
+        310,
+        65,
+        0.48300000000000004
+      ]
+    ],
+    "input": "text/full-manual/page-33.png",
+    "treatment": "new-from-full-pdf",
+    "original": "text/full-manual/page-33.png",
+    "originalSize": [
+      2550,
+      3300
+    ],
+    "sourceSha256": "bbb055b78d7d4dedda78a263198d21ecab6f8e8df4d0efce2e5ce03ddc0d14de",
+    "plateSha256": "38cdff45c5dc6ad76b33c5575e1f9c79ac2b0fdd01746182840d9bf8da660d2d",
+    "placement": [
+      0,
+      0,
+      1700,
+      2200
+    ],
+    "pdfPage": 33,
+    "pdfSha256": "0431e6692f62cd9411bee6b13ecd89c6b75e8ad2a0a09da517167c268e75c5ce",
+    "pdfRaster": "text/full-manual/page-33.png",
+    "pdfRasterSha256": "bbb055b78d7d4dedda78a263198d21ecab6f8e8df4d0efce2e5ce03ddc0d14de",
+    "comparisonPlate": "assets/pdf-plates/33.png",
+    "comparisonSha256": "38cdff45c5dc6ad76b33c5575e1f9c79ac2b0fdd01746182840d9bf8da660d2d"
   }
 ]

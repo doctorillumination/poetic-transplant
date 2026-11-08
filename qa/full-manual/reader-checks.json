@@ -1,0 +1,873 @@
+{
+  "spreads": [
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/01.jpg",
+      "frontWidth": 1700,
+      "left": "0",
+      "leftHidden": true,
+      "nextDisabled": false,
+      "previousDisabled": true,
+      "right": "1",
+      "sheet": "1"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/02.jpg",
+      "frontWidth": 1700,
+      "left": "1",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "2",
+      "sheet": "2"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/03.jpg",
+      "frontWidth": 1700,
+      "left": "2",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "3",
+      "sheet": "3"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/04.jpg",
+      "frontWidth": 1700,
+      "left": "3",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "4",
+      "sheet": "4"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/05.jpg",
+      "frontWidth": 1700,
+      "left": "4",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "5",
+      "sheet": "5"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/06.jpg",
+      "frontWidth": 1700,
+      "left": "5",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "6",
+      "sheet": "6"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/07.jpg",
+      "frontWidth": 1700,
+      "left": "6",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "7",
+      "sheet": "7"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/08.jpg",
+      "frontWidth": 1700,
+      "left": "7",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "8",
+      "sheet": "8"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/09.jpg",
+      "frontWidth": 1700,
+      "left": "8",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "9",
+      "sheet": "9"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/10.jpg",
+      "frontWidth": 1700,
+      "left": "9",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "10",
+      "sheet": "10"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/11.jpg",
+      "frontWidth": 1700,
+      "left": "10",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "11",
+      "sheet": "11"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/12.jpg",
+      "frontWidth": 1700,
+      "left": "11",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "12",
+      "sheet": "12"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/13.jpg",
+      "frontWidth": 1700,
+      "left": "12",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "13",
+      "sheet": "13"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/14.jpg",
+      "frontWidth": 1700,
+      "left": "13",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "14",
+      "sheet": "14"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/15.jpg",
+      "frontWidth": 1700,
+      "left": "14",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "15",
+      "sheet": "15"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/16.jpg",
+      "frontWidth": 1700,
+      "left": "15",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "16",
+      "sheet": "16"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/17.jpg",
+      "frontWidth": 1700,
+      "left": "16",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "17",
+      "sheet": "17"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/18.jpg",
+      "frontWidth": 1700,
+      "left": "17",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "18",
+      "sheet": "18"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/19.jpg",
+      "frontWidth": 1700,
+      "left": "18",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "19",
+      "sheet": "19"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/20.jpg",
+      "frontWidth": 1700,
+      "left": "19",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "20",
+      "sheet": "20"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/21.jpg",
+      "frontWidth": 1700,
+      "left": "20",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "21",
+      "sheet": "21"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/22.jpg",
+      "frontWidth": 1700,
+      "left": "21",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "22",
+      "sheet": "22"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/23.jpg",
+      "frontWidth": 1700,
+      "left": "22",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "23",
+      "sheet": "23"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/24.jpg",
+      "frontWidth": 1700,
+      "left": "23",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "24",
+      "sheet": "24"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/25.jpg",
+      "frontWidth": 1700,
+      "left": "24",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "25",
+      "sheet": "25"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/26.jpg",
+      "frontWidth": 1700,
+      "left": "25",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "26",
+      "sheet": "26"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/27.jpg",
+      "frontWidth": 1700,
+      "left": "26",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "27",
+      "sheet": "27"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/28.jpg",
+      "frontWidth": 1700,
+      "left": "27",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "28",
+      "sheet": "28"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/29.jpg",
+      "frontWidth": 1700,
+      "left": "28",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "29",
+      "sheet": "29"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/30.jpg",
+      "frontWidth": 1700,
+      "left": "29",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "30",
+      "sheet": "30"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/31.jpg",
+      "frontWidth": 1700,
+      "left": "30",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "31",
+      "sheet": "31"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/32.jpg",
+      "frontWidth": 1700,
+      "left": "31",
+      "leftHidden": false,
+      "nextDisabled": false,
+      "previousDisabled": false,
+      "right": "32",
+      "sheet": "32"
+    },
+    {
+      "backComplete": true,
+      "frontComplete": true,
+      "frontSource": "assets/prints/33.jpg",
+      "frontWidth": 1700,
+      "left": "32",
+      "leftHidden": false,
+      "nextDisabled": true,
+      "previousDisabled": false,
+      "right": "33",
+      "sheet": "33"
+    }
+  ],
+  "sources": [
+    {
+      "complete": true,
+      "sheet": "1",
+      "source": "assets/pdf-plates/01.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "2",
+      "source": "assets/pdf-plates/02.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "3",
+      "source": "assets/pdf-plates/03.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "4",
+      "source": "assets/pdf-plates/04.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "5",
+      "source": "assets/pdf-plates/05.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "6",
+      "source": "assets/pdf-plates/06.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "7",
+      "source": "assets/pdf-plates/07.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "8",
+      "source": "assets/pdf-plates/08.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "9",
+      "source": "assets/pdf-plates/09.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "10",
+      "source": "assets/pdf-plates/10.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "11",
+      "source": "assets/pdf-plates/11.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "12",
+      "source": "assets/pdf-plates/12.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "13",
+      "source": "assets/pdf-plates/13.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "14",
+      "source": "assets/pdf-plates/14.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "15",
+      "source": "assets/pdf-plates/15.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "16",
+      "source": "assets/pdf-plates/16.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "17",
+      "source": "assets/pdf-plates/17.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "18",
+      "source": "assets/pdf-plates/18.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "19",
+      "source": "assets/pdf-plates/19.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "20",
+      "source": "assets/pdf-plates/20.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "21",
+      "source": "assets/pdf-plates/21.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "22",
+      "source": "assets/pdf-plates/22.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "23",
+      "source": "assets/pdf-plates/23.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "24",
+      "source": "assets/pdf-plates/24.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "25",
+      "source": "assets/pdf-plates/25.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "26",
+      "source": "assets/pdf-plates/26.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "27",
+      "source": "assets/pdf-plates/27.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "28",
+      "source": "assets/pdf-plates/28.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "29",
+      "source": "assets/pdf-plates/29.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "30",
+      "source": "assets/pdf-plates/30.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "31",
+      "source": "assets/pdf-plates/31.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "32",
+      "source": "assets/pdf-plates/32.png",
+      "view": "source",
+      "width": 1700
+    },
+    {
+      "complete": true,
+      "sheet": "33",
+      "source": "assets/pdf-plates/33.png",
+      "view": "source",
+      "width": 1700
+    }
+  ],
+  "turns": [
+    {
+      "backwardReady": "true",
+      "emptyLeft": "false",
+      "forwardReady": "true",
+      "frameCount": "57",
+      "frameP95Ms": "17.5",
+      "lastTurn": "forward",
+      "leftSheet": "16",
+      "longFrames": "0",
+      "renderer": "webgl",
+      "rightSheet": "17",
+      "sheet": "17",
+      "startWaitMs": "0.1",
+      "turnDurationMs": "968.3",
+      "turnPhase": "idle",
+      "turnProgress": "0",
+      "turning": "false",
+      "uploadsDuringTurn": "0"
+    },
+    {
+      "backwardReady": "true",
+      "emptyLeft": "false",
+      "forwardReady": "true",
+      "frameCount": "57",
+      "frameP95Ms": "17.6",
+      "lastTurn": "forward",
+      "leftSheet": "17",
+      "longFrames": "0",
+      "renderer": "webgl",
+      "rightSheet": "18",
+      "sheet": "18",
+      "startWaitMs": "0.0",
+      "turnDurationMs": "974.8",
+      "turnPhase": "idle",
+      "turnProgress": "0",
+      "turning": "false",
+      "uploadsDuringTurn": "0"
+    },
+    {
+      "backwardReady": "true",
+      "emptyLeft": "false",
+      "forwardReady": "true",
+      "frameCount": "57",
+      "frameP95Ms": "17.6",
+      "lastTurn": "forward",
+      "leftSheet": "18",
+      "longFrames": "0",
+      "renderer": "webgl",
+      "rightSheet": "19",
+      "sheet": "19",
+      "startWaitMs": "0.1",
+      "turnDurationMs": "972.2",
+      "turnPhase": "idle",
+      "turnProgress": "0",
+      "turning": "false",
+      "uploadsDuringTurn": "0"
+    },
+    {
+      "backwardReady": "true",
+      "emptyLeft": "false",
+      "forwardReady": "true",
+      "frameCount": "57",
+      "frameP95Ms": "17.5",
+      "lastTurn": "forward",
+      "leftSheet": "19",
+      "longFrames": "0",
+      "renderer": "webgl",
+      "rightSheet": "20",
+      "sheet": "20",
+      "startWaitMs": "0.1",
+      "turnDurationMs": "970.6",
+      "turnPhase": "idle",
+      "turnProgress": "0",
+      "turning": "false",
+      "uploadsDuringTurn": "0"
+    },
+    {
+      "backwardReady": "true",
+      "emptyLeft": "false",
+      "forwardReady": "true",
+      "frameCount": "57",
+      "frameP95Ms": "17.6",
+      "lastTurn": "forward",
+      "leftSheet": "20",
+      "longFrames": "0",
+      "renderer": "webgl",
+      "rightSheet": "21",
+      "sheet": "21",
+      "startWaitMs": "0.0",
+      "turnDurationMs": "971.2",
+      "turnPhase": "idle",
+      "turnProgress": "0",
+      "turning": "false",
+      "uploadsDuringTurn": "0"
+    }
+  ],
+  "pastOldEnd": {
+    "backwardReady": "true",
+    "emptyLeft": "false",
+    "forwardReady": "true",
+    "frameCount": "57",
+    "frameP95Ms": "17.6",
+    "lastTurn": "forward",
+    "leftSheet": "15",
+    "longFrames": "0",
+    "renderer": "webgl",
+    "rightSheet": "16",
+    "sheet": "16",
+    "startWaitMs": "0.1",
+    "turnDurationMs": "969.8",
+    "turnPhase": "idle",
+    "turnProgress": "0",
+    "turning": "false",
+    "uploadsDuringTurn": "0"
+  },
+  "forwardDrag": {
+    "backwardReady": "true",
+    "emptyLeft": "false",
+    "forwardReady": "true",
+    "frameCount": "29",
+    "frameP95Ms": "17.6",
+    "lastTurn": "forward",
+    "leftSheet": "21",
+    "longFrames": "0",
+    "renderer": "webgl",
+    "rightSheet": "22",
+    "sheet": "22",
+    "startWaitMs": "0.1",
+    "turnDurationMs": "541.0",
+    "turnPhase": "idle",
+    "turnProgress": "0",
+    "turning": "false",
+    "uploadsDuringTurn": "0"
+  },
+  "cancelledDrag": {
+    "backwardReady": "true",
+    "emptyLeft": "false",
+    "forwardReady": "true",
+    "frameCount": "18",
+    "frameP95Ms": "50.0",
+    "lastTurn": "cancelled",
+    "leftSheet": "21",
+    "longFrames": "2",
+    "renderer": "webgl",
+    "rightSheet": "22",
+    "sheet": "22",
+    "startWaitMs": "0.1",
+    "turnDurationMs": "428.0",
+    "turnPhase": "idle",
+    "turnProgress": "0",
+    "turning": "false",
+    "uploadsDuringTurn": "0"
+  },
+  "backwardDrag": {
+    "backwardReady": "true",
+    "emptyLeft": "false",
+    "forwardReady": "true",
+    "frameCount": "30",
+    "frameP95Ms": "17.6",
+    "lastTurn": "backward",
+    "leftSheet": "20",
+    "longFrames": "0",
+    "renderer": "webgl",
+    "rightSheet": "21",
+    "sheet": "21",
+    "startWaitMs": "0.1",
+    "turnDurationMs": "542.9",
+    "turnPhase": "idle",
+    "turnProgress": "0",
+    "turning": "false",
+    "uploadsDuringTurn": "0"
+  },
+  "cornerClick": {
+    "backwardReady": "true",
+    "emptyLeft": "false",
+    "forwardReady": "true",
+    "frameCount": "57",
+    "frameP95Ms": "17.6",
+    "lastTurn": "forward",
+    "leftSheet": "21",
+    "longFrames": "0",
+    "renderer": "webgl",
+    "rightSheet": "22",
+    "sheet": "22",
+    "startWaitMs": "0.0",
+    "turnDurationMs": "974.6",
+    "turnPhase": "idle",
+    "turnProgress": "0",
+    "turning": "false",
+    "uploadsDuringTurn": "0"
+  },
+  "end": {
+    "nextDisabled": true,
+    "sheet": "33",
+    "title": "Transplant · 33 / 33"
+  },
+  "bookmark": {
+    "left": "32",
+    "ready": "true",
+    "right": "33",
+    "sheet": "33"
+  },
+  "closer": {
+    "bookWidth": 2600,
+    "closer": "true",
+    "scrollWidth": 2716
+  },
+  "home": {
+    "leftHidden": true,
+    "previousDisabled": true,
+    "sheet": "1"
+  },
+  "finalState": {
+    "book": {
+      "backwardReady": "true",
+      "emptyLeft": "false",
+      "forwardReady": "true",
+      "frameCount": "57",
+      "frameP95Ms": "16.9",
+      "lastTurn": "forward",
+      "leftSheet": "15",
+      "longFrames": "0",
+      "renderer": "webgl",
+      "rightSheet": "16",
+      "sheet": "16",
+      "startWaitMs": "0.0",
+      "turnDurationMs": "972.0",
+      "turnPhase": "idle",
+      "turnProgress": "0",
+      "turning": "false",
+      "uploadsDuringTurn": "0"
+    },
+    "leftComplete": true,
+    "outerWidth": 860,
+    "ready": "true",
+    "rightComplete": true,
+    "viewport": 860
+  },
+  "console": []
+}

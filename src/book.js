@@ -4,6 +4,7 @@ const folio=$('#folio'),shadow=$('.turn-shadow'),picker=$('#sheet-picker');
 const clamp=(v,a=0,b=1)=>Math.max(a,Math.min(b,v));
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
 const cache=new Map();
+const TOTAL=BOOK.length;
 let current=0,busy=false,view='impression',turn=null,gesture=null,frame=0,pendingJump=null,warmVersion=0;
 const face=()=>view==='source'?'source':'front';
 const key=(index,kind)=>index+':'+kind;
@@ -48,12 +49,12 @@ function spread(right,left){
 function update(){
  spread(current,current-1);
  $('#folio-number').textContent=String(current+1).padStart(2,'0');$('#sheet-title').textContent=BOOK[current].title;picker.value=String(current);
- Array.from(picker.options).forEach((option,i)=>{option.textContent=String(i+1).padStart(2,'0')+(i===current?' / 15':' · '+BOOK[i].title);});
+ Array.from(picker.options).forEach((option,i)=>{option.textContent=String(i+1).padStart(2,'0')+(i===current?' / '+TOTAL:' · '+BOOK[i].title);});
  $('#reading-description').textContent=BOOK[current].transcript||BOOK[current].description;
  folio.dataset.sheet=String(current+1);document.documentElement.dataset.sheet=String(current+1);
- document.title='Transplant · '+String(current+1).padStart(2,'0')+' / 15';controls();
+ document.title='Transplant · '+String(current+1).padStart(2,'0')+' / '+TOTAL;controls();
  try{history.replaceState(null,'','#sheet-'+String(current+1).padStart(2,'0'));}catch{}
- $('#status').textContent='Sheet '+(current+1)+' of 15. '+BOOK[current].title+'.';
+ $('#status').textContent='Sheet '+(current+1)+' of '+TOTAL+'. '+BOOK[current].title+'.';
  warmAround();
 }
 
@@ -150,6 +151,7 @@ async function warmAround(){
  const keep=new Set(nearby.flatMap(i=>[key(i,k),key(i,'back')]));
  for(const id of cache.keys())if(!keep.has(id))cache.delete(id);
  if(curl&&!curl.lost)curl.prune(keep);
+ readiness();
  for(const i of nearby){
   for(const kind of [k,'back']){
    if(version!==warmVersion||busy)return;
@@ -271,10 +273,10 @@ folio.addEventListener('pointercancel',e=>releaseGesture(e,true));
 folio.addEventListener('lostpointercapture',e=>{if(gesture&&!gesture.released)releaseGesture(e,true);});
 document.addEventListener('keydown',e=>{
  if(['SELECT','INPUT','TEXTAREA'].includes(document.activeElement.tagName)||e.altKey||e.metaKey||e.ctrlKey)return;
- if(e.key==='ArrowRight'){e.preventDefault();next(1);}if(e.key==='ArrowLeft'){e.preventDefault();next(-1);}if(e.key==='Home'){e.preventDefault();jump(0);}if(e.key==='End'){e.preventDefault();jump(14);}
+ if(e.key==='ArrowRight'){e.preventDefault();next(1);}if(e.key==='ArrowLeft'){e.preventDefault();next(-1);}if(e.key==='Home'){e.preventDefault();jump(0);}if(e.key==='End'){e.preventDefault();jump(TOTAL-1);}
 });
-window.addEventListener('hashchange',()=>{const n=Number(location.hash.replace('#sheet-',''));if(n>=1&&n<=15)jump(n-1);});
-const initial=Number(location.hash.replace('#sheet-',''));if(initial>=1&&initial<=15)current=initial-1;
+window.addEventListener('hashchange',()=>{const n=Number(location.hash.replace('#sheet-',''));if(n>=1&&n<=TOTAL)jump(n-1);});
+const initial=Number(location.hash.replace('#sheet-',''));if(initial>=1&&initial<=TOTAL)current=initial-1;
 controls();busy=true;controls();
 Promise.all([decoded(current,face()),...(current>0?[decoded(current-1,'back')]:[])])
  .then(()=>{busy=false;update();document.documentElement.dataset.ready='true';})

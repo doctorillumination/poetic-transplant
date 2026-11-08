@@ -315,8 +315,11 @@
         PROFILE.spills.forEach(p=>blot(...p));
         PROFILE.strokes.forEach(p=>felt(...p));
         DRIPS.forEach(d=>drip(...d));
-        const y=345+(PROFILE.seed%1300),x=100+(PROFILE.seed%130);
-        fine([[x,y-160],[x,y+220],[1450,y+215]],PROFILE.number%2?'red':'blue',.7,.22);
+        if(PROFILE.guides)PROFILE.guides.forEach(g=>fine(...g));
+        else{
+          const y=345+(PROFILE.seed%1300),x=100+(PROFILE.seed%130);
+          fine([[x,y-160],[x,y+220],[1450,y+215]],PROFILE.number%2?'red':'blue',.7,.22);
+        }
         return;
       }
       // Felt-tip cancellations retain the source locations and carry uneven pressure.
