@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-08",
+  "edition": "v0.4, fourth impression",
+  "html_sha256": "115e4ec28fd2c2b94bd5ab13667cc34fce30018b9c1b811c9228f343480e347e",
+  "renderer_sha256": "8d0a4f610cbd45874d6281da09bdb3d5bf45842d455d33b0a6397c354cb4f438",
+  "syntax": "Built inline JavaScript and renderer passed node --check.",
+  "content": {
+    "primary_fragments": 37,
+    "wording_and_positions": "Browser records match page-01.json exactly; canonical data is byte-identical across all four impressions.",
+    "displaced_text_copies": 0,
+    "original_pngs": "All 18 original PNG hashes are unchanged."
+  },
+  "surface": {
+    "abrasion": "A shared loss field removes ink and paper ruling, revealing lighter pulp and small relief edges.",
+    "chips": "Irregular, spatially warped fragments occur in worn areas and saturated ink.",
+    "dirt": "Localized grime and dust around handled edges.",
+    "drips": "Nine rivulets with variable thickness, residual pools, pigment rims, tide marks, and local chipping."
+  },
+  "browser": {
+    "engine": "Codex in-app browser",
+    "transport": "http://127.0.0.1:8767/",
+    "readiness": true,
+    "font_loaded": true,
+    "warnings_or_errors": [],
+    "source_comparison": "Passed: original 1700-pixel PNG shown, material impression hidden.",
+    "closer_and_fit": "Passed.",
+    "horizontal_inspection": "Passed; ink pools inspected at the right end of the enlarged sheet.",
+    "desktop_css_width": 788,
+    "outer_width": 788,
+    "mobile_layout_last_checked": "v0.3; the interface and sheet dimensions are unchanged in this edition."
+  },
+  "limits": [
+    "Direct file navigation remains unverified because the preview browser permits only HTTP and HTTPS URLs.",
+    "No physical phone or Safari test was performed."
+  ],
+  "preview": "qa/fourth-impression.jpg",
+  "surface_detail": "qa/fourth-impression-detail.jpg",
+  "drip_detail": "qa/fourth-impression-drips.jpg",
+  "prior_editions": [
+    "archive/v0.1-first-impression/index.html",
+    "archive/v0.2-second-impression/index.html",
+    "archive/v0.3-third-impression/index.html"
+  ]
+}

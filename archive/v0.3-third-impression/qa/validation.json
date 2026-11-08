@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-08",
+  "edition": "v0.3, third impression",
+  "html_sha256": "39fa35aa78274819b3b410101cd889640d5a71fbe97b923fd02b957ff8b8c736",
+  "renderer_sha256": "c679b778dc254c73d12fbdb44ba13bccde4a6ca2f4efa6aaec866d5c57775799",
+  "syntax": "Built inline JavaScript passed node --check.",
+  "content": {
+    "primary_fragments": 37,
+    "wording_and_positions": "Browser text records match page-01.json exactly. The data is byte-identical to v0.1 and v0.2.",
+    "displaced_text_copies": 0,
+    "original_pngs": "All 18 source and reference PNG hashes are unchanged."
+  },
+  "rendering": {
+    "visible_ink": "Canvas pigment deposit, locally variable wicking, shared paper tooth, felt-tip marks, and camera softness.",
+    "vector_overlay": "Hidden. No crisp SVG text is drawn over the material impression.",
+    "font_loaded": true,
+    "readiness": "Passed."
+  },
+  "browser": {
+    "engine": "Codex in-app browser",
+    "transport": "http://127.0.0.1:8767/",
+    "warnings_or_errors": [],
+    "source_comparison": "Passed. Original 1700-pixel PNG shown; material layer hidden.",
+    "closer_and_fit": "Passed.",
+    "desktop_css_width": 788,
+    "requested_mobile_viewport": [
+      390,
+      844
+    ],
+    "observed_mobile_css_width": 325,
+    "mobile_sheet_width": 301,
+    "mobile_enlarged_sheet_width": 1000,
+    "mobile_enlarged_scroll_width": 1024,
+    "mobile_outer_width": 325
+  },
+  "limits": [
+    "Direct file navigation remains unverified because the preview browser permits only HTTP and HTTPS URLs.",
+    "No physical phone or Safari test was performed."
+  ],
+  "preview": "qa/third-impression.jpg",
+  "detail": "qa/third-impression-detail.jpg",
+  "prior_editions": [
+    "archive/v0.1-first-impression/index.html",
+    "archive/v0.2-second-impression/index.html"
+  ]
+}

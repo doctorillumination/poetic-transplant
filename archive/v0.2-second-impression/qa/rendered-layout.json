@@ -1,0 +1,224 @@
+[
+  {
+    "id": "title",
+    "text": "Pre-liver poetic transplant manual;",
+    "x": 200,
+    "y": 231
+  },
+  {
+    "id": "dedication",
+    "text": "dedication ::",
+    "x": 200,
+    "y": 275
+  },
+  {
+    "id": "donors",
+    "text": "donors",
+    "x": 400,
+    "y": 319
+  },
+  {
+    "id": "patients",
+    "text": "patients",
+    "x": 400,
+    "y": 363
+  },
+  {
+    "id": "families",
+    "text": "families",
+    "x": 400,
+    "y": 407
+  },
+  {
+    "id": "warning",
+    "text": "++ WARNING ++",
+    "x": 726,
+    "y": 496
+  },
+  {
+    "id": "someone",
+    "text": "someone may offer you",
+    "x": 800,
+    "y": 540
+  },
+  {
+    "id": "money",
+    "text": "money",
+    "x": 800,
+    "y": 584
+  },
+  {
+    "id": "list",
+    "text": "to move up the list.",
+    "x": 800,
+    "y": 628
+  },
+  {
+    "id": "call",
+    "text": "please call ====",
+    "x": 800,
+    "y": 672
+  },
+  {
+    "id": "phone",
+    "text": "416-340-5163",
+    "x": 1030,
+    "y": 672
+  },
+  {
+    "id": "illegal",
+    "text": "what they are suggesting is illegal",
+    "x": 624,
+    "y": 716
+  },
+  {
+    "id": "brackets-left",
+    "text": "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[",
+    "x": 330,
+    "y": 848
+  },
+  {
+    "id": "gift-act",
+    "text": "Human Tissue Gift Act",
+    "x": 694,
+    "y": 848
+  },
+  {
+    "id": "brackets-right",
+    "text": "]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]",
+    "x": 1008,
+    "y": 848
+  },
+  {
+    "id": "gifts",
+    "text": "we cannot accept gifts.",
+    "x": 500,
+    "y": 892
+  },
+  {
+    "id": "gift",
+    "text": "you are the gift.",
+    "x": 500,
+    "y": 936
+  },
+  {
+    "id": "introduction",
+    "text": "introduction:",
+    "x": 200,
+    "y": 1025
+  },
+  {
+    "id": "soul",
+    "text": "dear soul fused with a body,",
+    "x": 200,
+    "y": 1069
+  },
+  {
+    "id": "holy",
+    "text": "holy,",
+    "x": 300,
+    "y": 1113
+  },
+  {
+    "id": "incarnation",
+    "text": "so perfect incarnation",
+    "x": 300,
+    "y": 1157
+  },
+  {
+    "id": "considered",
+    "text": "you are being considered for solid organ transplantation.",
+    "x": 200,
+    "y": 1201
+  },
+  {
+    "id": "welcome",
+    "text": "welcome.",
+    "x": 300,
+    "y": 1245
+  },
+  {
+    "id": "first",
+    "text": "first you or your caregiver must",
+    "x": 200,
+    "y": 1289
+  },
+  {
+    "id": "drugs",
+    "text": "obtain drug coverage // lots",
+    "x": 300,
+    "y": 1333
+  },
+  {
+    "id": "dwelling",
+    "text": "find a dwelling for recovery ;; 2-3 months",
+    "x": 300,
+    "y": 1377
+  },
+  {
+    "id": "teamwork",
+    "text": "teamwork || let’s heal together",
+    "x": 300,
+    "y": 1421
+  },
+  {
+    "id": "hospital",
+    "text": "to and from the hospital :: back and forth, back and forth",
+    "x": 300,
+    "y": 1465
+  },
+  {
+    "id": "consent",
+    "text": "consent:",
+    "x": 200,
+    "y": 1598
+  },
+  {
+    "id": "awareness",
+    "text": "consent to the awareness you and your donor are holy.",
+    "x": 200,
+    "y": 1642
+  },
+  {
+    "id": "carry",
+    "text": "this has been explained to you. Keep it with you. Carry it with you.",
+    "x": 200,
+    "y": 1686
+  },
+  {
+    "id": "signing",
+    "text": "by signing ;;; you acknowledge this.",
+    "x": 200,
+    "y": 1730
+  },
+  {
+    "id": "xxx",
+    "text": "XXXXXXXXX",
+    "x": 200,
+    "y": 1818
+  },
+  {
+    "id": "sign",
+    "text": "sign here",
+    "x": 300,
+    "y": 1862
+  },
+  {
+    "id": "patient",
+    "text": "patient",
+    "x": 542,
+    "y": 1862
+  },
+  {
+    "id": "caregiver",
+    "text": "caregiver",
+    "x": 542,
+    "y": 1906
+  },
+  {
+    "id": "witnessing",
+    "text": "witnessing",
+    "x": 542,
+    "y": 1950
+  }
+]

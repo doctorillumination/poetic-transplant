@@ -1,0 +1,47 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Transplant print workbench</title>
+<style>
+@font-face{font-family:Ribbon;src:url(data:font/ttf;base64,@@FONT@@)}
+body{background:#d8d7cd;color:#252d29;font:14px monospace;margin:24px}select{font:inherit;padding:8px}
+.workspace{position:relative;width:680px;height:880px;margin-top:24px}.workspace canvas{position:absolute;inset:0;width:100%;height:100%}.transfer{mix-blend-mode:multiply}.ink,.impression{display:none}#rendered,#back{width:170px;margin:14px 20px 0 0}#status{margin-left:20px}
+</style>
+<label for="sheet">Print sheet</label> <select id="sheet"></select><span id="status" role="status">Preparing sheet 01</span>
+<p><a id="save-front">Save front</a> · <a id="save-back">Save reverse</a></p>
+<div class="workspace"><canvas class="paper" width="1700" height="2200"></canvas><canvas class="transfer" width="1700" height="2200"></canvas><canvas class="ink" width="1700" height="2200"></canvas><svg class="impression"><g class="poem"></g></svg></div>
+<pre id="transcript" hidden></pre><img id="rendered" alt="Print not ready"><img id="back" alt="Back not ready">
+<script>
+const SOURCES=@@SOURCES@@;
+const FIRST=@@FIRST@@;
+const select=document.querySelector('#sheet');
+SOURCES.forEach(p=>{const o=new Option(String(p.number).padStart(2,'0')+' · '+p.title,String(p.number));select.add(o)});
+let busy=false;
+async function renderPage(number){
+ if(busy)return;busy=true;select.disabled=true;
+ document.querySelector('#status').textContent='Rendering sheet '+String(number).padStart(2,'0');
+ document.querySelector('#rendered').alt='Print not ready';
+ await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+ try{
+ const PROFILE=SOURCES[number-1];
+ const PAGE=number===1?FIRST:{title:PROFILE.title,lines:[],rules:[],plate:true};
+ const PLATE=new Image();PLATE.src=PROFILE.plate;await PLATE.decode();
+ const W=1700,H=2200,seed=PROFILE.seed;
+ const PALETTE={black:'#202823',red:'#c22554',green:'#19864a',blue:'#322475',cyan:'#00868d'};
+ const NS='http://www.w3.org/2000/svg';const $=s=>document.querySelector(s);
+ for(const c of document.querySelectorAll('.workspace canvas'))c.getContext('2d').clearRect(0,0,W,H);
+ $('.poem').replaceChildren();
+ @@RENDERER@@
+ makeWeather();makePaper();makeInk();makeType();materialPrint();
+ const front=canvas(),fc=front.getContext('2d');fc.drawImage($('.paper'),0,0);fc.globalCompositeOperation='multiply';fc.drawImage($('.transfer'),0,0);
+ const back=document.createElement('canvas');back.width=850;back.height=1100;const bc=back.getContext('2d');bc.drawImage($('.paper'),0,0,850,1100);bc.globalAlpha=.065;bc.filter='blur(.7px)';bc.drawImage(front,0,0,850,1100);
+ $('#rendered').src=front.toDataURL('image/jpeg',.92);$('#back').src=back.toDataURL('image/jpeg',.86);
+ $('#save-front').href=$('#rendered').src;$('#save-front').download=String(number).padStart(2,'0')+'.jpg';
+ $('#save-back').href=$('#back').src;$('#save-back').download=String(number).padStart(2,'0')+'-back.jpg';
+ await $('#rendered').decode();await $('#back').decode();
+ $('#rendered').alt='Rendered page '+String(number).padStart(2,'0');$('#back').alt='Back of page '+String(number).padStart(2,'0');
+ document.documentElement.dataset.page=number;document.documentElement.dataset.ready='true';
+ $('#status').textContent='Sheet '+String(number).padStart(2,'0')+' ready';
+ }catch(e){document.querySelector('#status').textContent='Render failed: '+e.message;console.error(e)}
+ busy=false;select.disabled=false;
+}
+select.addEventListener('change',()=>renderPage(Number(select.value)));
+document.fonts.load('34px Ribbon').then(()=>renderPage(1));
+</script></html>

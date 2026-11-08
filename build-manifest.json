@@ -1,0 +1,313 @@
+{
+  "edition": "Transplant, complete book study v1.0",
+  "pages": [
+    {
+      "number": 1,
+      "seed": 241108,
+      "title": "Dedication and consent",
+      "source": "text/pre-liver poetic manual-2_Page_01.png",
+      "source_sha256": "5326aeab8c09ee618ea5c2bb6a647fe0701583e9d67e18d35c05a4e88c6d0a28",
+      "normalized_placement": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "original_size": [
+        1700,
+        2200
+      ],
+      "plate_sha256": "36e7feb0a8720cfd48b356eb801d176c3ab93c62ed8439473954d2acb4621048",
+      "front_sha256": "d41fde97f47badc366553988bb4d89c1b787229fbff0935f86c1b6cc02bfaadd",
+      "back_sha256": "192ad633b35711d556c6f3967b069d88368fe9b9ed32cd9db6ddfdefb4ba41ca"
+    },
+    {
+      "number": 2,
+      "seed": 42219,
+      "title": "Hungry ghosts",
+      "source": "text/pre-liver poetic manual-2_Page_02.png",
+      "source_sha256": "7af749fc84a937373fcfcca5174f524e0773a1a577b7c614287755587438fbb2",
+      "normalized_placement": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "original_size": [
+        1700,
+        2200
+      ],
+      "plate_sha256": "b844b17ae7d0b50e4dccc427f6304cfff97890f11c06ccbae63941960d18a29d",
+      "front_sha256": "85a83326743fdbebaa0dac8a4d5129d9473dac35f57028ddcddf9b53e9d683a8",
+      "back_sha256": "0c309bc123a2d6669bc4f4f6267241deb77b7b41215c2ea0b5111435c2de3bf9"
+    },
+    {
+      "number": 3,
+      "seed": 129088,
+      "title": "The agreement",
+      "source": "text/pre-liver poetic manual-2_Page_03.png",
+      "source_sha256": "4067d7cc0d362edeb677773716e65d92c8677f5116bde9551cad4777b8a01dcd",
+      "normalized_placement": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "original_size": [
+        1700,
+        2200
+      ],
+      "plate_sha256": "5423b471238127e9adf64a4e4771ee919df4faa7b61651ea2d3719cca2406991",
+      "front_sha256": "9788748f10650949d671516c5fdb6737296ff2ec307ba9d68b450ddf2feacc19",
+      "back_sha256": "86ff400f75c310f55dda022469332ddfc458626f9783fcfa53dfa79107c47ac9"
+    },
+    {
+      "number": 4,
+      "seed": 61044,
+      "title": "Welcome",
+      "source": "text/pre-liver poetic manual-2_Page_04.png",
+      "source_sha256": "0fc334478448edf8bdf4ff1bdece8e2e16eb6599ea5baa47aa0302e208bfcfe0",
+      "normalized_placement": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "original_size": [
+        1700,
+        2200
+      ],
+      "plate_sha256": "b4a3d8db6019f670265df2e13b8bb4c7de70190a68ac800a54eb6ff454467639",
+      "front_sha256": "4b54910acb5031ac117c05e186da9d951db18b11e926809070545e794252cd34",
+      "back_sha256": "5a8b0e8d08c36a5f3054cbb3010db94046bd17ab2542c955d095ea7398fdf7f8"
+    },
+    {
+      "number": 5,
+      "seed": 209511,
+      "title": "Our expectations of you",
+      "source": "text/pre-liver poetic manual-2_Page_05.png",
+      "source_sha256": "2cb7ca2d5e81910b9a7df3e55482278cce624fc071e2f405173d1d203c9f682b",
+      "normalized_placement": [
+        0,
+        0,
+        1700,
+        2194
+      ],
+      "original_size": [
+        2941,
+        3795
+      ],
+      "plate_sha256": "747518e3ffdf28e17544a9719fb559d76e400deb4ebbf6152ab42f4b64016518",
+      "front_sha256": "d141ff6189ad9be0db6a8afad6825172153b4d28c02f8b51aea1fbb3b92e0b1a",
+      "back_sha256": "d95cb6e49697f74cd0b6c7c7b17e7fe47f72a37711d0ddd2e6895bd3f9673c56"
+    },
+    {
+      "number": 6,
+      "seed": 840277,
+      "title": "Your transplant team",
+      "source": "text/pre-liver poetic manual-2_Page_06.png",
+      "source_sha256": "65313306a0bbc578225d03b26c4a79aba07d7fb72aa46954c71a00a9c4f9c16a",
+      "normalized_placement": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "original_size": [
+        1700,
+        2200
+      ],
+      "plate_sha256": "f3cdf02c3d5c352e06d91995bb8e5e673ae868cc1caccb5c42cee280085ccf64",
+      "front_sha256": "8b8b978559b931ed32de72b383421e7ec918916c5b9ea355c768e7681c0f19c7",
+      "back_sha256": "b1e3492e55bad39a00f80af14514d2f435cbe2311823a7616837b2d44895cfd2"
+    },
+    {
+      "number": 7,
+      "seed": 721511,
+      "title": "Why you need a liver",
+      "source": "text/pre-liver poetic manual-2_Page_07.png",
+      "source_sha256": "55ca3f92541962546885e790ce2cf830b94be5acf2832417a316f754899c860c",
+      "normalized_placement": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "original_size": [
+        1700,
+        2200
+      ],
+      "plate_sha256": "222a992ff3d3dcfeb2b7b12080d822379a3d9aebe02a86bb54189d6b963e5c2b",
+      "front_sha256": "679366d8802568f2915a4f90b301dbaf7bde62becb78ce288a11638f9e180294",
+      "back_sha256": "0a271664d5ed603146c3abf5e3d5439d20a0cbbdbc0eeb3775169d83febfc023"
+    },
+    {
+      "number": 8,
+      "seed": 240811,
+      "title": "Signs and symptoms",
+      "source": "text/pre-liver poetic manual-2_Page_08.png",
+      "source_sha256": "6be52666b51db681afb5307fb6b0e1a59bcfb3a5579f57c431e667460a90f607",
+      "normalized_placement": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "original_size": [
+        1700,
+        2200
+      ],
+      "plate_sha256": "04f06c1eb3b7a3dcd8bbdfc1e3ce2335307310f336d0bc615f725d6aa5c556fc",
+      "front_sha256": "a40c4085d8e5bb29acebf462f286a299d4def5241d90f83de33f2f80b20cd7bd",
+      "back_sha256": "47fa37138752cc963f790d99861672d65fc770bb0f42a720e56974e9f04e3575"
+    },
+    {
+      "number": 9,
+      "seed": 902211,
+      "title": "The decision",
+      "source": "text/pre-liver poetic manual-2_Page_09.png",
+      "source_sha256": "07cb960558cb9460b3a5650026f8e4378674562c01073e44411c47fce9649ba5",
+      "normalized_placement": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "original_size": [
+        1700,
+        2200
+      ],
+      "plate_sha256": "781f1b0775d97cef5dc78901dec7eb71296433c4a75650e816966c9e303db4ae",
+      "front_sha256": "5a6bbea1703e9f7e01a615b2921d347ae0ba3c6e13f0a1e881dfe4a5479f3055",
+      "back_sha256": "0dd806575f2ffd214d989c2592f22eecedf52636dcfe25f2114d9a13fd08add4"
+    },
+    {
+      "number": 10,
+      "seed": 101411,
+      "title": "Indra's net",
+      "source": "text/pre-liver poetic manual-2_Page_10.png",
+      "source_sha256": "a0e2043f025e6485ea92cca4fd1edbeae6263c12e9b44735532feae5cd3ffc08",
+      "normalized_placement": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "original_size": [
+        1700,
+        2200
+      ],
+      "plate_sha256": "5f89e780c7b3cc463ee7d08d36b304f48cd5c2b86bb703e9917b16ac04f13df9",
+      "front_sha256": "b78e76bdeb2de707ea7a49d174083d7f7355484be3cd6a3755e5823e4be5568e",
+      "back_sha256": "52d377fa93c8f6f166d02cf78cf7dc2a9a348735cfb33cf422e72cdbd3346458"
+    },
+    {
+      "number": 11,
+      "seed": 110388,
+      "title": "Advantages and disadvantages",
+      "source": "text/pre-liver poetic manual-2_Page_11.png",
+      "source_sha256": "681aa7b02a375816b187f37c2ab39307b2d84d42578e96769cfd11eb4c160a50",
+      "normalized_placement": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "original_size": [
+        1700,
+        2200
+      ],
+      "plate_sha256": "ffa7c59c5ce1d3f387cebfcf4a3dc93a75d3102c3a1fe574aeea47aadd6039f0",
+      "front_sha256": "d8abdd513e04ce484a068e8810f4992e0062ac5f655c7bf6b5819b9a99d498ac",
+      "back_sha256": "ab1530c74c82b407337a6177b9ba9a077b40ed1fc65c91fb8bbdf4dd2f55efd2"
+    },
+    {
+      "number": 12,
+      "seed": 121009,
+      "title": "Infection and the unknown",
+      "source": "text/pre-liver poetic manual-2_Page_12.png",
+      "source_sha256": "01fb9a70883be639bd860d02c32fde55abea4897f14693ece3daba60b15dc335",
+      "normalized_placement": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "original_size": [
+        1700,
+        2200
+      ],
+      "plate_sha256": "ca1cb6382f2e7743070a279c2fb22ea40d30600ec3282971e10ccf6ac531f48c",
+      "front_sha256": "2a6725fe668e0fb1783799d7c172908cff6f83901cfa41874127fc10bde49066",
+      "back_sha256": "7fe6f1d0e801f3efd6a152c37786d9fc8ef4f20f51dee03e006d120f15ad5d22"
+    },
+    {
+      "number": 13,
+      "seed": 139155,
+      "title": "Recurrence",
+      "source": "text/pre-liver poetic manual-2_Page_13.png",
+      "source_sha256": "279fa6a30da1b7860b82ea9e3c4e0ca0a9a3fc1ddefc07ca0a6012c480bf1b33",
+      "normalized_placement": [
+        0,
+        0,
+        1700,
+        2180
+      ],
+      "original_size": [
+        1973,
+        2530
+      ],
+      "plate_sha256": "1b7cfcd064e34977a79da74ea4c33f6b079d2dadd187f11f182fdc727c5a0929",
+      "front_sha256": "d498ad3c96d92d6c0e0f68beca62dec5f2d24fa9c8d1c7e4b8d0a5187104c38b",
+      "back_sha256": "12b4e2ca9ced76015dab34dc9bfc434e4a6498e27c782f3df0d0b4c8bee41521"
+    },
+    {
+      "number": 14,
+      "seed": 141225,
+      "title": "A message from the poet",
+      "source": "text/pre-liver poetic manual-2_Page_14.png",
+      "source_sha256": "de18f1baffd24ba8b7ea2304f08ad6029dda42339e574e1080a3d62933c0560d",
+      "normalized_placement": [
+        0,
+        0,
+        1700,
+        1114
+      ],
+      "original_size": [
+        1930,
+        1265
+      ],
+      "plate_sha256": "b84b370a1f23aa3bdf0d78029ee39cbed6ea46b3271804bf72b21bc7fefc0508",
+      "front_sha256": "7181de9df19ad82f443c8c621d13ee55e5c8f45eaf7d798e6ac89cf634a59e77",
+      "back_sha256": "1bda18322da30c0f23d499d0541ddc8fa33aad61ea1bc60977c08c13c84a9f74"
+    },
+    {
+      "number": 15,
+      "seed": 150929,
+      "title": "Bridging and carrying",
+      "source": "text/pre-liver poetic manual-2_Page_15.png",
+      "source_sha256": "4959cd52fba47859b187695496ce1d476feb65c1754785526264b781db252fe1",
+      "normalized_placement": [
+        0,
+        0,
+        1700,
+        2199
+      ],
+      "original_size": [
+        1964,
+        2541
+      ],
+      "plate_sha256": "f3cd85e29adc4c95194819135f4a0a55c57dee0ec5007cd03714cf7933dea507",
+      "front_sha256": "7b81976f7290e8cb166a8275563174f6416fb0ad0f9df913ea44b607a25466e7",
+      "back_sha256": "559740b3c487a46e6c0ddc2838d3204fa6df6372c3317f10efdfabad93798b22"
+    }
+  ],
+  "page_count": 15,
+  "page_turn": "Developable cylindrical WebGL surface, two-sided material, pointer-driven curl.",
+  "reader_sha256": "03b8ad40497c45284304758ee49d673c9071c926f7c3a7f2231d9ea120f80474",
+  "profiles_sha256": "0ed3604a0b2c29a25bbd8f61dd7ba0fe5d70a1131e225568df217d9e5840535f",
+  "renderer_sha256": "50d02112c2e9c26623c19c2782b957e3069caf063657836ed457768e1d05ae92",
+  "output_sha256": "3a11bd86edb92188dc8e9a28d339b424ef1fb624282b7b3c4bc9cf41f5d7022a",
+  "output_bytes": 26860838,
+  "runtime_dependencies": []
+}

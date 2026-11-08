@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<hl>
+444+
+Hoe OUR EXPECTATIONS OF YOU #434374
+444+
+</h1>
+<body>
+<a href="your soul’>you have the responsibility to</a>
+<p> work in <em>partnership</em> to ensure the best possible </p>
+<ul>
+<li>treatment</li>
+<li>rehabilitation</li>
+<li>discharge planning</li>
+<li>follow-up care</li>
+<br>
+<p>provide information and concerns to all members of your team</p>
+<p>please let us know what you do not know</p>
+<p>respect the reason everything happens, we will not wound you</p>
+<p>treat staff, other patients, other families, and yourself in a considerate, courteous,
+confidential, and cooperative manner.</p>
+<p>terente-Gerrerattosprtaks role is also to teach and research and partner with those
+learning</p>
+<p><em>we recommend quitting smoking</em></p>
+</body>
+.CSS
+body {
+background-color: cyan;
+j
+pt
+color: blue;
+j

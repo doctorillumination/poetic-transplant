@@ -1,0 +1,2 @@
+# A trailing tab preserves the empty OCR text field.
+qa/ocr/*.tsv whitespace=-blank-at-eol

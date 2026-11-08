@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-08",
+  "edition": "Transplant, complete book study v1.0",
+  "html_sha256": "3a11bd86edb92188dc8e9a28d339b424ef1fb624282b7b3c4bc9cf41f5d7022a",
+  "output_bytes": 26860838,
+  "page_count": 15,
+  "content": {
+    "original_pngs": "All 15 text PNGs and 3 reference PNGs match the established source hashes.",
+    "first_sheet": "The approved first-sheet typography and material treatment are retained. Its 37-fragment canonical data is byte-identical to the approved archive.",
+    "later_sheets": "The original source glyph silhouettes are used directly, preserving indents, columns, ASCII marks, source cross-outs, existing overlaps, and source cropping. No OCR typesetting or reflow.",
+    "normalization": "All source images fit within 1700 by 2200 without stretching. The wide fourteenth source occupies 1700 by 1114 at the top of its leaf.",
+    "unique_surfaces": "15 distinct deterministic seeds, palettes, stain fields, marker compositions, and material profiles; 15 distinct front image hashes."
+  },
+  "surface": {
+    "ink": "Varied ribbon density, capillary bleed, wet marker cancellations, colour overlap, and pooled pigment.",
+    "paper": "Shared ink and paper abrasion, irregular chipping, exposed pulp, handled-edge soil, and page-specific stains.",
+    "sequence": "Quiet sheets alternate with heavier occlusion and cancellation. Original structure remains available through Source page."
+  },
+  "page_turn": {
+    "geometry": "Developable cylindrical WebGL surface, two-sided material, pointer-driven curl.",
+    "material": "Printed front, faint transferred reverse, directional lighting, perspective, and moving shadow.",
+    "runtime": "Native WebGL; rendering stops when the sheet settles; no external runtime libraries.",
+    "implemented_fallbacks": "Reduced-motion preferences and unavailable WebGL skip the automatic curl. These branches were reviewed in code, not separately forced in the browser."
+  },
+  "browser": {
+    "engine": "Codex in-app browser",
+    "transport": "http://127.0.0.1:8767/",
+    "impressions_loaded": 15,
+    "source_comparisons_loaded": 15,
+    "image_dimensions": [
+      1700,
+      2200
+    ],
+    "next_previous_buttons": "Passed.",
+    "page_boundaries": "First Previous and last Next disabled.",
+    "keyboard": "ArrowRight, Home, and End passed.",
+    "pointer": "Forward drag, backward drag, and short cancelled drag passed.",
+    "curl": "Curved, two-sided WebGL surface visually inspected during a turn.",
+    "bookmark_reload": {
+      "ready": "true",
+      "sheet": "14",
+      "width": 1700
+    },
+    "narrow_fit": {
+      "outerWidth": 390,
+      "sheetWidth": 358,
+      "viewport": 390
+    },
+    "narrow_turn": {
+      "lastTurn": "forward",
+      "renderer": "webgl",
+      "sheet": "2"
+    },
+    "narrow_closer": {
+      "outerWidth": 390,
+      "scrollWidth": 1032,
+      "sheetWidth": 1000,
+      "touchAction": "manipulation",
+      "viewport": 390
+    },
+    "warnings_or_errors": [],
+    "final_state": {
+      "outerWidth": 788,
+      "ready": "true",
+      "renderer": "webgl",
+      "sheet": "1",
+      "viewport": 788
+    },
+    "observations": "qa/reader-checks.json"
+  },
+  "static": {
+    "original_png_hashes_unchanged": 18,
+    "unique_prints": 15,
+    "unique_seeds": 15,
+    "front_dimensions": [
+      1700,
+      2200
+    ],
+    "reverse_dimensions": [
+      850,
+      1100
+    ],
+    "normalized_plates": 15,
+    "original_aspect_ratios_preserved": true,
+    "first_page_data_unchanged": true,
+    "embedded_script_syntax": "passed",
+    "deterministic_rebuild": true,
+    "runtime_dependencies": [],
+    "remote_asset_requests": false,
+    "font_license_embedded": true,
+    "html_sha256": "3a11bd86edb92188dc8e9a28d339b424ef1fb624282b7b3c4bc9cf41f5d7022a",
+    "output_bytes": 26860838
+  },
+  "limits": [
+    "Direct file navigation remains unverified because the preview browser permits only HTTP and HTTPS URLs.",
+    "No physical phone or Safari-specific test was performed.",
+    "Only sheet 01 has a verified full reading transcript. Sheets 02 to 15 have descriptive image alternatives; working OCR is unverified and excluded from the book."
+  ],
+  "previews": {
+    "all_sheets": "qa/book-contact.jpg",
+    "reader": "qa/book-reader.jpg",
+    "curl": "qa/book-curl.jpg",
+    "quiet_sheet": "qa/book-reader-page04.jpg",
+    "heavy_sheet": "qa/book-reader-page11.jpg",
+    "narrow_layout": "qa/book-mobile.jpg"
+  },
+  "prior_editions": [
+    "archive/v0.1-first-impression/index.html",
+    "archive/v0.2-second-impression/index.html",
+    "archive/v0.3-third-impression/index.html",
+    "archive/v0.4-approved-first-sheet/index.html"
+  ]
+}

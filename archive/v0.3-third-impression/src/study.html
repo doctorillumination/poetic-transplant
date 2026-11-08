@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#d8d7cd">
+  <meta name="description" content="The first sheet of a poetic rendering of a pre-liver transplant manual. A study in paper, ribbon ink, and the gift of a body.">
+  <title>Transplant · Third impression</title>
+  <style>
+    @font-face {
+      font-family: Ribbon;
+      src: url(data:font/ttf;base64,@@FONT@@) format('truetype');
+      font-weight: 400;
+      font-style: normal;
+      font-display: block;
+    }
+    :root { color-scheme: light; --desk: #d8d7cd; --type: #333b36; --muted: #6b7068; --red: #a52c4c; }
+    * { box-sizing: border-box; }
+    html { background: var(--desk); scrollbar-color: #a9aaa0 var(--desk); }
+    body { margin: 0; color: var(--type); font-family: 'Courier New', monospace; font-size: 12px; }
+    button { font: inherit; color: inherit; }
+    button:focus-visible { outline: 2px solid var(--red); outline-offset: 5px; }
+    .masthead { position: relative; z-index: 3; max-width: 1480px; margin: auto; padding: 30px 44px 25px; display: flex; align-items: center; gap: 30px; }
+    .identity { margin-right: auto; display: flex; align-items: baseline; gap: 19px; }
+    h1 { font: 400 17px Ribbon, 'Courier New', monospace; margin: 0; letter-spacing: .04em; }
+    .subtitle { font-size: 10px; color: var(--muted); letter-spacing: .05em; }
+    .views { display: flex; gap: 22px; }
+    .views button, .closer { border: 0; border-radius: 0; background: none; cursor: pointer; padding: 7px 0; font-size: 11px; }
+    .views button { border-bottom: 1px solid transparent; color: var(--muted); }
+    .views button[aria-pressed="true"] { color: var(--type); border-color: var(--red); }
+    .views button:hover, .closer:hover { color: var(--red); }
+    .closer { display: flex; align-items: center; gap: 7px; margin-left: 12px; }
+    .zoom-icon { display: inline-block; border: 1px solid currentColor; border-radius: 50%; width: 10px; height: 10px; position: relative; }
+    .zoom-icon::after { content: ''; position: absolute; width: 4px; height: 1px; background: currentColor; right: -3px; bottom: -2px; transform: rotate(48deg); }
+    .folio { border-left: 1px solid #b6b8ad; padding-left: 27px; margin-left: 6px; font-size: 10px; color: var(--muted); }
+    .folio b { color: var(--type); font-weight: 400; }
+    .paper-well { overflow-x: auto; padding: 32px 36px 54px; }
+    .sheet { position: relative; isolation: isolate; width: min(100%, 1060px); aspect-ratio: 17 / 22; margin: 0 auto; background: #eee6d1; box-shadow: 0 1px 2px #403e2c26, 1px 7px 13px #44402c13, 0 26px 60px -30px #3e3b2652; }
+    .sheet::after { content: ''; position: absolute; z-index: 4; inset: 0; pointer-events: none; box-shadow: inset 0 0 0 1px #78684a1a, inset -2px 0 2px #6d684018, inset 0 -3px 2px #61593d0a; }
+    .sheet > canvas, .sheet > svg, .source-image { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+    .paper { z-index: 0; }
+    .transfer { z-index: 1; pointer-events: none; mix-blend-mode: multiply; }
+    .impression { z-index: 2; visibility: hidden; pointer-events: none; }
+    .ink { display: none !important; }
+    .source-image { z-index: 4; display: none; object-fit: contain; background: #fff; }
+    body[data-view="source"] .source-image { display: block; }
+    body[data-view="source"] .impression, body[data-view="source"] .ink, body[data-view="source"] .transfer { visibility: hidden; }
+    body[data-closer="true"] .sheet { width: 1380px; max-width: none; }
+    .colophon { max-width: 1148px; margin: auto; padding: 0 44px 40px; display: flex; align-items: center; justify-content: space-between; gap: 24px; color: var(--muted); font-size: 10px; line-height: 1.8; }
+    .colophon p { margin: 0; }
+    .ribbons { display: inline-flex; gap: 3px; margin-right: 11px; vertical-align: middle; }
+    .ribbons i { display: block; width: 11px; height: 3px; background: #ac3455; }
+    .ribbons i:nth-child(2) { background: #287648; }
+    .ribbons i:nth-child(3) { background: #383467; }
+    .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+    @media (max-width: 700px) {
+      .masthead { padding: 24px 20px 9px; gap: 18px; flex-wrap: wrap; }
+      .identity { width: 100%; gap: 15px; }
+      .views { gap: 23px; }
+      .closer { margin-left: auto; }
+      .folio { padding-left: 17px; margin-left: 0; }
+      .paper-well { padding: 24px 12px 30px; }
+      .colophon { padding: 0 20px 28px; font-size: 9px; align-items: flex-start; }
+      .colophon p:last-child { text-align: right; }
+      body[data-closer="true"] .sheet { width: 1000px; }
+    }
+    @media print {
+      @page { size: letter; margin: 0; }
+      html, body { background: white; }
+      .masthead, .colophon { display: none; }
+      .paper-well { padding: 0; overflow: visible; }
+      .sheet, body[data-closer="true"] .sheet { width: 100%; box-shadow: none; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body data-view="impression" data-closer="false">
+  <header class="masthead">
+    <div class="identity"><h1>transplant</h1><span class="subtitle">a poetic rendering</span></div>
+    <nav class="views" aria-label="Page view">
+      <button type="button" data-mode="impression" aria-pressed="true">Impression</button>
+      <button type="button" data-mode="source" aria-pressed="false">Source page</button>
+    </nav>
+    <button type="button" class="closer" aria-pressed="false" aria-label="Enlarge the sheet for closer reading"><span class="zoom-icon" aria-hidden="true"></span><span class="zoom-label">Closer</span></button>
+    <div class="folio" aria-label="Page 1"><b>01</b> / sheet</div>
+  </header>
+  <main>
+    <div class="paper-well" tabindex="0" aria-label="Poetic manual, first sheet. Scroll to read. Use Closer to enlarge.">
+      <div class="sheet">
+        <canvas class="paper" width="1700" height="2200" aria-hidden="true"></canvas>
+        <canvas class="transfer" width="1700" height="2200" aria-hidden="true"></canvas>
+        <svg class="impression" viewBox="0 0 1700 2200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <g class="poem"></g>
+        </svg>
+        <canvas class="ink" width="1700" height="2200" aria-hidden="true"></canvas>
+        <img class="source-image" src="data:image/png;base64,@@SOURCE@@" width="1700" height="2200" alt="The unaltered first page of the Pre-liver poetic transplant manual, with its original indents, brackets, and struck-through headings.">
+      </div>
+    </div>
+    <article class="visually-hidden" aria-label="First sheet transcript"><pre id="transcript"></pre></article>
+  </main>
+  <footer class="colophon">
+    <p><span class="ribbons" aria-hidden="true"><i></i><i></i><i></i></span>Pre-liver poetic transplant manual</p>
+    <p>third impression<br>one sheet, held still</p>
+  </footer>
+  <p class="visually-hidden" id="status" aria-live="polite"></p>
+  <noscript><style>.source-image { display: block; } .views, .closer { display: none; }</style><p>The original first sheet is shown. Enable JavaScript to view the ink impression.</p></noscript>
+  <script>
+    'use strict';
+    const PAGE = @@PAGE@@;
+    const W = 1700, H = 2200;
+    const PALETTE = { black: '#202823', red: '#c22554', green: '#19864a', blue: '#322475', cyan: '#00868d' };
+    const NS = 'http://www.w3.org/2000/svg';
+    const $ = selector => document.querySelector(selector);
+    const seed = 241108;
+    @@RENDERER@@
+
+    document.querySelectorAll('[data-mode]').forEach(button => {
+      button.addEventListener('click', () => {
+        const mode = button.dataset.mode;
+        document.body.dataset.view = mode;
+        document.querySelectorAll('[data-mode]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+        $('#status').textContent = mode === 'source' ? 'Showing the original first sheet.' : 'Showing the ink impression.';
+      });
+    });
+    $('.closer').addEventListener('click', () => {
+      const closer = document.body.dataset.closer !== 'true';
+      const well = $('.paper-well');
+      const before = $('.sheet').getBoundingClientRect();
+      const anchor = Math.max(0, -before.top / before.height);
+      document.body.dataset.closer = String(closer);
+      $('.closer').setAttribute('aria-pressed', String(closer));
+      $('.closer').setAttribute('aria-label', closer ? 'Fit the whole sheet to the window' : 'Enlarge the sheet for closer reading');
+      $('.zoom-label').textContent = closer ? 'Fit sheet' : 'Closer';
+      const after = $('.sheet').getBoundingClientRect();
+      if (closer) well.scrollLeft = Math.max(0, ($('.sheet').offsetWidth - well.clientWidth) * .25);
+      else well.scrollLeft = 0;
+      if (anchor > 0) window.scrollBy(0, after.top + anchor * after.height);
+      $('#status').textContent = closer ? 'Sheet enlarged. Scroll horizontally to explore.' : 'Sheet fitted to the window.';
+    });
+
+    makePaper();
+    makeInk();
+    document.fonts.load('34px Ribbon').then(() => {
+      makeType();
+      materialPrint();
+      window.transplant = Object.freeze({ ready:true, seed, lineCount:PAGE.lines.length, page:1 });
+      document.documentElement.dataset.ready = 'true';
+    }).catch(() => {
+      makeType();
+      materialPrint();
+      $('#status').textContent = 'The typewriter font could not load. A local monospace font is shown.';
+    });
+  </script>
+</body>
+</html>

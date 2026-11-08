@@ -1,0 +1,11 @@
+{
+  "edition": "First-page study, v0.4, fourth impression",
+  "page": "text/pre-liver poetic manual-2_Page_01.png",
+  "source_sha256": "5326aeab8c09ee618ea5c2bb6a647fe0701583e9d67e18d35c05a4e88c6d0a28",
+  "font_sha256": "a776fcb4ceb8bdf03e2967688ebdad42680de5b91a7e62c17e718ae212d14bc4",
+  "renderer_sha256": "8d0a4f610cbd45874d6281da09bdb3d5bf45842d455d33b0a6397c354cb4f438",
+  "output_sha256": "115e4ec28fd2c2b94bd5ab13667cc34fce30018b9c1b811c9228f343480e347e",
+  "text_lines": 37,
+  "seed": 241108,
+  "dependencies": "None at runtime. Font and source comparison are embedded."
+}

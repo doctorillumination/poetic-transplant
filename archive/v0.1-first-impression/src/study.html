@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#d8d7cd">
+  <meta name="description" content="The first sheet of a poetic rendering of a pre-liver transplant manual. A study in paper, ribbon ink, and the gift of a body.">
+  <title>Transplant · First impression</title>
+  <style>
+    @font-face {
+      font-family: Ribbon;
+      src: url(data:font/ttf;base64,@@FONT@@) format('truetype');
+      font-weight: 400;
+      font-style: normal;
+      font-display: block;
+    }
+    :root { color-scheme: light; --desk: #d8d7cd; --type: #333b36; --muted: #6b7068; --red: #a52c4c; }
+    * { box-sizing: border-box; }
+    html { background: var(--desk); scrollbar-color: #a9aaa0 var(--desk); }
+    body { margin: 0; color: var(--type); font-family: 'Courier New', monospace; font-size: 12px; }
+    button { font: inherit; color: inherit; }
+    button:focus-visible { outline: 2px solid var(--red); outline-offset: 5px; }
+    .masthead { position: relative; z-index: 3; max-width: 1480px; margin: auto; padding: 30px 44px 25px; display: flex; align-items: center; gap: 30px; }
+    .identity { margin-right: auto; display: flex; align-items: baseline; gap: 19px; }
+    h1 { font: 400 17px Ribbon, 'Courier New', monospace; margin: 0; letter-spacing: .04em; }
+    .subtitle { font-size: 10px; color: var(--muted); letter-spacing: .05em; }
+    .views { display: flex; gap: 22px; }
+    .views button, .closer { border: 0; border-radius: 0; background: none; cursor: pointer; padding: 7px 0; font-size: 11px; }
+    .views button { border-bottom: 1px solid transparent; color: var(--muted); }
+    .views button[aria-pressed="true"] { color: var(--type); border-color: var(--red); }
+    .views button:hover, .closer:hover { color: var(--red); }
+    .closer { display: flex; align-items: center; gap: 7px; margin-left: 12px; }
+    .zoom-icon { display: inline-block; border: 1px solid currentColor; border-radius: 50%; width: 10px; height: 10px; position: relative; }
+    .zoom-icon::after { content: ''; position: absolute; width: 4px; height: 1px; background: currentColor; right: -3px; bottom: -2px; transform: rotate(48deg); }
+    .folio { border-left: 1px solid #b6b8ad; padding-left: 27px; margin-left: 6px; font-size: 10px; color: var(--muted); }
+    .folio b { color: var(--type); font-weight: 400; }
+    .paper-well { overflow-x: auto; padding: 32px 36px 54px; }
+    .sheet { position: relative; isolation: isolate; width: min(100%, 1060px); aspect-ratio: 17 / 22; margin: 0 auto; background: #eee6d1; box-shadow: 0 1px 2px #403e2c26, 1px 7px 13px #44402c13, 0 26px 60px -30px #3e3b2652; }
+    .sheet::after { content: ''; position: absolute; z-index: 4; inset: 0; pointer-events: none; box-shadow: inset 0 0 0 1px #78684a1a, inset -2px 0 2px #6d684018, inset 0 -3px 2px #61593d0a; }
+    .sheet > canvas, .sheet > svg, .source-image { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+    .paper { z-index: 0; }
+    .impression { z-index: 1; overflow: visible; }
+    .ink { z-index: 2; pointer-events: none; mix-blend-mode: multiply; }
+    .source-image { z-index: 3; display: none; object-fit: contain; background: #fff; }
+    body[data-view="source"] .source-image { display: block; }
+    body[data-view="source"] .impression, body[data-view="source"] .ink { visibility: hidden; }
+    body[data-closer="true"] .sheet { width: 1380px; max-width: none; }
+    .colophon { max-width: 1148px; margin: auto; padding: 0 44px 40px; display: flex; align-items: center; justify-content: space-between; gap: 24px; color: var(--muted); font-size: 10px; line-height: 1.8; }
+    .colophon p { margin: 0; }
+    .ribbons { display: inline-flex; gap: 3px; margin-right: 11px; vertical-align: middle; }
+    .ribbons i { display: block; width: 11px; height: 3px; background: #ac3455; }
+    .ribbons i:nth-child(2) { background: #287648; }
+    .ribbons i:nth-child(3) { background: #383467; }
+    .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+    @media (max-width: 700px) {
+      .masthead { padding: 24px 20px 9px; gap: 18px; flex-wrap: wrap; }
+      .identity { width: 100%; gap: 15px; }
+      .views { gap: 23px; }
+      .closer { margin-left: auto; }
+      .folio { padding-left: 17px; margin-left: 0; }
+      .paper-well { padding: 24px 12px 30px; }
+      .colophon { padding: 0 20px 28px; font-size: 9px; align-items: flex-start; }
+      .colophon p:last-child { text-align: right; }
+      body[data-closer="true"] .sheet { width: 1000px; }
+    }
+    @media print {
+      @page { size: letter; margin: 0; }
+      html, body { background: white; }
+      .masthead, .colophon { display: none; }
+      .paper-well { padding: 0; overflow: visible; }
+      .sheet, body[data-closer="true"] .sheet { width: 100%; box-shadow: none; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body data-view="impression" data-closer="false">
+  <header class="masthead">
+    <div class="identity"><h1>transplant</h1><span class="subtitle">a poetic rendering</span></div>
+    <nav class="views" aria-label="Page view">
+      <button type="button" data-mode="impression" aria-pressed="true">Impression</button>
+      <button type="button" data-mode="source" aria-pressed="false">Source page</button>
+    </nav>
+    <button type="button" class="closer" aria-pressed="false" aria-label="Enlarge the sheet for closer reading"><span class="zoom-icon" aria-hidden="true"></span><span class="zoom-label">Closer</span></button>
+    <div class="folio" aria-label="Page 1"><b>01</b> / sheet</div>
+  </header>
+  <main>
+    <div class="paper-well" tabindex="0" aria-label="Poetic manual, first sheet. Scroll to read. Use Closer to enlarge.">
+      <div class="sheet">
+        <canvas class="paper" width="1700" height="2200" aria-hidden="true"></canvas>
+        <svg class="impression" viewBox="0 0 1700 2200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <filter id="ribbon" x="-3%" y="-8%" width="106%" height="116%" color-interpolation-filters="sRGB">
+              <feTurbulence type="fractalNoise" baseFrequency=".13 .21" numOctaves="2" seed="19" result="noise"/>
+              <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.05" xChannelSelector="R" yChannelSelector="G"/>
+              <feGaussianBlur stdDeviation=".12"/>
+            </filter>
+          </defs>
+          <g class="underprint" style="mix-blend-mode:multiply" filter="url(#ribbon)"></g>
+          <g class="poem" filter="url(#ribbon)"></g>
+        </svg>
+        <canvas class="ink" width="1700" height="2200" aria-hidden="true"></canvas>
+        <img class="source-image" src="data:image/png;base64,@@SOURCE@@" width="1700" height="2200" alt="The unaltered first page of the Pre-liver poetic transplant manual, with its original indents, brackets, and struck-through headings.">
+      </div>
+    </div>
+    <article class="visually-hidden" aria-label="First sheet transcript"><pre id="transcript"></pre></article>
+  </main>
+  <footer class="colophon">
+    <p><span class="ribbons" aria-hidden="true"><i></i><i></i><i></i></span>Pre-liver poetic transplant manual</p>
+    <p>first impression<br>one sheet, held still</p>
+  </footer>
+  <p class="visually-hidden" id="status" aria-live="polite"></p>
+  <noscript><style>.source-image { display: block; } .views, .closer { display: none; }</style><p>The original first sheet is shown. Enable JavaScript to view the ink impression.</p></noscript>
+  <script>
+    'use strict';
+    const PAGE = @@PAGE@@;
+    const W = 1700, H = 2200;
+    const PALETTE = { black: '#252d29', red: '#b12d50', green: '#287b4e', blue: '#363166' };
+    const NS = 'http://www.w3.org/2000/svg';
+    const $ = selector => document.querySelector(selector);
+    const seed = 241108;
+    function random(seedValue) {
+      return function() {
+        let t = seedValue += 0x6D2B79F5;
+        t = Math.imul(t ^ t >>> 15, t | 1);
+        t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+        return ((t ^ t >>> 14) >>> 0) / 4294967296;
+      };
+    }
+    function element(tag, attrs = {}, content) {
+      const node = document.createElementNS(NS, tag);
+      for (const [key, value] of Object.entries(attrs)) node.setAttribute(key, value);
+      if (content !== undefined) node.textContent = content;
+      return node;
+    }
+    function trace(ctx, points) {
+      ctx.beginPath(); ctx.moveTo(...points[0]);
+      for (let i = 1; i < points.length; i++) ctx.lineTo(...points[i]);
+    }
+    function organic(ctx, x, y, rx, ry, phase, roughness = .1) {
+      ctx.beginPath();
+      for (let i = 0; i <= 140; i++) {
+        const a = i / 140 * Math.PI * 2;
+        const wave = 1 + roughness * (Math.sin(a * 5 + phase) * .5 + Math.sin(a * 13 + phase * 2) * .24 + Math.cos(a * 23 - phase) * .16 + Math.cos(a * 39 + phase) * .1);
+        const px = x + Math.cos(a) * rx * wave, py = y + Math.sin(a) * ry * wave;
+        if (!i) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+      }
+      ctx.closePath();
+    }
+
+    function makePaper() {
+      const canvas = $('.paper'), ctx = canvas.getContext('2d', { alpha: false });
+      const rand = random(seed), pixels = ctx.createImageData(W, H);
+      for (let y = 0; y < H; y++) {
+        for (let x = 0; x < W; x++) {
+          const i = (y * W + x) * 4;
+          const grain = (rand() - .5) * 10;
+          const cloud = Math.sin(x / 137 + Math.sin(y / 283)) * .75 + Math.sin(y / 173 - x / 309) * 1.1;
+          const edge = Math.min(x, y, W - x, H - y);
+          const age = 6 * Math.exp(-edge / 28) + 4 * Math.exp(-((x - 1370) ** 2 / 240000 + (y - 180) ** 2 / 110000));
+          pixels.data[i] = 237 + grain + cloud - age * .5;
+          pixels.data[i + 1] = 232 + grain + cloud - age * .9;
+          pixels.data[i + 2] = 213 + grain + cloud - age * 1.5;
+          pixels.data[i + 3] = 255;
+        }
+      }
+      ctx.putImageData(pixels, 0, 0);
+
+      // The grid belongs to the paper, with small breaks in its ruling.
+      ctx.lineWidth = .65;
+      ctx.strokeStyle = 'rgba(76, 109, 108, .105)';
+      for (let x = 51; x < W; x += 40) {
+        ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x + .5, H); ctx.stroke();
+      }
+      for (let y = 19; y < H; y += 40) {
+        ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y - .8); ctx.stroke();
+      }
+      for (let i = 0; i < 21000; i++) {
+        const x = rand() * W, y = rand() * H;
+        ctx.strokeStyle = rand() < .5 ? 'rgba(89,73,45,.055)' : 'rgba(255,255,245,.30)';
+        ctx.lineWidth = .3 + rand() * .7;
+        ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x + rand() * 4 - 2, y + rand() * 5); ctx.stroke();
+      }
+
+      // A few tide marks, made of many irregular translucent edges.
+      for (const [x, y, rx, ry, alpha] of [[160,1560,194,260,.014], [1510,1190,235,360,.009], [780,2180,460,80,.013]]) {
+        for (let i = 0; i < 4; i++) {
+          ctx.fillStyle = `rgba(110,104,82,${alpha})`;
+          organic(ctx, x, y, rx + i * 5, ry + i * 6, 2.4, .075); ctx.fill();
+        }
+        ctx.strokeStyle = `rgba(115,105,80,${alpha * 1.6})`; ctx.lineWidth = 1.1;
+        organic(ctx, x, y, rx + 18, ry + 23, 2.4, .075); ctx.stroke();
+      }
+      const fold = ctx.createLinearGradient(1135, 0, 1147, 0);
+      fold.addColorStop(0, 'rgba(88,77,48,0)'); fold.addColorStop(.45, 'rgba(88,77,48,.025)');
+      fold.addColorStop(.6, 'rgba(255,255,240,.08)'); fold.addColorStop(1, 'rgba(255,255,240,0)');
+      ctx.fillStyle = fold; ctx.fillRect(1135, 0, 12, H);
+    }
+
+    function typeLine(line, parent, options = {}) {
+      const index = PAGE.lines.indexOf(line);
+      const rand = random(seed + index * 871 + (options.salt || 0));
+      const x = line.x + (options.dx || 0), y = line.y + (options.dy || 0);
+      const width = line.width * (line.expansion || 1.08);
+      const group = element('g', { transform: `rotate(${((rand() - .5) * .13).toFixed(3)} ${x} ${y})` });
+      if (options.opacity !== undefined) group.setAttribute('opacity', options.opacity);
+      if (!options.ghost) group.dataset.line = line.id;
+      const text = element('text', {
+        x, y, 'font-family': 'Ribbon, monospace', 'font-size': 34,
+        fill: PALETTE[options.ink || line.ink], textLength: width, lengthAdjust: 'spacingAndGlyphs',
+        'xml:space': 'preserve', 'font-style': line.italic ? 'italic' : 'normal'
+      });
+      for (let i = 0; i < line.text.length; i++) {
+        const char = line.text[i];
+        const span = element('tspan', { y: y + (rand() - .5) * 1.25, rotate: ((rand() - .5) * 1.4).toFixed(2), opacity: .76 + rand() * .24 }, char);
+        if (!options.ghost) {
+          if (line.id === 'carry' && i >= 31) span.setAttribute('fill', PALETTE.blue);
+          if (line.id === 'teamwork' && i > 11) span.setAttribute('fill', PALETTE.green);
+          if (line.id === 'hospital' && i >= 39) span.setAttribute('fill', PALETTE.blue);
+          if (line.id === 'someone' && i >= 12) span.setAttribute('fill', PALETTE.red);
+        }
+        text.append(span);
+      }
+      group.append(text);
+      if (line.strike && !options.ghost) {
+        const yStrike = y - 10;
+        group.append(element('path', {
+          d: `M${x-2} ${yStrike+1} L${x+width*.4} ${yStrike-1} L${x+width+3} ${yStrike}`,
+          fill:'none', stroke:PALETTE.black, 'stroke-width': line.id === 'phone' ? 4.7 : 3.4,
+          'stroke-linecap': 'square', opacity:.93
+        }));
+      }
+      parent.append(group);
+    }
+
+    function makeType() {
+      const under = $('.underprint'), poem = $('.poem');
+      const impressions = [
+        ['warning', -2, 2.5, 'red', .26], ['money', 3, -1, 'blue', .28],
+        ['brackets-left', -2, 4, 'blue', .21], ['brackets-right', 2, -2, 'red', .27],
+        ['gifts', -8, -6, 'green', .19], ['gifts', 4, 7, 'green', .24],
+        ['gift', -3, 3, 'red', .38], ['soul', -1.5, 2.5, 'green', .18],
+        ['incarnation', 3, -1, 'green', .22], ['teamwork', -2, 3, 'red', .23],
+        ['awareness', -4, 2, 'green', .26], ['xxx', 3, 3, 'red', .46],
+        ['witnessing', -2.5, 1, 'blue', .25]
+      ];
+      impressions.forEach(([id, dx, dy, ink, opacity], i) => {
+        typeLine(PAGE.lines.find(line => line.id === id), under, { dx, dy, ink, opacity, ghost:true, salt:i });
+      });
+      PAGE.lines.forEach(line => typeLine(line, poem));
+      PAGE.rules.forEach(([x1,y1,x2,y2,ink]) => {
+        poem.append(element('line', { x1, y1, x2, y2, stroke:PALETTE[ink], 'stroke-width':1.4 }));
+      });
+
+      const rows = new Map();
+      PAGE.lines.forEach(line => {
+        if (!rows.has(line.y)) rows.set(line.y, []);
+        rows.get(line.y).push(line);
+      });
+      let previousY = 0;
+      $('#transcript').textContent = Array.from(rows, ([y, lines]) => {
+        const gap = previousY && y - previousY > 60 ? '\n' : '';
+        previousY = y;
+        return gap + ' '.repeat(Math.round((lines[0].x - 200) / 25)) + lines.map(line => line.text).join(' ');
+      }).join('\n');
+    }
+
+    function makeInk() {
+      const ctx = $('.ink').getContext('2d'), rand = random(seed + 91);
+      function field(x, y, scale, salt) {
+        const xx = x / scale, yy = y / scale;
+        const ix = Math.floor(xx), iy = Math.floor(yy);
+        const hash = (a, b) => {
+          let n = Math.imul(a ^ salt, 374761393) + Math.imul(b, 668265263);
+          n = Math.imul(n ^ n >>> 13, 1274126177);
+          return ((n ^ n >>> 16) >>> 0) / 4294967295;
+        };
+        const tx = xx - ix, ty = yy - iy;
+        const sx = tx * tx * (3 - 2 * tx), sy = ty * ty * (3 - 2 * ty);
+        const a = hash(ix,iy)*(1-sx) + hash(ix+1,iy)*sx;
+        const b = hash(ix,iy+1)*(1-sx) + hash(ix+1,iy+1)*sx;
+        return a*(1-sy)+b*sy;
+      }
+      function porousSpill(x, y, rx, ry, ink, alpha) {
+        const pad = 1.45, left = Math.floor(x-rx*pad), top = Math.floor(y-ry*pad);
+        const width = Math.ceil(rx*pad*2), height = Math.ceil(ry*pad*2);
+        const mask = document.createElement('canvas'); mask.width=width; mask.height=height;
+        const mc = mask.getContext('2d'), pixels = mc.createImageData(width,height);
+        const colour = PALETTE[ink] || ink;
+        const channels = colour.match(/[a-f\d]{2}/gi).map(c => parseInt(c,16));
+        const salt = Math.floor(rand()*10000);
+        for (let py=0; py<height; py++) {
+          for (let px=0; px<width; px++) {
+            const xx=left+px, yy=top+py;
+            const d=Math.hypot((xx-x)/rx,(yy-y)/ry);
+            const slow=field(xx,yy,27,salt), medium=field(xx,yy,7,salt+5), fine=field(xx,yy,1.6,salt+11);
+            const edge=1+(slow-.5)*.28+(medium-.5)*.13;
+            const coverage=Math.max(0,Math.min(1,(edge-d)/.16));
+            const pool=.54+slow*.23+fine*.23;
+            const i=(py*width+px)*4;
+            pixels.data[i]=channels[0]; pixels.data[i+1]=channels[1]; pixels.data[i+2]=channels[2];
+            pixels.data[i+3]=255*alpha*coverage*pool;
+          }
+        }
+        mc.putImageData(pixels,0,0); ctx.drawImage(mask,left,top);
+      }
+      function bleed(points, ink, width, alpha = 1) {
+        ctx.save(); ctx.strokeStyle = PALETTE[ink] || ink; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+        ctx.filter = 'blur(2.3px)'; ctx.globalAlpha = alpha * .16; ctx.lineWidth = width + 5;
+        trace(ctx, points); ctx.stroke();
+        ctx.filter = 'none'; ctx.globalAlpha = alpha * .52; ctx.lineWidth = width;
+        trace(ctx, points); ctx.stroke();
+        ctx.globalAlpha = alpha * .34; ctx.lineWidth = Math.max(.5, width * .43);
+        trace(ctx, points.map(([x,y]) => [x+.5,y-.6])); ctx.stroke(); ctx.restore();
+      }
+      function blot(x, y, rx, ry, ink, alpha = .75) {
+        if (rx > 40 && ry > 20) { porousSpill(x,y,rx,ry,ink,alpha); return; }
+        ctx.save(); ctx.fillStyle = PALETTE[ink] || ink;
+        for (let i = 4; i >= 0; i--) {
+          ctx.globalAlpha = i ? alpha * .07 : alpha * .72;
+          ctx.filter = i ? `blur(${i * 1.7}px)` : 'none';
+          organic(ctx, x, y, rx + i * 2.7, ry + i * 2, rand()*9, .21); ctx.fill();
+        }
+        ctx.filter = 'none';
+        for (let i = 0; i < 100; i++) {
+          const a = rand() * Math.PI * 2, d = .72 + rand() * .65;
+          ctx.globalAlpha = alpha * rand() * .4;
+          const radius = .4 + rand() ** 4 * 4;
+          ctx.beginPath(); ctx.ellipse(x+Math.cos(a)*rx*d, y+Math.sin(a)*ry*d, radius, radius*(.5+rand()), 0, 0, Math.PI*2); ctx.fill();
+        }
+        ctx.restore();
+      }
+      function drip(x, y, length, ink, strength = .6, initial = 4) {
+        const points = [], bend = rand() * 4 - 2;
+        for (let p = 0; p <= 1; p += .025) {
+          points.push([x + Math.sin(p * 8) * 1.4 + p * bend, y + p * length]);
+        }
+        for (let i = 1; i < points.length; i++) bleed([points[i-1], points[i]], ink, initial*(1-i/points.length)+.45, strength);
+        const end = points[points.length-1]; blot(end[0], end[1], 1.3, 3.2, ink, strength*.8);
+      }
+
+      // A spill at the head of the sheet, pulled down through the paper fibres.
+      blot(1460, 22, 141, 66, 'black', .72);
+      blot(1535, 62, 73, 33, 'black', .62);
+      blot(1405, 80, 50, 55, 'black', .27);
+      drip(1376, 64, 535, 'black', .32, 4.5);
+      drip(1458, 58, 727, 'black', .25, 6);
+      drip(1508, 81, 333, 'black', .45, 2.8);
+      drip(1562, 56, 531, 'black', .29, 3.2);
+      blot(1500, 36, 5, 4, '#eee7d5', .95);
+      blot(1417, 55, 7, 4, '#eee7d5', .9);
+      blot(1473, 17, 10, 5, '#eee7d5', .8);
+
+      // Registration lines and ribbon drag around the warning and its cancellation.
+      bleed([[700,465],[1268,467],[1281,725]], 'red', .9, .31);
+      bleed([[1267,467],[1266,702]], 'blue', .7, .25);
+      bleed([[770,493],[997,494]], 'red', .9, .7);
+      bleed([[1033,663],[1103,661],[1160,663],[1240,659]], 'black', 6, .84);
+      bleed([[1034,669],[1147,667],[1250,669]], 'black', 2.8, .84);
+      blot(1145,663,53,8,'black',.8);
+      blot(1205,665,15,7,'black',.62);
+      drip(1186,668,67,'black',.37,1.9);
+      blot(1280,727,2.5,4,'red',.55);
+
+      // The bracketed act carries the strongest collision of the three ribbons.
+      bleed([[44,775],[82,788],[133,806],[199,832],[289,855]], 'red', 2.8, .32);
+      blot(45,775,4.3,3.1,'red',.57);
+      bleed([[122,861],[425,862],[801,865],[1398,862]], 'red', 1.9, .69);
+      bleed([[315,850],[523,850],[678,852]], 'green', 2.1, .51);
+      bleed([[475,877],[627,879],[804,877]], 'green', 4, .24);
+      bleed([[490,895],[705,893],[807,895]], 'green', 3, .2);
+      bleed([[492,938],[615,940],[731,938],[791,939]], 'blue', 1.5, .44);
+      blot(486,880,11,3.4,'green',.34);
+      blot(714,940,7,2.5,'red',.38);
+      bleed([[340,811],[340,950]], 'blue', .75, .26);
+      bleed([[1377,819],[1377,877]], 'red', .8, .55);
+
+      // The original cancellations stay where the poet put them.
+      bleed([[197,1015],[300,1014],[388,1016]], 'black', 2, .64);
+      bleed([[153,1009],[154,1479],[1100,1481]], 'red', .8, .32);
+      bleed([[143,1071],[181,1069],[203,1071]], 'red', 2.3, .55);
+      blot(142,1070,5,3,'red',.68);
+      bleed([[291,1118],[368,1117]], 'red', .8, .31);
+      bleed([[289,1416],[467,1419]], 'green', 1, .28);
+      bleed([[629,1457],[675,1456]], 'blue', 2.2, .3);
+
+      // A soft transfer from a handled lower corner and a mark at the signature.
+      blot(78,1720,13,39,'black',.13);
+      blot(86,1781,10,23,'black',.1);
+      bleed([[195,1588],[329,1588]], 'black', 1.9, .62);
+      bleed([[180,1807],[284,1810],[438,1808]], 'red', 2, .64);
+      bleed([[444,1784],[443,1958],[707,1959]], 'red', .8, .32);
+      bleed([[492,1853],[536,1854]], 'green', 1.9, .62);
+      blot(181,1807,3,2,'red',.67);
+      blot(445,1959,2.4,3.1,'red',.47);
+
+      // Loose ink flecks are sparse, leaving the pauses in the poem open.
+      for (let i = 0; i < 1700; i++) {
+        const x = rand()*W, y = rand()*H;
+        const nearSpill = x>1300 && y<900;
+        const radius = nearSpill ? rand()*1.5 : rand()*.8;
+        ctx.fillStyle = PALETTE.black; ctx.globalAlpha = nearSpill ? rand()*.25 : rand()*.16;
+        ctx.fillRect(x,y,radius,.4+radius*rand());
+      }
+      ctx.globalAlpha = 1;
+    }
+
+    document.querySelectorAll('[data-mode]').forEach(button => {
+      button.addEventListener('click', () => {
+        const mode = button.dataset.mode;
+        document.body.dataset.view = mode;
+        document.querySelectorAll('[data-mode]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+        $('#status').textContent = mode === 'source' ? 'Showing the original first sheet.' : 'Showing the ink impression.';
+      });
+    });
+    $('.closer').addEventListener('click', () => {
+      const closer = document.body.dataset.closer !== 'true';
+      const well = $('.paper-well');
+      const before = $('.sheet').getBoundingClientRect();
+      const anchor = Math.max(0, -before.top / before.height);
+      document.body.dataset.closer = String(closer);
+      $('.closer').setAttribute('aria-pressed', String(closer));
+      $('.closer').setAttribute('aria-label', closer ? 'Fit the whole sheet to the window' : 'Enlarge the sheet for closer reading');
+      $('.zoom-label').textContent = closer ? 'Fit sheet' : 'Closer';
+      const after = $('.sheet').getBoundingClientRect();
+      if (closer) well.scrollLeft = Math.max(0, ($('.sheet').offsetWidth - well.clientWidth) * .25);
+      else well.scrollLeft = 0;
+      if (anchor > 0) window.scrollBy(0, after.top + anchor * after.height);
+      $('#status').textContent = closer ? 'Sheet enlarged. Scroll horizontally to explore.' : 'Sheet fitted to the window.';
+    });
+
+    makePaper();
+    makeInk();
+    document.fonts.load('34px Ribbon').then(() => {
+      makeType();
+      window.transplant = Object.freeze({ ready:true, seed, lineCount:PAGE.lines.length, page:1 });
+      document.documentElement.dataset.ready = 'true';
+    }).catch(() => {
+      makeType();
+      $('#status').textContent = 'The typewriter font could not load. A local monospace font is shown.';
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-08",
+  "edition": "v0.1",
+  "html_sha256": "81aa947a54cff04dcbaa8b12ce323553098269b077d447cc13a5e7e2b84b1908",
+  "syntax": "Inline JavaScript passed node --check.",
+  "content": {
+    "source_fragments": 37,
+    "left_brackets": 32,
+    "right_brackets": 33,
+    "signature_x_marks": 9,
+    "source_cancellations": [
+      "phone",
+      "introduction",
+      "consent"
+    ],
+    "browser_dom": "All 37 primary SVG text fragments match page-01.json."
+  },
+  "browser": {
+    "engine": "Codex in-app browser",
+    "transport": "http://127.0.0.1:8767/",
+    "font_loaded": true,
+    "warnings_or_errors": [],
+    "source_comparison": "Passed. Original 1700-pixel PNG shown, impression hidden.",
+    "closer_and_fit": "Passed on desktop and narrow layout.",
+    "narrow_viewport": [
+      390,
+      844
+    ],
+    "narrow_sheet_width": 366,
+    "narrow_enlarged_width": 1000,
+    "narrow_enlarged_scroll_width": 1024,
+    "outer_horizontal_overflow": false,
+    "final_default_viewport_width": 788,
+    "external_asset_elements": 0
+  },
+  "limits": [
+    "Direct file navigation could not be browser-tested because the preview browser permits only HTTP and HTTPS URLs.",
+    "No physical phone or Safari test was performed."
+  ],
+  "preview": "qa/first-impression.jpg",
+  "source_hashes": "qa/source-hashes.json"
+}

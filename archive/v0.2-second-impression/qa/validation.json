@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-08",
+  "edition": "v0.2, second impression",
+  "html_sha256": "87bb99e0e1c9026d226ec11221f0f56d40d39be89f0af8078e5b86a406d024db",
+  "syntax": "Inline JavaScript passed node --check.",
+  "content": {
+    "primary_source_fragments": 37,
+    "browser_dom": "All 37 primary text fragments and their x/y coordinates match page-01.json exactly.",
+    "position_data": "page-01.json is byte-identical to the archived v0.1 data.",
+    "original_pngs": "All 18 source and reference PNG hashes match the v0.1 record.",
+    "overprint_fragments": 185
+  },
+  "browser": {
+    "engine": "Codex in-app browser",
+    "transport": "http://127.0.0.1:8767/",
+    "font_loaded": true,
+    "warnings_or_errors": [],
+    "source_comparison": "Passed. Original 1700-pixel PNG is shown, including hiding the new wet-transfer layer.",
+    "closer_and_fit": "Passed.",
+    "narrow_viewport": [
+      390,
+      844
+    ],
+    "narrow_sheet_width": 366,
+    "narrow_enlarged_width": 1000,
+    "narrow_enlarged_scroll_width": 1024,
+    "narrow_outer_width": 390,
+    "desktop_viewport_width": 1280
+  },
+  "limits": [
+    "Direct file navigation remains unverified because the preview browser permits only HTTP and HTTPS URLs.",
+    "No physical phone or Safari test was performed."
+  ],
+  "preview": "qa/second-impression.jpg",
+  "prior_edition": "archive/v0.1-first-impression/index.html"
+}
