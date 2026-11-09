@@ -1,0 +1,16 @@
+{
+  "slug": "transplant",
+  "title": "Transplant",
+  "edition": "complete-manuscript-33",
+  "project": "transplant",
+  "repository": "https://github.com/doctorillumination/poetic-transplant",
+  "status": "living",
+  "caption": "A manual, held differently.",
+  "description": "A liver transplant manual becomes a book of weathered poetry. Turn through thirty-three pages of bleeding ink, worn paper, and implicated lives.",
+  "alt": "An open book with stained paper, red, blue, and green poetic text, rubbed ink, and a curved page turning across its spine.",
+  "gesture": "Pull the right page leftward to turn. Pull the left page back. Use Closer to read the fine impressions.",
+  "source": "transplant.md",
+  "themes": ["poetry", "embodiment", "care", "memory", "gesture", "time"],
+  "related_note": "fn-45",
+  "related_title": "The File Is a Score"
+}

@@ -1,0 +1,50 @@
+{
+  "release_id": "4126c7b9a5ffb2b34b7944d0aa45fb3d3871d27b24f4846c1682fc90c5fcda3d",
+  "source_revision": "f896fc41ba05a7789d9c8dff75948aaf3e8e68bb",
+  "runtime_files": 101,
+  "pages": 33,
+  "gallery_items": 11,
+  "fieldworks_check": "passed",
+  "press_narrations": 86,
+  "press_narration_validation": "passed",
+  "prior_bytes_preserved": true,
+  "capture": {
+    "fps": 60,
+    "frames": 480,
+    "actual_screenshots": 300,
+    "verified_static_hold_frames": 180,
+    "unique_compositor_frames": 230,
+    "first_and_final_match": true
+  },
+  "browser_checks": [
+    "click 16 to 17",
+    "drag left leaf 17 to 16",
+    "bookmark follows page",
+    "bookmark opens page 16 and page 26",
+    "page 33 and original PDF plate",
+    "hide and restore interface",
+    "Lewis introduction plays",
+    "desktop content fits iframe",
+    "Cyberdelic route opens page 26"
+  ],
+  "public_resources_verified": {
+    "fieldworks.space": 122,
+    "cyberdelic.space": 132
+  },
+  "public_ui": [
+    "Fieldworks page 26 opens",
+    "click 26 to 27",
+    "drag 27 to 26",
+    "page bookmark synchronization",
+    "Cyberdelic page 26 opens",
+    "Cyberdelic Lewis introduction plays"
+  ],
+  "publication_commits": {
+    "fieldworks": "800a545bab72fa729aa81a7f8bd2017324b7e9fe",
+    "cyberdelic-space": "8eaefa92b011460ae9ebb808e420d3eb3dfeb2c2"
+  },
+  "publication_prs": [
+    "https://github.com/doctorillumination/fieldworks/pull/11",
+    "https://github.com/doctorillumination/cyberdelic-space/pull/93"
+  ]
+}

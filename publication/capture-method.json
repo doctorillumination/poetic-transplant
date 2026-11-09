@@ -1,0 +1,25 @@
+{
+  "source_sha256": "b472e1aa77e368bc1b78f44bfb9d405d97a5f6b39b94c9cadd330109c3ef50ce",
+  "harness_sha256": "8a65c06158e55a39c331af2268d07d6ed0fb4be0a5c61d105118e2ea48204b48",
+  "method": "Actual browser compositor screenshots, with the unchanged book program and full-resolution image assets. A separate review harness steps requestAnimationFrame and performance.now at 1/60 second. Interface elements are outside the recorded book area. No interpolated animation frames. Resting spreads are verified and held as identical frames between the fully sampled turns.",
+  "capture_size": [
+    960,
+    720
+  ],
+  "frames": 480,
+  "source_pages": [
+    16,
+    17,
+    18,
+    17,
+    16
+  ],
+  "loop": "First and final settled spreads match.",
+  "camera_recorded": false,
+  "output_frames": 480,
+  "actual_screenshots": 300,
+  "verified_static_hold_frames": 180,
+  "unique_compositor_frames": 230,
+  "screenshot_format": "JPEG",
+  "capture_fps": 60
+}

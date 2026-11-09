@@ -1,0 +1,11 @@
+{
+  "cyberdelic": {
+    "source_revision": "8eaefa92b011460ae9ebb808e420d3eb3dfeb2c2",
+    "deployment_row": "ace657dfAdd the complete Transplant book to FieldworksReady2m 3sBuildmainby Brad Necyk9s ago",
+    "status": "Ready, 100 percent production traffic"
+  },
+  "fieldworks": {
+    "source_revision": "800a545bab72fa729aa81a7f8bd2017324b7e9fe",
+    "public_book_verified": true
+  }
+}
