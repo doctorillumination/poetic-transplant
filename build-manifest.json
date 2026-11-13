@@ -900,10 +900,10 @@
   "reader_sha256": "faa6d1bdd439702ce6b3af8d2c8481ce3eb173f7355f4c441925e7c7e1c4608d",
   "profiles_sha256": "d8d11ac492113ea843619bb7b57551fead4d4ec0ca2e0787ba782ccd9a2cef60",
   "renderer_sha256": "e38b3d43f5d03af5967f4bdf040affe440ce5ebc1081b0d5c8354394453365e9",
-  "output_sha256": "e80badc41145d7fbd6f28f52a19110fcd8207b569faf84c775c20bf33a5d1991",
-  "output_bytes": 270538,
+  "output_sha256": "9d64a69b878fdb0325e55a6ffe65edf2494e1829376bad5a4fcc439bec38569f",
+  "output_bytes": 270544,
   "runtime_dependencies": [],
   "local_image_assets": 99,
-  "standalone_sha256": "c24a5b78ad4bff67f4385b1fe05018d4757f964a46c59b16e5cc1b7e9e9c1c01",
-  "standalone_bytes": 70034209
+  "standalone_sha256": "7014511dae04190a2a9e5dd68ef39882be1915562c54c087607a093b41f45853",
+  "standalone_bytes": 70034215
 }
