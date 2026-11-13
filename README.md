@@ -1,6 +1,6 @@
 # Transplant
 
-A thirty-three-sheet web edition of Bradley's *Pre-liver poetic transplant manual*, held in a two-page book of ink, paper, and care. Each sheet has its own fixed treatment: ribbon ink, wet cancellations, pooled drips, stains, abrasion, lifted fibres, and quieter passages of visible type.
+A thirty-three-sheet web edition of Bradley's *Pre-liver poetic transplant manual*, held in a two-page book of ink, paper, and care. Each sheet has its own ribbon colours, wet cancellations, pooled ink, abrasion, lifted fibres, and quieter passages of visible type. Edition 1.3 reprints every front and reverse without the added water stains.
 
 The web reader is **index.html**, served together with `assets/`. Its small opening document loads nearby full-resolution images as needed. The separate **standalone.html** is an approximately 70 MB offline edition with all fronts, reverses, source comparisons, the font, and page-turn code embedded. Both use exactly the same printed images and turning code.
 
@@ -8,7 +8,7 @@ The web reader is **index.html**, served together with `assets/`. Its small open
 
 The [complete source PDF](text/full-manual/pre-liver%20poetic%20manual.pdf) has 33 letter-sized pages. It is preserved unchanged, alongside 300 dpi raster plates at 2550 by 3300 in `text/full-manual/`.
 
-- Approved impressions 01 to 13 and 15, including their reverses, are byte-identical to the fifteen-page edition.
+- Sheets 01 to 13 and 15 carry forward the compositions from the fifteen-page edition.
 - Sheet 14 is rebuilt from the complete, correctly proportioned PDF page. Its heading, overlapping poet's message, lower treatment passage, and marginal poem are retained without the earlier vertical compression.
 - Sheets 16 to 33 each have an individually composed treatment in `src/profiles.json`.
 - The source PDF's last page contains only a heading. Its open space remains the closing leaf; no table or additional writing has been invented.
@@ -22,7 +22,7 @@ The first sheet's verified reading transcript remains available. Other sheets ha
 
 - Use **Next** and **Previous**, or the left and right arrow keys.
 - Pull the right page leftward across the spine to turn forward. Pull the left page rightward to go back. A short pull settles back, and a corner click completes a turn.
-- The first poem starts on the right, with no left leaf. Each turn leaves the preceding sheet's stained reverse on the left, with faint mirrored ink showing through, and reveals the next poem on the right.
+- The first poem starts on the right, with no left leaf. Each turn leaves the preceding sheet's weathered reverse on the left, with faint mirrored ink showing through, and reveals the next poem on the right.
 - The numbered menu opens any of the 33 sheets. The URL fragment records the current sheet. Home and End open the first and last sheets.
 - **Source page** shows the full manuscript page without the added material treatment.
 - **Closer** enlarges the book for panning. Next and Previous change spreads directly while enlarged. **Fit book** returns to the complete spread.
@@ -49,7 +49,7 @@ pdftoppm -r 300 -png 'text/full-manual/pre-liver poetic manual.pdf' text/full-ma
 python3.11 prepare.py
 ```
 
-Open `render.html`, select a sheet, and use **Save front** and **Save reverse** to replace its files in `assets/prints/`. The complete-manuscript extension prints sheet 14 and sheets 16 to 33; the other approved images are preserved. Then run `build.py`.
+Open `render.html`, select a sheet, and use **Save front** and **Save reverse** to replace its files in `assets/prints/`. Then run `build.py`.
 
 The material renderer is `src/edition-renderer.js`; each composition is in `src/profiles.json`. The reader uses `src/book.html` and `src/book.js`. The first sheet's canonical positions remain in `page-01.json`.
 
@@ -63,9 +63,9 @@ Open [the local reader](http://127.0.0.1:8767/). Host or distribute `index.html`
 
 ## Editions and verification
 
-The four first-sheet impressions remain in `archive/`. The [initial complete fifteen-page reader](https://github.com/doctorillumination/poetic-transplant/commit/5d332ba6442c2ac753d9aa4fce75863b88d18d32) and [two-page edition](https://github.com/doctorillumination/poetic-transplant/commit/9b2039c4ad722dfa00ca4e2d82f99eac1f6fe946) are preserved in Git.
+The four first-sheet impressions remain in `archive/`. Git preserves the [initial complete fifteen-page reader](https://github.com/doctorillumination/poetic-transplant/commit/5d332ba6442c2ac753d9aa4fce75863b88d18d32), the [two-page edition](https://github.com/doctorillumination/poetic-transplant/commit/9b2039c4ad722dfa00ca4e2d82f99eac1f6fe946), and the [first complete 33-page edition](https://github.com/doctorillumination/poetic-transplant/commit/f896fc41ba05a7789d9c8dff75948aaf3e8e68bb).
 
-`qa/full-manual/` contains source and print contact sheets, the PDF provenance record, and checks for this edition. `qa/validation.json` records their scope and limits. Earlier checks and previews remain in `qa/`.
+`qa/full-manual/` contains source and print contact sheets, the PDF provenance record, and checks for the first complete 33-page edition. `qa/validation.json` records their scope and limits. Earlier checks and previews remain in `qa/`.
 
 Browser verification covers all 33 impressions and source comparisons, facing reverses, the repaired fourteenth page, navigation beyond sheet 15, corner drags and cancellation, keyboard boundaries, bookmarks, and enlarged reading. Frame timings are observations in the preview browser, not performance guarantees for other devices. Physical phone, Safari-specific, and direct-file-navigation checks remain unverified.
 

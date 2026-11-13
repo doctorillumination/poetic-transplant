@@ -296,7 +296,7 @@ function controls(){
 function mount(entry,side){
  const holder=$(side==='right'?'#right-leaf':'#left-leaf');
  const img=entry.img;img.id=side==='right'?'sheet-image':'back-image';
- img.alt=side==='right'?(view==='source'?'Original source, ':'Ink impression, ')+'sheet '+String(entry.index+1).padStart(2,'0')+'. '+BOOK[entry.index].description:'Stained reverse of sheet '+String(entry.index+1).padStart(2,'0')+', with faint ink showing through the paper.';
+ img.alt=side==='right'?(view==='source'?'Original source, ':'Ink impression, ')+'sheet '+String(entry.index+1).padStart(2,'0')+'. '+BOOK[entry.index].description:'Weathered reverse of sheet '+String(entry.index+1).padStart(2,'0')+', with faint ink showing through the paper.';
  if(holder.firstElementChild!==img)holder.replaceChildren(img);
  holder.hidden=false;
 }
