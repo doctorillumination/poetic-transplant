@@ -44,7 +44,7 @@ def main():
                         'source':p['original'],'source_sha256':p['sourceSha256'],
                         'normalized_placement':p['placement'],'original_size':p['originalSize'],
                         'plate_sha256':sha(source),'front_sha256':sha(front),'back_sha256':sha(back),
-                        'treatment':p['treatment'],'pdf_page':p['pdfPage'],
+                        'treatment':'weathered-ink-without-water-stains','source_treatment':p['treatment'],'pdf_page':p['pdfPage'],
                         'pdf_raster':p['pdfRaster'],'pdf_raster_sha256':p['pdfRasterSha256'],
                         'comparison_plate':p['comparisonPlate'],'comparison_sha256':p['comparisonSha256']})
     template=(ROOT/'src/book.html').read_text()
@@ -61,7 +61,7 @@ def main():
         return html
     output=ROOT/'index.html';output.write_text(render(reader))
     standalone=ROOT/'standalone.html';standalone.write_text(render(book))
-    manifest={'edition':'Transplant, complete 33-page edition v1.2','pages':records,
+    manifest={'edition':'Transplant, complete 33-page edition v1.3','pages':records,
               'source_pdf':'text/full-manual/pre-liver poetic manual.pdf',
               'source_pdf_sha256':pdf_sha,
               'page_count':len(records),'page_turn':'Two-page book, persistent mirrored verso on the left, cylindrical WebGL turn across the spine.',

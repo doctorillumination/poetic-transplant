@@ -128,14 +128,6 @@
         ctx.lineWidth=.3+rand()*.65;
         ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+rand()*5-2.5,y+rand()*6);ctx.stroke();
       }
-      for(const [x,y,rx,ry,a] of (PROFILE.stains||[[140,1560,190,255,.025],[1510,1190,235,360,.02],[780,2180,460,80,.025],[1520,220,190,330,.025]])) {
-        for(let i=0;i<3;i++) {
-          ctx.fillStyle=`rgba(108,102,83,${a})`;
-          organic(ctx,x,y,rx+i*6,ry+i*5,PROFILE.number===1?2.4:2.4+PROFILE.number*.64,.09);ctx.fill();
-        }
-        ctx.strokeStyle='rgba(125,111,82,.045)';ctx.lineWidth=1;
-        organic(ctx,x,y,rx+17,ry+19,PROFILE.number===1?2.4:2.4+PROFILE.number*.64,.09);ctx.stroke();
-      }
       for(const [x,width] of (PROFILE.number===1?[[1139,10],[270,5]]:[[360+(PROFILE.seed%960),8],[200+(PROFILE.seed%200),4]])) {
         const fold=ctx.createLinearGradient(x-width,0,x+width,0);
         fold.addColorStop(0,'rgba(74,68,52,0)');fold.addColorStop(.45,'rgba(74,68,52,.035)');
